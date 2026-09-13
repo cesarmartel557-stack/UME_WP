@@ -1,0 +1,31 @@
+
+
+ url: https://www.turnos.sanatoriolomalinda.com.ar/wp-cron.php?doing_wp_cron=1725225769.2292420864105224609375
+
+Ar: Array
+(
+    [method] => POST
+    [timeout] => 0.01
+    [redirection] => 5
+    [httpversion] => 1.0
+    [user-agent] => WordPress/6.5.5; https://www.turnos.sanatoriolomalinda.com.ar
+    [reject_unsafe_urls] => 
+    [blocking] => 
+    [headers] => Array
+        (
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [body] => 
+    [compress] => 
+    [decompress] => 1
+    [sslverify] => 
+    [sslcertificates] => /home/c1502404/public_html/turnos/wp-includes/certificates/ca-bundle.crt
+    [stream] => 
+    [filename] => 
+    [limit_response_size] => 
+    [_redirection] => 5
+)

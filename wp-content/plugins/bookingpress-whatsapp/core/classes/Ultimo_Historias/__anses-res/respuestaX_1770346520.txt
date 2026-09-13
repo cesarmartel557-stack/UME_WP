@@ -1,0 +1,105 @@
+[]
+
+Array
+(
+    [0] => /wEPDwUJODcwMjI0NTYwDxYCHghGZWNoYVNRTAUKMjcvMDEvMjAyNhYCZg9kFgICAQ9kFgICAw9kFggCAQ8PZBYCHgdvbktleVVwBR9yZXR1cm4gYXV0b1RhYih0aGlzLCAxMSwgZXZlbnQpZAIHDw8WAh4EVGV4dGVkZAIJDw8WAh4HVmlzaWJsZWhkFgICAQ88KwALAGQCCw8PFgIfAgUrTG9zIGRhdG9zIGVzdMOhbiBhY3R1YWxpemFkb3MgYWwgMjcvMDEvMjAyNmRkZOjheg55KyxANmMyMNK/ckW6/kKT+5OYl0buKwPeELK3
+    [1] => 85A7BA68
+    [2] => /wEdAATX99V4CfwNHqja3yUyzlh8HpiEu0R7takrHOJWf39cdYraaQaFnXKaLuO1sKRm4e+MO7fmjkJSfq6Zbgk2kTWnpoAy8cNntrcSd3e2vs/L+xMW+zGzUt6e0X22X8o6R14=
+    [3] => <table width="315px" style="text-align: center;" border="0">
+            <tr>
+                <td bgcolor="#F9F9F9" >
+                    <label >
+                        INGRESA TU DOCUMENTO O CUIL</label>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#F9F9F9" align="left">
+                    <input name="ctl00$ContentPlaceHolder1$txtDoc" value="28154970" id="ContentPlaceHolder1_txtDoc" type="text" class="" placeholder="" onkeypress="javascript:return solonumeros(event)" onKeyUp="return autoTab(this, 11, event)" style="height:15px;width:100%;" />
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#F9F9F9">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button2" value="Anterior" id="ContentPlaceHolder1_Button2" class="btn btn-negative" style="width:150px;" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Continuar" id="ContentPlaceHolder1_Button1" class="btn btn-default" style="width:150px;" />
+                </td>
+            </tr>
+        </table>
+        <table width="100%" style="text-align: center;">
+            <tr>
+                <td valign="top" align="center" bgcolor="#F9F9F9">
+                   
+                   
+                   
+                    <span id="ContentPlaceHolder1_MessageLabel" class="errorMsg">La consulta no arrojó resultados.</span>
+                   
+                   
+                    
+                    <br />
+                    <br />
+                    <span id="ContentPlaceHolder1_lblFecha">Los datos están actualizados al 27/01/2026</span>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
+    <input type="hidden" name="action" value="login" />
+
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('ContentPlaceHolder1_txtDoc');//]]>
+</script>
+</form>
+   
+    <div class="page-footer" style="position:absolute;bottom:0px; height:100px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="footer-copyright align-middle">
+                    <img src="App_Themes/imagenes/logo-footer.png"   alt="Escudo República Argentina" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="" ></script>
+    
+
+    <script src="Scripts/Controles/Controles.js" type="text/javascript"></script>
+    <script src="Scripts/Controles/jquery-3.4.1.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="Scripts/Controles/bootstrap.min.js"></script>
+    <input name="ctl00$hdnSiteKey" type="hidden" id="hdnSiteKey" value="6LeAsrEUAAAAAIdKPXBbfU8EyQXX3KRy8isRbj7-" />
+</body>
+</html>
+<script type="text/javascript">
+
+    function solonumeros(e) {
+        var key;
+        if (window.event) // IE
+        { key = e.keyCode; }
+        else if (e.which) // Netscape/Firefox/Opera
+        { key = e.which; }
+        if (key < 48 || key > 57) {
+            return false;
+        }
+        return true;
+    }
+
+
+    $(document).ready(function () {
+
+        if (navigator.appName == 'Microsoft Internet Explorer')
+            window.location.href = "Incopatibilidad.aspx";
+
+    });
+
+
+     
+</script>
+
+)

@@ -1,0 +1,2863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress Pro - Appointment Booking plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-11 21:39+0000\n"
+"PO-Revision-Date: 2024-07-31 21:51+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Español\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.5\n"
+"X-Domain: bookingpress-appointment-booking"
+
+#: core/views/calendar/manage_calendar.php:67
+msgid " - "
+msgstr ""
+
+#: core/views/settings/daysoff_setting_tab.php:104
+msgid " Add holiday"
+msgstr ""
+
+#: core/views/settings/daysoff_setting_tab.php:103
+msgid " Edit holiday"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:736
+#: core/views/customers/manage_customers.php:233
+#: core/views/payment/manage_payment.php:530
+#: core/views/services/manage_services.php:197
+msgid " Items Selected"
+msgstr ""
+
+#: core/views/bookingpress_header.php:174
+msgid "#WCEU Sale"
+msgstr ""
+
+#: core/views/calendar/manage_calendar.php:67
+#, fuzzy
+#| msgid "%"
+msgid ","
+msgstr "%"
+
+#: core/views/settings/general_setting_tab.php:193
+#: core/views/wizard/manage_wizard.php:54
+#: core/views/wizard/manage_wizard.php:54
+msgid "12 hour Format"
+msgstr "Formato de 12 horas"
+
+#: core/views/bookingpress_header.php:257
+msgid "20+ Payment gateways completely free"
+msgstr ""
+
+#: core/views/settings/general_setting_tab.php:194
+#: core/views/wizard/manage_wizard.php:55
+#: core/views/wizard/manage_wizard.php:55
+msgid "24 hour Format"
+msgstr "El Formato de 24 horas"
+
+#: core/views/bookingpress_header.php:341
+msgid "24/7 Real-time Support"
+msgstr ""
+
+#: core/views/bookingpress_header.php:239
+msgid "45+ Premium add-ons totally free"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:484
+msgid "[bookingpress_form]"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:488
+msgid "[bookingpress_my_appointments]"
+msgstr ""
+
+#: autoload.php:70
+msgid "Active"
+msgstr "Activo"
+
+#: core/views/appointment/manage_appointment.php:757
+#: core/views/calendar/manage_calendar.php:11
+#: core/views/calendar/manage_calendar.php:171
+#: core/views/dashboard/manage_dashboard.php:667
+msgid "Add Appointment"
+msgstr "Añadir Cita"
+
+#: core/views/settings/workhours_setting_tab.php:57
+#: core/views/settings/workhours_setting_tab.php:95
+msgid "Add Break"
+msgstr "Agregar Pausa"
+
+#: core/views/services/manage_services.php:340
+msgid "Add Category"
+msgstr "Agregar Categoria"
+
+#: core/views/customers/manage_customers.php:255
+msgid "Add Customer"
+msgstr "Agregar Paciente"
+
+#: core/views/appointment/manage_appointment.php:16
+#: core/views/appointment/manage_appointment.php:97
+#: core/views/customers/manage_customers.php:13
+#: core/views/customers/manage_customers.php:53
+#: core/views/services/manage_services.php:13
+#: core/views/services/manage_services.php:71
+#: core/views/services/manage_services.php:224
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: core/views/services/manage_services.php:396
+#, fuzzy
+#| msgid "Any Service"
+msgid "Add Service"
+msgstr "Cualquier Servicio"
+
+#: core/views/wizard/manage_wizard.php:287
+msgid "Add your services here with basic options or you can add them later too"
+msgstr ""
+"Agregar sus servicios aquí con opciones básicas o usted puede añadir más "
+"tarde también"
+
+#: core/views/addons/addons_list.php:10
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: core/classes/class.bookingpress_addons.php:163
+msgid "Addons list fetched successfully"
+msgstr "Complementos de la lista se recuperan correctamente"
+
+#: core/views/settings/company_setting_tab.php:56
+#: core/views/wizard/manage_wizard.php:46
+msgid "Address"
+msgstr "Dirección"
+
+#: core/views/settings/notification_setting_tab.php:76
+msgid "Admin email"
+msgstr "Admin email"
+
+#: core/views/settings/general_setting_tab.php:75
+msgid "Afternoon Start Time"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:56
+#: core/views/payment/manage_payment.php:41
+msgid "All"
+msgstr "Todos"
+
+#: core/views/notifications/manage_notifications.php:130
+msgid ""
+"Allowed HTML tags <div>, <label>, <span>, <p>, <ul>, <li>, <tr>, <td>, <a>, "
+"<br>, <b>, <h1>, <h2>, <hr>"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:359
+msgid "Almost there. Choose basic colors & fonts."
+msgstr "Casi allí. Elegir colores básicos y tipos de letra."
+
+#: core/views/bookingpress_header.php:207
+msgid "Amazing Features"
+msgstr ""
+
+#: core/views/payment/manage_payment.php:193
+#: core/views/payment/manage_payment.php:345
+msgid "Amount"
+msgstr "Cantidad"
+
+#: core/views/settings/payment_setting_tab.php:205
+msgid "API Password"
+msgstr "API Contraseña"
+
+#: core/views/settings/payment_setting_tab.php:215
+msgid "API Signature"
+msgstr "Firma de API"
+
+#: core/views/settings/payment_setting_tab.php:195
+msgid "API Username"
+msgstr "Nombre de Usuario de la API"
+
+#: core/views/appointment/manage_appointment.php:76
+#: core/views/customers/manage_customers.php:33
+#: core/views/payment/manage_payment.php:51
+#: core/views/services/manage_services.php:50
+msgid "Apply"
+msgstr "Aplicar"
+
+#: core/views/notifications/manage_notifications.php:174
+msgid "Appointment"
+msgstr "Cita"
+
+#: core/classes/class.bookingpress_appointment.php:1118
+#: core/classes/class.bookingpress_calendar.php:560
+#: core/classes/class.bookingpress_calendar.php:1242
+msgid "Appointment already booked for this slot"
+msgstr ""
+
+#: core/classes/class.bookingpress_notifications.php:93
+#: core/views/notifications/manage_notifications.php:16
+msgid "Appointment Approval Notification"
+msgstr "Notificación de aprobación de turno"
+
+#: core/classes/class.bookingpress_payment.php:197
+msgid "Appointment Approved Successfully"
+msgstr "Turno aprobado"
+
+#: core/classes/class.bookingpress_payment_gateways.php:457
+#: core/views/notifications/manage_notifications.php:31
+msgid "Appointment Cancellation Notification"
+msgstr "Notificación de cancelación de turno"
+
+#: core/classes/class.bookingpress_payment_gateways.php:495
+msgid "Appointment cancelled due to conflict"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:32
+#: core/views/appointment/manage_appointment.php:828
+#: core/views/calendar/manage_calendar.php:229
+#: core/views/dashboard/manage_dashboard.php:733
+#: core/views/payment/manage_payment.php:571
+msgid "Appointment Date"
+msgstr "Fecha De La Cita"
+
+#: core/views/payment/manage_payment.php:121
+#: core/views/payment/manage_payment.php:282
+#: core/views/payment/manage_payment.php:423
+#, fuzzy
+#| msgid "Appointment Settings"
+msgid "Appointment Details"
+msgstr "Cita De Configuración"
+
+#: core/classes/class.bookingpress_calendar.php:694
+msgid "Appointment has been booked successfully."
+msgstr "Turno agendado con éxito."
+
+#: core/classes/class.bookingpress_appointment.php:1500
+#: core/classes/class.bookingpress_appointment.php:1548
+msgid "Appointment has been deleted successfully."
+msgstr "Turno borrado con éxito."
+
+#: core/classes/class.bookingpress_calendar.php:633
+msgid "Appointment has been updated successfully."
+msgstr "Turno actualizado con éxito."
+
+#: core/views/appointment/manage_appointment.php:63
+msgid "Appointment ID"
+msgstr "ID de turno"
+
+#: core/views/payment/manage_payment.php:202
+#| msgid "Appointment Logs"
+msgid "Appointment On"
+msgstr "Reservado el"
+
+#: core/views/notifications/manage_notifications.php:21
+msgid "Appointment Pending Notification"
+msgstr "Cita Notificación Pendiente"
+
+#: core/views/notifications/manage_notifications.php:26
+msgid "Appointment Rejection Notification"
+msgstr "Notificación de rechazo de turno"
+
+#: core/classes/class.bookingpress_appointment.php:1128
+#: core/classes/class.bookingpress_calendar.php:1254
+msgid "Appointment status changed successfully"
+msgstr "Estado del turno cambio con éxito."
+
+#: core/views/settings/general_setting_tab.php:131
+msgid "Appointment status paid with 'On site' payment method"
+msgstr "Estado del turno pagada con método de pago 'Presencial'"
+
+#: core/views/appointment/manage_appointment.php:836
+#: core/views/calendar/manage_calendar.php:237
+#: core/views/dashboard/manage_dashboard.php:741
+msgid "Appointment Time"
+msgstr "Hora del turno"
+
+#: core/views/bookingpress_header.php:59
+msgid "Appointments"
+msgstr "Turnos"
+
+#: core/views/calendar/manage_calendar.php:145
+#: core/views/payment/manage_payment.php:210
+#: core/views/payment/manage_payment.php:356
+msgid "Approve"
+msgstr "Aprobar"
+
+#: core/classes/class.bookingpress_global_options.php:481
+msgid "Approved"
+msgstr "Aprobado"
+
+#: core/views/dashboard/manage_dashboard.php:29
+msgid "Approved Appointments"
+msgstr "Turnos Aprobados"
+
+#: core/views/appointment/manage_appointment.php:128
+#: core/views/appointment/manage_appointment.php:343
+#: core/views/appointment/manage_appointment.php:544
+#: core/views/dashboard/manage_dashboard.php:107
+#: core/views/dashboard/manage_dashboard.php:307
+#: core/views/dashboard/manage_dashboard.php:490
+msgid "Are you sure you want to cancel this appointment?"
+msgstr ""
+
+#: core/views/settings/debug_log_settings.php:95
+#: core/views/settings/debug_log_settings.php:169
+msgid "Are you sure you want to clear debug logs?"
+msgstr "Estás seguro de que desea borrar los registros de depuración?"
+
+#: core/views/appointment/manage_appointment.php:310
+#: core/views/appointment/manage_appointment.php:511
+#: core/views/appointment/manage_appointment.php:696
+#: core/views/dashboard/manage_dashboard.php:641
+#, fuzzy
+#| msgid "Are you sure you want to delete this Notification?"
+msgid "Are you sure you want to delete this appointment?"
+msgstr "Estás seguro de que desea eliminar esta Notificación?"
+
+#: core/views/services/manage_services.php:307
+#| msgid "Are you sure you want to delete this coupon?"
+msgid "Are you sure you want to delete this category?"
+msgstr "Esta seguro de que desea eliminar esta Categoria?"
+
+#: core/views/customers/manage_customers.php:101
+#: core/views/customers/manage_customers.php:148
+#: core/views/customers/manage_customers.php:194
+msgid "Are you sure you want to delete this customer?"
+msgstr "Estás seguro de que desea eliminar este cliente?"
+
+#: core/views/payment/manage_payment.php:225
+#: core/views/payment/manage_payment.php:371
+#: core/views/payment/manage_payment.php:489
+msgid "Are you sure you want to delete this payment transaction?"
+msgstr ""
+
+#: core/views/services/manage_services.php:172
+#, fuzzy
+#| msgid "Are you sure you want to delete this"
+msgid "Are you sure you want to delete this service?"
+msgstr "Está seguro de que desea borrar este"
+
+#: core/classes/class.bookingpress_growth_tools.php:173
+msgid "ARForms Successfully installed."
+msgstr ""
+
+#: core/classes/class.bookingpress_growth_tools.php:90
+msgid "ARMember Successfully installed."
+msgstr ""
+
+#: core/classes/class.bookingpress_growth_tools.php:255
+msgid "ARPrice Successfully installed."
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:171
+msgid "Authentication Token"
+msgstr "Token De Autenticación"
+
+#: core/views/settings/notification_setting_tab.php:160
+msgid "Authorized redirect URI"
+msgstr "Autorizado URI de redirección"
+
+#: core/views/bookingpress_header.php:223
+msgid "Award Winning Design"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:147
+#: core/views/appointment/manage_appointment.php:362
+#: core/views/appointment/manage_appointment.php:563
+#: core/views/appointment/manage_appointment.php:784
+#: core/views/customers/manage_customers.php:283
+#: core/views/dashboard/manage_dashboard.php:126
+#: core/views/dashboard/manage_dashboard.php:326
+#: core/views/dashboard/manage_dashboard.php:509
+#: core/views/dashboard/manage_dashboard.php:691
+#: core/views/services/manage_services.php:425
+msgid "Basic Details"
+msgstr "Datos Básicos"
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "appointment"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "booking calendar"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "booking system"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "bookingpress"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "reservation"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block keyword"
+msgid "scheduling"
+msgstr ""
+
+#: js/build/bookingform/block.json:1 js/build/mybooking/block.json:1
+msgctxt "block title"
+msgid ""
+"BookingPress - Appointments Booking Calendar Plugin and Online Scheduling "
+"Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Book appointments, create bookings, and pay online with BookingPress. Easily "
+"create appointments, manage time, and send out customized emails."
+msgstr ""
+"Libro de citas, crear reservas, y pagar en línea con BookingPress. "
+"Fácilmente crear citas, manejar el tiempo, y enviar correos electrónicos "
+"personalizados."
+
+#: core/vc/bookingpress_class_vc_extend.php:29
+#: core/vc/bookingpress_class_vc_extend.php:58
+#: core/views/bookingpress_tinymce_options_shortcodes.php:22
+#: core/widgets/bookingpress_element_add.php:37
+#: core/widgets/class.bookingpress_frontwidget.php:11
+msgid "Booking Forms - WordPress Booking Plugin"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:117
+#: core/views/appointment/manage_appointment.php:332
+#: core/views/appointment/manage_appointment.php:533
+#: core/views/dashboard/manage_dashboard.php:96
+#: core/views/dashboard/manage_dashboard.php:296
+#: core/views/dashboard/manage_dashboard.php:479
+msgid "Booking ID"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:133
+#: core/views/wizard/manage_wizard.php:137
+msgid "Booking Options"
+msgstr "Opciones De Reserva"
+
+#: core/vc/bookingpress_class_vc_extend.php:32
+#: core/vc/bookingpress_class_vc_extend.php:71
+#: core/widgets/bookingpress_element_add.php:61
+msgid "BookingPress"
+msgstr ""
+
+#. Name of the plugin
+msgid "BookingPress Appointment Booking"
+msgstr ""
+
+#: core/classes/class.bookingpress_email_notifications.php:235
+msgid "BookingPress Gmail Test Email Notification"
+msgstr ""
+
+#: core/views/bookingpress_tinymce_options_shortcodes.php:11
+msgid "BookingPress Shortcodes"
+msgstr ""
+
+#: core/classes/class.bookingpress_email_notifications.php:116
+msgid "BookingPress SMTP Test Email Notification"
+msgstr ""
+
+#: core/views/bookingpress_header.php:352
+msgid "BookingPress vs Others"
+msgstr ""
+
+#: core/views/settings/workhours_setting_tab.php:64
+msgid "Breaks"
+msgstr "Pausa"
+
+#: core/classes/class.bookingpress_appointment.php:272
+#: core/classes/class.bookingpress_payment.php:82
+msgid "Bulk Action"
+msgstr "Acción Masiva"
+
+#: core/views/bookingpress_header.php:46
+#: core/views/calendar/manage_calendar.php:5
+msgid "Calendar"
+msgstr "Calendario"
+
+#: core/views/appointment/manage_appointment.php:126
+#: core/views/appointment/manage_appointment.php:135
+#: core/views/appointment/manage_appointment.php:307
+#: core/views/appointment/manage_appointment.php:341
+#: core/views/appointment/manage_appointment.php:350
+#: core/views/appointment/manage_appointment.php:508
+#: core/views/appointment/manage_appointment.php:542
+#: core/views/appointment/manage_appointment.php:551
+#: core/views/appointment/manage_appointment.php:693
+#: core/views/appointment/manage_appointment.php:769
+#: core/views/calendar/manage_calendar.php:183
+#: core/views/customers/manage_customers.php:98
+#: core/views/customers/manage_customers.php:145
+#: core/views/customers/manage_customers.php:191
+#: core/views/customers/manage_customers.php:267
+#: core/views/dashboard/manage_dashboard.php:105
+#: core/views/dashboard/manage_dashboard.php:114
+#: core/views/dashboard/manage_dashboard.php:305
+#: core/views/dashboard/manage_dashboard.php:314
+#: core/views/dashboard/manage_dashboard.php:488
+#: core/views/dashboard/manage_dashboard.php:497
+#: core/views/dashboard/manage_dashboard.php:638
+#: core/views/dashboard/manage_dashboard.php:679
+#: core/views/payment/manage_payment.php:223
+#: core/views/payment/manage_payment.php:369
+#: core/views/payment/manage_payment.php:487
+#: core/views/services/manage_services.php:170
+#: core/views/services/manage_services.php:305
+#: core/views/services/manage_services.php:383
+#: core/views/services/manage_services.php:410
+#: core/views/settings/daysoff_setting_tab.php:150
+#: core/views/settings/debug_log_settings.php:93
+#: core/views/settings/debug_log_settings.php:167
+#: core/views/settings/workhours_setting_tab.php:143
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: core/views/settings/messages_setting_tab.php:120
+msgid "Cancel Appointment Confirmation"
+msgstr "Cancelar Cita Previa Confirmación"
+
+#: core/classes/class.bookingpress_global_options.php:489
+#, fuzzy
+#| msgid "Canceled"
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: core/classes/frontend/class.bookingpress_spam_protection.php:67
+msgid "Captcha generated successfully."
+msgstr ""
+
+#: core/classes/class.bookingpress_service_categories.php:594
+msgid "Categories has been deleted successfully"
+msgstr ""
+
+#: core/views/services/manage_services.php:93
+msgid "Category"
+msgstr "Categoria"
+
+#: core/classes/class.bookingpress_service_categories.php:492
+msgid "Category Data."
+msgstr "Datos de Categoria."
+
+#: core/classes/class.bookingpress_service_categories.php:448
+msgid "Category has been created successfully."
+msgstr "La categoria ha sido creada exitosamente"
+
+#: core/classes/class.bookingpress_service_categories.php:546
+msgid "Category has been deleted successfully"
+msgstr "La categoria ha sido borrada exitosamente"
+
+#: core/classes/class.bookingpress_service_categories.php:430
+msgid "Category has been updated successfully."
+msgstr "La categoria ha sido actualizada exitosamente"
+
+#: core/views/services/manage_services.php:259
+#: core/views/services/manage_services.php:360
+msgid "Category Name"
+msgstr "Nombre de Categoria"
+
+#: core/classes/class.bookingpress_service_categories.php:421
+msgid "Category name is too long..."
+msgstr "El nombre de la Categoria es demasiado largo..."
+
+#: core/classes/class.bookingpress_service_categories.php:658
+msgid "Category position has been changed successfully."
+msgstr "La posición de la categoría se ha cambiado correctamente."
+
+#: core/views/services/manage_services.php:473
+msgid "Category:"
+msgstr "Categoria:"
+
+#: core/views/appointment/manage_appointment.php:271
+#: core/views/appointment/manage_appointment.php:488
+#: core/views/appointment/manage_appointment.php:683
+#: core/views/dashboard/manage_dashboard.php:254
+#: core/views/dashboard/manage_dashboard.php:451
+#: core/views/dashboard/manage_dashboard.php:628
+#: core/views/payment/manage_payment.php:186
+#: core/views/payment/manage_payment.php:338
+#: core/views/payment/manage_payment.php:476
+#, fuzzy
+#| msgid "Change Status"
+msgid "Change status"
+msgstr "Cambio de estado"
+
+#: core/views/bookingpress_header.php:346
+msgid "Check out our complete comparison"
+msgstr ""
+
+#: core/views/settings/debug_log_settings.php:99
+#: core/views/settings/debug_log_settings.php:173
+msgid "Clear log"
+msgstr "Borrar registro"
+
+#: core/views/settings/notification_setting_tab.php:348
+msgid "Click here to see the full log"
+msgstr "Haga clic aquí para ver el registro completo"
+
+#: core/views/settings/notification_setting_tab.php:140
+#: core/views/settings/notification_setting_tab.php:144
+#: core/views/settings/payment_setting_tab.php:165
+msgid "Client ID"
+msgstr "ID de cliente"
+
+#: core/views/settings/notification_setting_tab.php:150
+#: core/views/settings/notification_setting_tab.php:154
+#: core/views/settings/payment_setting_tab.php:175
+msgid "Client Secret"
+msgstr "Cliente Secreto"
+
+#: core/views/appointment/manage_appointment.php:125
+#: core/views/appointment/manage_appointment.php:340
+#: core/views/appointment/manage_appointment.php:541
+#: core/views/dashboard/manage_dashboard.php:104
+#: core/views/dashboard/manage_dashboard.php:304
+#: core/views/dashboard/manage_dashboard.php:487
+#: core/views/services/manage_services.php:328
+#: core/views/wizard/manage_wizard.php:516
+msgid "Close"
+msgstr "Cerca de"
+
+#: core/views/wizard/manage_wizard.php:525
+msgid "Close and Exit Wizard Without Saving"
+msgstr "Cerrar y Salir del Asistente Sin Guardar"
+
+#: core/views/wizard/manage_wizard.php:379
+msgid "Color Options"
+msgstr "Opciones De Color"
+
+#: core/views/notifications/manage_notifications.php:168
+#: core/views/settings/company_setting_tab.php:7
+msgid "Company"
+msgstr "Empresa"
+
+#: core/views/settings/company_setting_tab.php:12
+msgid "Company Details"
+msgstr "Datos De La Empresa"
+
+#: core/views/wizard/manage_wizard.php:94
+msgid "Company Logo"
+msgstr "El Logotipo De La Empresa"
+
+#: core/views/wizard/manage_wizard.php:42
+msgid "Company Name"
+msgstr "Nombre De La Empresa"
+
+#: core/views/bookingpress_header.php:349
+msgid "Compare Lite vs Premium"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:461
+msgid "Congratulations!"
+msgstr "Felicitaciones!"
+
+#: core/views/wizard/manage_wizard.php:397
+msgid "Content"
+msgstr "Contenido"
+
+#: core/views/importexport/import_export_tab.php:137
+msgid "Copy and paste the exported file content"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:998
+msgid "Copy URL"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:72
+msgid "Country"
+msgstr "País"
+
+#: core/views/customers/manage_customers.php:316
+#: core/views/customers/manage_customers.php:318
+msgid "Create New"
+msgstr "Crear Nueva"
+
+#: core/views/customers/manage_customers.php:314
+msgid "Create New User"
+msgstr "Crear Nuevo Usuario"
+
+#: core/views/settings/general_setting_tab.php:251
+msgid "Create WordPress user upon appointment booking"
+msgstr "Crear usuario de WordPress con cita previa reserva"
+
+#: core/views/appointment/manage_appointment.php:287
+#: core/views/dashboard/manage_dashboard.php:270
+msgid "Created Date"
+msgstr "Fecha de creación"
+
+#: core/views/settings/payment_setting_tab.php:34
+#: core/views/wizard/manage_wizard.php:250
+msgid "Currency"
+msgstr "Moneda"
+
+#: core/views/settings/payment_setting_tab.php:78
+msgid "Currency separator"
+msgstr "Moneda separador"
+
+#: core/views/settings/payment_setting_tab.php:29
+msgid "Currency Settings"
+msgstr "Configuración De Moneda"
+
+#: core/views/settings/payment_setting_tab.php:65
+msgid "Currency symbol position"
+msgstr "Símbolo de moneda de la posición"
+
+#. 1. Plugin Deactivation Link
+#: autoload.php:99
+#, php-format
+msgid ""
+"Current WordPress version does not meet minimum requirements for "
+"BookingPress. Please update the WordPress version to at least 5.3.0 and then "
+"try again. Click %s to continue"
+msgstr ""
+
+#: autoload.php:78 core/views/appointment/manage_appointment.php:257
+#: core/views/dashboard/manage_dashboard.php:235
+#: core/views/notifications/manage_notifications.php:156
+#: core/views/payment/manage_payment.php:165
+#: core/views/payment/manage_payment.php:567
+msgid "Customer"
+msgstr "Paciente"
+
+#: core/views/appointment/manage_appointment.php:970
+msgid "Customer can modify option"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:176
+#: core/views/appointment/manage_appointment.php:391
+#: core/views/appointment/manage_appointment.php:592
+#: core/views/dashboard/manage_dashboard.php:155
+#: core/views/dashboard/manage_dashboard.php:355
+#: core/views/dashboard/manage_dashboard.php:538
+msgid "Customer Details"
+msgstr "Detalles del Paciente"
+
+#: core/views/appointment/manage_appointment.php:36
+#: core/views/payment/manage_payment.php:21
+msgid "Customer Name"
+msgstr "Nombre del paciente"
+
+#: core/vc/bookingpress_class_vc_extend.php:68
+#: core/vc/bookingpress_class_vc_extend.php:95
+#: core/views/bookingpress_tinymce_options_shortcodes.php:23
+#: core/widgets/bookingpress_element_add.php:115
+#: core/widgets/class.bookingpress_frontwidget.php:49
+msgid "Customer Panel - BookingPress Appointment Plugin"
+msgstr ""
+
+#: core/views/bookingpress_header.php:85
+#: core/views/dashboard/manage_dashboard.php:41
+msgid "Customers"
+msgstr "Pacientes"
+
+#: core/views/bookingpress_header.php:125
+msgid "Customize"
+msgstr "Personalizar"
+
+#: core/views/dashboard/manage_dashboard.php:12
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: core/classes/class.bookingpress_notifications.php:573
+msgid "Data received successfully"
+msgstr "Datos recibidos correctamente"
+
+#: core/classes/class.bookingpress_appointment.php:95
+#: core/classes/class.bookingpress_calendar.php:853
+#: core/classes/class.bookingpress_calendar.php:896
+msgid "Data retrieved successfully"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:150
+#: core/views/appointment/manage_appointment.php:252
+#: core/views/appointment/manage_appointment.php:365
+#: core/views/appointment/manage_appointment.php:467
+#: core/views/appointment/manage_appointment.php:566
+#: core/views/dashboard/manage_dashboard.php:129
+#: core/views/dashboard/manage_dashboard.php:230
+#: core/views/dashboard/manage_dashboard.php:329
+#: core/views/dashboard/manage_dashboard.php:430
+#: core/views/dashboard/manage_dashboard.php:512
+#: core/views/payment/manage_payment.php:128
+#: core/views/payment/manage_payment.php:164
+#: core/views/payment/manage_payment.php:289
+#: core/views/payment/manage_payment.php:325
+msgid "Date"
+msgstr "Fecha"
+
+#: core/views/wizard/manage_wizard.php:59
+msgid "Date Format"
+msgstr "Formato de Fecha"
+
+#: core/classes/class.bookingpress_appointment.php:1396
+#: core/views/calendar/manage_calendar.php:38
+msgid "Day"
+msgstr "Día"
+
+#: core/classes/class.bookingpress_appointment.php:1398
+#: core/classes/class.bookingpress_appointment.php:1590
+msgid "Days"
+msgstr "Días"
+
+#: core/classes/class.bookingpress_payment_gateways.php:458
+msgid ""
+"Dear %customer_first_name% %customer_last_name%,<br/><br/>This is regarding "
+"your recent payment and appointment scheduling with the below details which "
+"is not successfully booked, despite your payment being processed due to "
+"unforeseen technical glitches.<br/><br/>%service_name% - "
+"%appointment_date_time% - %appointment_amount%<br/><br/>We will process the "
+"refund for the full amount of your payment and it will be credited back to "
+"your account within the next 4-7 business days. We truly regret any "
+"inconvenience this may have caused you and understand the importance of "
+"having a smooth and hassle-free experience with our services.<br/><br/>Best "
+"regards,<br/>%company_name%<br/>%company_address%<br/>%company_phone%<br/>"
+"%company_website%"
+msgstr ""
+
+#: core/classes/class.bookingpress_payment_gateways.php:497
+msgid ""
+"Dear Administrator,<br/>One of the recently booked appointment has conflict "
+"with another appointment with booking ID - %bookingpress_appointment_id% on "
+"our booking platform. So, an immediate action is required to handle the "
+"refund process for their payment.<br/><br/>Below are the appointment and "
+"payment details for your reference:<br/>Appointment Date: "
+"%appointment_date%<br/>Appointment Time: %appointment_time%<br/>Payment ID: "
+"%transaction_id%<br/>Payment Amount: %appointment_amount%<br/>Payment "
+"Gateway:%bookingpress_payment_gateway%<br/>First name & Last name: "
+"%customer_first_name% %customer_last_name%,<br/>Customer Full Name: "
+"%customer_full_name%<br/>Customer Email: %customer_email%<br/>Customer Phone:"
+" %customer_phone%<br/><br/>Best regards,<br/>%company_name%<br/>"
+"%company_address%<br/>%company_phone%<br/>%company_website%"
+msgstr ""
+
+#: core/views/settings/debug_log_settings.php:7
+msgid "Debug Log"
+msgstr "Registro De Depuración"
+
+#: core/views/settings/debug_log_settings.php:12
+msgid "Debug Log Settings"
+msgstr "Registro De Depuración De Configuración"
+
+#: core/views/settings/debug_log_settings.php:191
+msgid "Debug Logs"
+msgstr "Los Registros De Depuración"
+
+#: core/views/settings/payment_setting_tab.php:99
+msgid "Decimal Separator"
+msgstr "Separador De Decimales"
+
+#: core/views/settings/general_setting_tab.php:118
+#, fuzzy
+#| msgid "Default Appointment Status"
+msgid "Default appointment status"
+msgstr "Cita Predeterminado Estado"
+
+#: core/views/settings/general_setting_tab.php:171
+#| msgid "Default Date Format"
+msgid "Default date format"
+msgstr "Formato de fecha predeterminado"
+
+#: core/views/settings/general_setting_tab.php:158
+msgid "Default items per page"
+msgstr "Por defecto los elementos por página"
+
+#: core/views/notifications/manage_notifications.php:12
+msgid "Default Notifications"
+msgstr "Notificaciones por defecto"
+
+#: core/views/settings/general_setting_tab.php:144
+#| msgid "Default Phone Country Code"
+msgid "Default phone country code"
+msgstr "Por Defecto El Código Telefónico Del País "
+
+#: core/views/settings/general_setting_tab.php:29
+#, fuzzy
+#| msgid "Default Service Duration"
+msgid "Default service duration"
+msgstr "Por Defecto La Duración Del Servicio"
+
+#: core/views/settings/general_setting_tab.php:188
+msgid "Default Time Format"
+msgstr "Formato De Hora Predeterminado"
+
+#: core/views/settings/general_setting_tab.php:43
+#, fuzzy
+#| msgid "Default Time Slot Step"
+msgid "Default time slot step"
+msgstr "Por Defecto El Tiempo De La Ranura De Paso"
+
+#: core/views/wizard/manage_wizard.php:142
+msgid "Default working hours"
+msgstr "Predeterminado de horas de trabajo"
+
+#: core/classes/class.bookingpress_appointment.php:276
+#: core/classes/class.bookingpress_payment.php:86
+#: core/views/appointment/manage_appointment.php:304
+#: core/views/appointment/manage_appointment.php:308
+#: core/views/appointment/manage_appointment.php:505
+#: core/views/appointment/manage_appointment.php:509
+#: core/views/appointment/manage_appointment.php:694
+#: core/views/customers/manage_customers.php:95
+#: core/views/customers/manage_customers.php:99
+#: core/views/customers/manage_customers.php:142
+#: core/views/customers/manage_customers.php:146
+#: core/views/customers/manage_customers.php:192
+#: core/views/customers/manage_customers.php:200
+#: core/views/dashboard/manage_dashboard.php:639
+#: core/views/payment/manage_payment.php:219
+#: core/views/payment/manage_payment.php:222
+#: core/views/payment/manage_payment.php:365
+#: core/views/payment/manage_payment.php:368
+#: core/views/payment/manage_payment.php:486
+#: core/views/services/manage_services.php:166
+#: core/views/services/manage_services.php:169
+#: core/views/services/manage_services.php:301
+#: core/views/services/manage_services.php:304
+#: core/views/settings/daysoff_setting_tab.php:152
+#: core/views/settings/debug_log_settings.php:92
+#: core/views/settings/debug_log_settings.php:166
+msgid "Delete"
+msgstr "Eliminar"
+
+#: core/views/services/manage_services.php:528
+msgid "Description"
+msgstr "Descripcion"
+
+#: core/views/services/manage_services.php:524
+msgid "Description:"
+msgstr "Descripcion:"
+
+#: core/widgets/class.bookingpress_frontwidget.php:50
+msgid "Display booked appointments"
+msgstr "Mostrar turnos reservados"
+
+#: core/widgets/class.bookingpress_frontwidget.php:12
+msgid "Display frontend booking form for book appointments"
+msgstr "Mostrar formulario de reserva en la interfaz para reservar turnos"
+
+#: core/views/appointment/manage_appointment.php:877
+#: core/views/calendar/manage_calendar.php:278
+#: core/views/dashboard/manage_dashboard.php:782
+msgid "Do Not Send Notification"
+msgstr ""
+
+#: core/views/importexport/import_export_tab.php:61
+msgid "Do Not Send Notifications"
+msgstr "No Enviar Notificaciones"
+
+#: core/views/wizard/manage_wizard.php:497
+msgid "Documentation"
+msgstr "Documentación"
+
+#: core/views/settings/debug_log_settings.php:77
+#: core/views/settings/debug_log_settings.php:151
+msgid "Download"
+msgstr "Descargar"
+
+#: core/views/importexport/import_export_tab.php:114
+msgid "Download File"
+msgstr ""
+
+#: core/views/settings/debug_log_settings.php:87
+#: core/views/settings/debug_log_settings.php:161
+msgid "Download log"
+msgstr "Registro de descarga"
+
+#: core/views/services/manage_services.php:158
+msgid "Duplicate"
+msgstr ""
+
+#: core/views/settings/messages_setting_tab.php:70
+msgid "Duplicate email address found"
+msgstr "Dirección de correo electrónico duplicados encontrados"
+
+#: core/views/appointment/manage_appointment.php:259
+#: core/views/dashboard/manage_dashboard.php:242
+#: core/views/services/manage_services.php:98
+msgid "Duration"
+msgstr "Duración"
+
+#: core/views/services/manage_services.php:492
+msgid "Duration:"
+msgstr "Duración:"
+
+#: core/views/appointment/manage_appointment.php:295
+#: core/views/appointment/manage_appointment.php:497
+#: core/views/calendar/manage_calendar.php:156
+#: core/views/customers/manage_customers.php:87
+#: core/views/customers/manage_customers.php:134
+#: core/views/customers/manage_customers.php:188
+#: core/views/dashboard/manage_dashboard.php:277
+#: core/views/dashboard/manage_dashboard.php:460
+#: core/views/services/manage_services.php:150
+#: core/views/services/manage_services.php:293
+msgid "Edit"
+msgstr "Editar"
+
+#: core/views/appointment/manage_appointment.php:758
+#: core/views/calendar/manage_calendar.php:172
+#: core/views/dashboard/manage_dashboard.php:668
+msgid "Edit Appointment"
+msgstr "Editar turno"
+
+#: core/views/settings/workhours_setting_tab.php:98
+msgid "Edit Break"
+msgstr "Editar pausa"
+
+#: core/views/services/manage_services.php:341
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: core/views/customers/manage_customers.php:256
+msgid "Edit Customer"
+msgstr "Editar paciente"
+
+#: core/views/services/manage_services.php:397
+msgid "Edit Service"
+msgstr "Editar Servicio"
+
+#: core/views/bookingpress_header.php:273
+msgid "Effective employee scheduling"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:949
+#: core/views/appointment/manage_appointment.php:959
+#: core/views/customers/manage_customers.php:76
+#: core/views/customers/manage_customers.php:126
+#: core/views/customers/manage_customers.php:368
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: core/views/settings/notification_setting_tab.php:42
+msgid "Email delivery method"
+msgstr "Método de entrega de correo electrónico"
+
+#: core/views/notifications/manage_notifications.php:117
+msgid "Email Message"
+msgstr "Mensaje De Correo Electrónico"
+
+#: core/views/settings/notification_setting_tab.php:9
+msgid "Email Notification Settings"
+msgstr "Configuración De Notificación De Correo Electrónico"
+
+#: core/classes/class.bookingpress_notifications.php:512
+#, fuzzy
+#| msgid "Email notifications details update successfully."
+msgid "Email notifications details updated successfully."
+msgstr ""
+"Notificaciones por correo electrónico los detalles de la actualización con "
+"éxito."
+
+#: core/views/notifications/manage_notifications.php:109
+msgid "Email Subject"
+msgstr "Asunto Del Correo Electrónico"
+
+#: core/views/bookingpress_header.php:325
+msgid "Email, Whatsapp & SMS Notification"
+msgstr ""
+
+#: autoload.php:77
+msgid "Employee"
+msgstr "Empleado"
+
+#: core/views/settings/general_setting_tab.php:235
+msgid "Enable Debug Mode"
+msgstr "Habilitar El Modo De Depuración"
+
+#: core/views/dashboard/manage_dashboard.php:16
+#: core/views/payment/manage_payment.php:18
+msgid "End Date"
+msgstr "Fecha de fin"
+
+#: core/views/appointment/manage_appointment.php:33
+#: core/views/settings/debug_log_settings.php:71
+#: core/views/settings/debug_log_settings.php:145
+msgid "End date"
+msgstr "Fecha de fin"
+
+#: core/views/settings/workhours_setting_tab.php:49
+#: core/views/settings/workhours_setting_tab.php:124
+#: core/views/settings/workhours_setting_tab.php:126
+msgid "End Time"
+msgstr "Hora De Finalización"
+
+#: core/views/settings/notification_setting_tab.php:80
+msgid "Enter admin email"
+msgstr "Escriba administrador de correo electrónico"
+
+#: core/views/settings/payment_setting_tab.php:219
+msgid "Enter API signature"
+msgstr "Introduzca firma de API"
+
+#: core/views/services/manage_services.php:362
+msgid "Enter category name"
+msgstr "Ingresar nombre de la Categoria"
+
+#: core/views/settings/payment_setting_tab.php:169
+msgid "Enter Client ID"
+msgstr ""
+
+#: core/views/settings/payment_setting_tab.php:179
+msgid "Enter Client Secret"
+msgstr ""
+
+#: core/views/settings/company_setting_tab.php:60
+msgid "Enter company address"
+msgstr "Introduzca la dirección de la empresa"
+
+#: core/views/settings/company_setting_tab.php:50
+msgid "Enter company name"
+msgstr "Introduzca el nombre de la empresa"
+
+#: core/views/settings/company_setting_tab.php:71
+msgid "Enter company website"
+msgstr "Entrar en la web de la empresa"
+
+#: core/views/settings/payment_setting_tab.php:100
+msgid "Enter Decimal Separator"
+msgstr "Introduzca El Separador Decimal"
+
+#: core/views/customers/manage_customers.php:370
+#: core/views/settings/payment_setting_tab.php:189
+msgid "Enter email"
+msgstr "Ingresa tu correo electrónico"
+
+#: core/views/appointment/manage_appointment.php:961
+#, fuzzy
+#| msgid "Enter CC Email Address"
+msgid "Enter email address"
+msgstr "Introduzca CC Dirección de Correo electrónico"
+
+#: core/views/customers/manage_customers.php:354
+#, fuzzy
+#| msgid "Enter First Name"
+msgid "Enter first name"
+msgstr "Ingrese El Primer Nombre"
+
+#: core/views/settings/daysoff_setting_tab.php:121
+msgid "Enter holiday name"
+msgstr "Introduzca nombre de vacaciones"
+
+#: core/views/notifications/manage_notifications.php:137
+msgid "Enter key will not be considered as new line"
+msgstr "Introduzca la clave no será considerada como nueva línea de"
+
+#: core/views/customers/manage_customers.php:362
+#, fuzzy
+#| msgid "Enter Last Name"
+msgid "Enter last name"
+msgstr "Introducir El Último Nombre"
+
+#: core/views/customers/manage_customers.php:337
+msgid "Enter Password"
+msgstr "Introduzca La Contraseña"
+
+#: core/views/settings/payment_setting_tab.php:209
+msgid "Enter password"
+msgstr "Introduzca la contraseña"
+
+#: core/views/wizard/manage_wizard.php:82
+msgid "Enter phone no"
+msgstr "Introduzca el teléfono no"
+
+#: core/views/settings/notification_setting_tab.php:60
+msgid "Enter sender name"
+msgstr "Introduzca nombre del remitente"
+
+#: core/views/services/manage_services.php:31
+#: core/views/services/manage_services.php:466
+msgid "Enter service name"
+msgstr "Ingresar nombre de servicio"
+
+#: core/views/notifications/manage_notifications.php:111
+msgid "Enter Subject"
+msgstr "Introducir El Asunto"
+
+#: core/views/settings/payment_setting_tab.php:94
+msgid "Enter Thousand Separator"
+msgstr "Introduzca El Separador De Miles"
+
+#: core/views/customers/manage_customers.php:345
+msgid "Enter Username"
+msgstr "Ingresa El Nombre De Usuario"
+
+#: core/views/settings/payment_setting_tab.php:199
+msgid "Enter username"
+msgstr "Ingresa el nombre de usuario"
+
+#: core/views/wizard/manage_wizard.php:47
+msgid "Enter your company address"
+msgstr "Introduzca su dirección de la empresa"
+
+#: core/views/wizard/manage_wizard.php:43
+msgid "Enter your company name"
+msgstr "Introduzca el nombre de su empresa"
+
+#: core/views/wizard/manage_wizard.php:88
+msgid "Enter your website url"
+msgstr "Introduzca la url de su sitio web"
+
+#: core/classes/class.bookingpress_addons.php:107
+#: core/classes/class.bookingpress_addons.php:115
+#: core/classes/class.bookingpress_appointment.php:66
+#: core/classes/class.bookingpress_appointment.php:72
+#: core/classes/class.bookingpress_appointment.php:149
+#: core/classes/class.bookingpress_appointment.php:206
+#: core/classes/class.bookingpress_appointment.php:660
+#: core/classes/class.bookingpress_appointment.php:692
+#: core/classes/class.bookingpress_appointment.php:797
+#: core/classes/class.bookingpress_appointment.php:846
+#: core/classes/class.bookingpress_appointment.php:886
+#: core/classes/class.bookingpress_appointment.php:930
+#: core/classes/class.bookingpress_appointment.php:944
+#: core/classes/class.bookingpress_appointment.php:976
+#: core/classes/class.bookingpress_appointment.php:988
+#: core/classes/class.bookingpress_appointment.php:1095
+#: core/classes/class.bookingpress_appointment.php:1117
+#: core/classes/class.bookingpress_appointment.php:1138
+#: core/classes/class.bookingpress_appointment.php:1262
+#: core/classes/class.bookingpress_appointment.php:1482
+#: core/classes/class.bookingpress_appointment.php:1491
+#: core/classes/class.bookingpress_appointment.php:1526
+#: core/classes/class.bookingpress_appointment.php:1534
+#: core/classes/class.bookingpress_calendar.php:38
+#: core/classes/class.bookingpress_calendar.php:251
+#: core/classes/class.bookingpress_calendar.php:313
+#: core/classes/class.bookingpress_calendar.php:485
+#: core/classes/class.bookingpress_calendar.php:493
+#: core/classes/class.bookingpress_calendar.php:559
+#: core/classes/class.bookingpress_calendar.php:722
+#: core/classes/class.bookingpress_calendar.php:838
+#: core/classes/class.bookingpress_calendar.php:846
+#: core/classes/class.bookingpress_calendar.php:880
+#: core/classes/class.bookingpress_calendar.php:888
+#: core/classes/class.bookingpress_calendar.php:1189
+#: core/classes/class.bookingpress_calendar.php:1241
+#: core/classes/class.bookingpress_calendar.php:1279
+#: core/classes/class.bookingpress_growth_tools.php:28
+#: core/classes/class.bookingpress_growth_tools.php:111
+#: core/classes/class.bookingpress_growth_tools.php:193
+#: core/classes/class.bookingpress_notifications.php:234
+#: core/classes/class.bookingpress_notifications.php:301
+#: core/classes/class.bookingpress_notifications.php:449
+#: core/classes/class.bookingpress_notifications.php:456
+#: core/classes/class.bookingpress_notifications.php:543
+#: core/classes/class.bookingpress_notifications.php:551
+#: core/classes/class.bookingpress_notifications.php:605
+#: core/classes/class.bookingpress_payment.php:39
+#: core/classes/class.bookingpress_payment.php:165
+#: core/classes/class.bookingpress_payment.php:173
+#: core/classes/class.bookingpress_payment.php:403
+#: core/classes/class.bookingpress_payment.php:417
+#: core/classes/class.bookingpress_payment.php:449
+#: core/classes/class.bookingpress_payment.php:461
+#: core/classes/class.bookingpress_payment.php:517
+#: core/classes/class.bookingpress_payment.php:548
+#: core/classes/class.bookingpress_payment.php:586
+#: core/classes/class.bookingpress_payment.php:655
+#: core/classes/class.bookingpress_payment.php:813
+#: core/classes/class.bookingpress_payment.php:822
+#: core/classes/class.bookingpress_payment.php:856
+#: core/classes/class.bookingpress_payment.php:864
+#: core/classes/class.bookingpress_payment.php:902
+#: core/classes/class.bookingpress_service_categories.php:210
+#: core/classes/class.bookingpress_service_categories.php:236
+#: core/classes/class.bookingpress_service_categories.php:262
+#: core/classes/class.bookingpress_service_categories.php:276
+#: core/classes/class.bookingpress_service_categories.php:308
+#: core/classes/class.bookingpress_service_categories.php:319
+#: core/classes/class.bookingpress_service_categories.php:357
+#: core/classes/class.bookingpress_service_categories.php:407
+#: core/classes/class.bookingpress_service_categories.php:417
+#: core/classes/class.bookingpress_service_categories.php:474
+#: core/classes/class.bookingpress_service_categories.php:483
+#: core/classes/class.bookingpress_service_categories.php:516
+#: core/classes/class.bookingpress_service_categories.php:525
+#: core/classes/class.bookingpress_service_categories.php:572
+#: core/classes/class.bookingpress_service_categories.php:580
+#: core/classes/class.bookingpress_service_categories.php:621
+#: core/classes/class.bookingpress_service_categories.php:631
+#: core/classes/frontend/class.bookingpress_spam_protection.php:55
+msgid "Error"
+msgstr "Error"
+
+#: core/classes/class.bookingpress_growth_tools.php:94
+#: core/classes/class.bookingpress_growth_tools.php:177
+#: core/classes/class.bookingpress_growth_tools.php:259
+msgid "error"
+msgstr ""
+
+#: core/views/customize/manage_form_field_customize.php:119
+msgid "Error Message"
+msgstr ""
+
+#: core/views/customize/manage_form_field_customize.php:60
+msgid "Error message"
+msgstr ""
+
+#: core/views/settings/general_setting_tab.php:89
+msgid "Evening Start Time"
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:70
+msgid "example@example.com"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:503
+msgid "Explore Features"
+msgstr "Explorar Las Características"
+
+#: core/views/importexport/import_export_tab.php:34
+#: core/views/importexport/import_export_tab.php:96
+msgid "Export"
+msgstr "Exportación"
+
+#: core/views/bookingpress_main.php:59
+msgid "Facebook Community"
+msgstr ""
+
+#: core/views/bookingpress_main.php:40
+msgid "Feature Requests"
+msgstr ""
+
+#: core/views/bookingpress_header.php:145
+#: core/views/customize/manage_form_field_customize.php:4
+#: core/views/customize/manage_form_field_customize.php:47
+msgid "Field Settings"
+msgstr "Configuración De Campo"
+
+#: core/views/wizard/manage_wizard.php:411
+msgid "Finish"
+msgstr "Acabado"
+
+#: core/views/customers/manage_customers.php:352
+msgid "First Name"
+msgstr "Primer Nombre"
+
+#: core/views/wizard/manage_wizard.php:365
+msgid "Font Selection"
+msgstr "Selección de la fuente"
+
+#: core/views/bookingpress_header.php:135
+msgid "Forms"
+msgstr "Formas"
+
+#: core/views/settings/workhours_setting_tab.php:32
+#: core/views/wizard/manage_wizard.php:204
+msgid "Friday"
+msgstr "Viernes"
+
+#: core/views/customers/manage_customers.php:68
+#: core/views/customers/manage_customers.php:119
+msgid "Full Name"
+msgstr "Nombre Completo"
+
+#: core/views/settings/general_setting_tab.php:4
+#: core/views/settings/general_setting_tab.php:9
+msgid "General Settings"
+msgstr "Configuración General"
+
+#: core/views/wizard/manage_wizard.php:500
+msgid "Get 24x7 Support"
+msgstr "Obtener Soporte 24x7"
+
+#: core/views/wizard/manage_wizard.php:37
+msgid "Give some information about your company"
+msgstr "Dar un poco de información acerca de su empresa"
+
+#: core/classes/class.bookingpress_email_notifications.php:160
+msgid "Gmail Test Email cannot sent successfully"
+msgstr "Fallo la prueba de email"
+
+#: core/views/appointment/manage_appointment.php:744
+#: core/views/customers/manage_customers.php:241
+#: core/views/payment/manage_payment.php:537
+#: core/views/services/manage_services.php:204
+msgid "Go"
+msgstr "Ir"
+
+#: core/views/bookingpress_header.php:176
+msgid "Go Premium"
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:48
+msgid "Google/Gmail"
+msgstr "Google/Gmail"
+
+#: core/views/settings/general_setting_tab.php:224
+#: core/views/wizard/manage_wizard.php:112
+msgid "Help us improve BookingPress by sending anonymous usage stats"
+msgstr ""
+"Nos ayudan a mejorar BookingPress mediante el envío de estadísticas de uso "
+"anónimas"
+
+#: core/views/wizard/manage_wizard.php:138
+msgid "Help us understand your booking options"
+msgstr "Nos ayudan a entender sus opciones de reserva"
+
+#: autoload.php:99
+#, fuzzy
+#| msgid "Here"
+msgid "here"
+msgstr "Aquí"
+
+#: core/views/customize/manage_form_field_customize.php:64
+#: core/views/customize/manage_form_field_customize.php:123
+msgid "Hide field on frontend"
+msgstr ""
+
+#: core/views/settings/daysoff_setting_tab.php:119
+msgid "Holiday Name"
+msgstr "Holiday Nombre"
+
+#: core/views/settings/daysoff_setting_tab.php:9
+msgid "Holiday Settings"
+msgstr "Vacaciones De Configuración"
+
+#: core/views/settings/daysoff_setting_tab.php:4
+msgid "Holidays"
+msgstr "Vacaciones"
+
+#: core/views/settings/notification_setting_tab.php:86
+#: core/views/settings/notification_setting_tab.php:90
+msgid "Host name"
+msgstr "Nombre de Host"
+
+#: core/classes/class.bookingpress_appointment.php:1580
+msgid "Hour"
+msgstr "Hora"
+
+#: core/classes/class.bookingpress_appointment.php:1582
+#: core/classes/class.bookingpress_appointment.php:1587
+#: core/views/services/manage_services.php:501
+#: core/views/wizard/manage_wizard.php:311
+msgid "Hours"
+msgstr "Horas"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bookingpressplugin.com/"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:462
+msgid "Hurray!! Everything is ready to accept your first online booking now"
+msgstr "Hurra!!! Todo está listo para aceptar su primer reserva en línea ahora"
+
+#: core/classes/class.bookingpress_service_categories.php:532
+msgid "I am sorry"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:247
+#: core/views/appointment/manage_appointment.php:462
+#: core/views/dashboard/manage_dashboard.php:225
+#: core/views/dashboard/manage_dashboard.php:425
+#: core/views/services/manage_services.php:127
+#: core/views/services/manage_services.php:280
+msgid "ID"
+msgstr "ID"
+
+#: core/views/calendar/manage_calendar.php:130
+msgid "Id- #"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:74
+msgid "Identify country code by user's IP address"
+msgstr "Identificar el código de país por dirección IP del usuario"
+
+#: core/views/importexport/import_export_tab.php:126
+#: core/views/importexport/import_export_tab.php:139
+msgid "Import"
+msgstr ""
+
+#: core/views/importexport/import_export_tab.php:131
+msgid "Import File Data"
+msgstr ""
+
+#: core/views/importexport/import_export_tab.php:16
+msgid "Import/Export"
+msgstr ""
+
+#: core/views/importexport/import_export_tab.php:21
+msgid "Import/Export Tool"
+msgstr ""
+
+#: autoload.php:71
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: core/views/settings/general_setting_tab.php:195
+msgid "Inherit From Wordpress"
+msgstr "Heredar De Wordpress"
+
+#: core/views/bookingpress_tinymce_options_shortcodes.php:28
+msgid "Insert"
+msgstr ""
+
+#: core/views/notifications/manage_notifications.php:152
+msgid "Insert email placeholders"
+msgstr "Insertar marcadores de posición de correo electrónico"
+
+#: core/views/appointment/manage_appointment.php:866
+#: core/views/calendar/manage_calendar.php:267
+#: core/views/dashboard/manage_dashboard.php:771
+msgid "Internal note"
+msgstr "Nota interna"
+
+#: core/classes/class.bookingpress_fileupload_class.php:169
+msgid "Invalid file extension. Please select valid file"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:185
+msgid "Invalid File Size."
+msgstr ""
+
+#: core/views/settings/payment_setting_tab.php:225
+msgid ""
+"It is advised to use the Pop-up method rather than the legacy method "
+"although both work fine but as PayPal believes it is better to use the Pop-"
+"up method."
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:32
+msgid ""
+"It seems that the email upon booking could not be sent. Your site may not be "
+"correctly configured to send emails. Please check the following error message"
+msgstr ""
+
+#: core/views/customize/manage_form_field_customize.php:52
+#: core/views/customize/manage_form_field_customize.php:111
+msgid "Label"
+msgstr "Etiqueta"
+
+#: core/views/customers/manage_customers.php:360
+msgid "Last Name"
+msgstr "Apellido"
+
+#: core/views/settings/general_setting_tab.php:213
+msgid "Load JS &amp; CSS in all pages"
+msgstr "Carga de JS & CSS en todas las páginas"
+
+#: core/views/settings/debug_log_settings.php:221
+msgid "Log Added Date"
+msgstr "Registro de fecha añadido"
+
+#: core/views/settings/debug_log_settings.php:220
+msgid "Log Data"
+msgstr "Los Datos De Registro"
+
+#: core/views/settings/debug_log_settings.php:218
+msgid "Log Id"
+msgstr "Id Del Registro"
+
+#: core/views/settings/debug_log_settings.php:219
+msgid "Log Name"
+msgstr "Nombre De Registro"
+
+#: core/views/appointment/manage_appointment.php:10
+msgid "Manage Appointments"
+msgstr "Administrar turnos"
+
+#: core/views/services/manage_services.php:17
+#: core/views/services/manage_services.php:218
+msgid "Manage Categories"
+msgstr "Administrar Categorias"
+
+#: core/views/customers/manage_customers.php:7
+msgid "Manage Customers"
+msgstr "Administrar pacientes"
+
+#: core/views/payment/manage_payment.php:7
+#| msgid "Make Payment"
+msgid "Manage Payments"
+msgstr "Administrar Pagos"
+
+#: core/views/services/manage_services.php:7
+msgid "Manage Services"
+msgstr "Administrar Servicios"
+
+#: core/views/bookingpress_header.php:205
+msgid "management, and grow your business with even more features."
+msgstr ""
+
+#: core/views/settings/payment_setting_tab.php:185
+msgid "Merchant Email"
+msgstr "Comerciante De Correo Electrónico"
+
+#: core/views/settings/notification_setting_tab.php:213
+#: core/views/settings/notification_setting_tab.php:266
+#: core/views/settings/notification_setting_tab.php:318
+msgid "Message"
+msgstr "Mensaje"
+
+#: core/views/settings/messages_setting_tab.php:10
+msgid "Message Settings"
+msgstr "Ajustes De Los Mensajes"
+
+#: core/views/settings/messages_setting_tab.php:5
+msgid "Messages"
+msgstr "Mensajes"
+
+#: core/views/payment/manage_payment.php:167
+msgid "Method"
+msgstr "Método"
+
+#: core/views/settings/debug_log_settings.php:111
+msgid "method"
+msgstr "método"
+
+#: core/classes/class.bookingpress_appointment.php:1571
+msgid "Min"
+msgstr "Min"
+
+#: core/classes/class.bookingpress_appointment.php:1573
+#: core/views/services/manage_services.php:500
+#: core/views/wizard/manage_wizard.php:310
+msgid "Mins"
+msgstr "Minutos"
+
+#: core/views/settings/general_setting_tab.php:34
+#: core/views/settings/general_setting_tab.php:47
+msgid "Minutes"
+msgstr "Minutos"
+
+#: core/views/payment/manage_payment.php:108
+#: core/views/payment/manage_payment.php:269
+#: core/views/payment/manage_payment.php:414
+#, fuzzy
+#| msgid "More"
+msgid "Mode"
+msgstr "Más"
+
+#: core/views/settings/workhours_setting_tab.php:28
+#: core/views/wizard/manage_wizard.php:145
+msgid "Monday"
+msgstr "Lunes"
+
+#: core/views/calendar/manage_calendar.php:36
+msgid "Month"
+msgstr "Mes"
+
+#: core/views/services/manage_services.php:88
+#: core/views/settings/company_setting_tab.php:46
+msgid "Name"
+msgstr "Nombre"
+
+#: core/views/bookingpress_main.php:21
+msgid "Need Help?"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:123
+#: core/views/wizard/manage_wizard.php:272
+#: core/views/wizard/manage_wizard.php:344
+msgid "Next"
+msgstr "Siguiente"
+
+#: core/views/settings/general_setting_tab.php:103
+msgid "Night Start Time"
+msgstr ""
+
+#: core/views/settings/messages_setting_tab.php:130
+msgid "No Appointment Available to Cancel"
+msgstr "No hay Cita Disponible para Cancelar"
+
+#: core/views/settings/messages_setting_tab.php:40
+msgid "No appointment date selected for the booking"
+msgstr "No se ha seleccionado ninguna fecha para la reserva de turno"
+
+#: core/views/settings/messages_setting_tab.php:50
+msgid "No appointment time selected for the booking"
+msgstr "No hay hora seleccionada para la reserva del turno"
+
+#: core/classes/class.bookingpress_notifications.php:575
+msgid "No data received"
+msgstr "No hay datos recibidos"
+
+#: core/views/settings/messages_setting_tab.php:100
+msgid "No payment method available"
+msgstr "Ningún método de pago disponible"
+
+#: core/views/settings/messages_setting_tab.php:60
+msgid "No payment method is selected for the booking"
+msgstr "Ningún método de pago seleccionado para la reserva"
+
+#: core/views/appointment/manage_appointment.php:93
+#: core/views/customers/manage_customers.php:49
+#: core/views/dashboard/manage_dashboard.php:81
+#: core/views/payment/manage_payment.php:67
+#: core/views/services/manage_services.php:67
+#: core/views/settings/debug_log_settings.php:209
+msgid "No Record Found!"
+msgstr "No Hay Registro Encontrado!"
+
+#: core/views/services/manage_services.php:246
+msgid "No Records Found!"
+msgstr ""
+
+#: core/views/settings/messages_setting_tab.php:30
+msgid "No service selected for the booking"
+msgstr "Hay servicio de los seleccionados para la reserva"
+
+#: core/views/settings/messages_setting_tab.php:110
+msgid "No timeslots available for booking"
+msgstr "No hay horarios disponibles para reserva"
+
+#: core/views/customers/manage_customers.php:388
+#: core/views/notifications/manage_notifications.php:137
+#: core/views/settings/payment_setting_tab.php:58
+#: core/views/settings/payment_setting_tab.php:225
+msgid "Note"
+msgstr "Nota"
+
+#: core/classes/class.bookingpress_appointment.php:158
+msgid "Notification sent successfully"
+msgstr "Notificación enviada con éxito"
+
+#: core/views/bookingpress_header.php:111
+#: core/views/settings/notification_setting_tab.php:4
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: core/views/settings/payment_setting_tab.php:108
+msgid "Number of decimals"
+msgstr "Número de decimales"
+
+#: core/views/notifications/manage_notifications.php:19
+msgid "On Approval"
+msgstr "Aprobación de turnos"
+
+#: core/views/notifications/manage_notifications.php:34
+msgid "On Cancellation"
+msgstr "Cancelación de turno"
+
+#: core/views/notifications/manage_notifications.php:24
+msgid "On Pending"
+msgstr "En Espera"
+
+#: core/views/notifications/manage_notifications.php:29
+msgid "On Rejection"
+msgstr "Rechazo de turnos"
+
+#: core/views/settings/payment_setting_tab.php:125
+msgid "On Site"
+msgstr "En El Sitio"
+
+#: core/views/settings/debug_log_settings.php:37
+msgid "On Site method"
+msgstr "En el Sitio de método"
+
+#: core/views/settings/debug_log_settings.php:49
+msgid "On-Site"
+msgstr "En El Sitio"
+
+#: core/views/settings/daysoff_setting_tab.php:18
+msgid "Once Off"
+msgstr "Una Vez Fuera De"
+
+#: core/views/services/manage_services.php:120
+msgid "One or more appointments are associated with this service,"
+msgstr "Uno o más turnos están asociados a este servicio,"
+
+#: core/views/appointment/manage_appointment.php:717
+#: core/views/customers/manage_customers.php:214
+#: core/views/payment/manage_payment.php:510
+#: core/views/settings/debug_log_settings.php:229
+msgid "out of"
+msgstr "de"
+
+#: core/classes/class.bookingpress_global_options.php:471
+msgid "Paid"
+msgstr "Pagado"
+
+#: core/views/payment/manage_payment.php:604
+msgid "Paid Amount"
+msgstr "Importe Pagado"
+
+#: core/views/payment/manage_payment.php:171
+msgid "paid by admin"
+msgstr "pago en recepción"
+
+#: core/views/customers/manage_customers.php:335
+#: core/views/settings/notification_setting_tab.php:128
+#: core/views/settings/notification_setting_tab.php:132
+msgid "Password"
+msgstr "Contraseña"
+
+#: core/views/payment/manage_payment.php:624
+msgid "Payer Email"
+msgstr "Pagador De Correo Electrónico"
+
+#: core/views/appointment/manage_appointment.php:278
+#: core/views/dashboard/manage_dashboard.php:261
+msgid "Payment"
+msgstr "Pago"
+
+#: core/views/settings/debug_log_settings.php:31
+msgid "Payment Debug Logs"
+msgstr "Pago De Registros De Depuración"
+
+#: core/views/appointment/manage_appointment.php:224
+#: core/views/appointment/manage_appointment.php:439
+#: core/views/appointment/manage_appointment.php:640
+#: core/views/dashboard/manage_dashboard.php:203
+#: core/views/dashboard/manage_dashboard.php:403
+#: core/views/dashboard/manage_dashboard.php:586
+#: core/views/payment/manage_payment.php:86
+#: core/views/payment/manage_payment.php:247
+#: core/views/payment/manage_payment.php:393
+msgid "Payment Details"
+msgstr "Detalles del Pago"
+
+#: core/views/payment/manage_payment.php:594
+#, fuzzy
+#| msgid "Payment Date"
+msgid "Payment Gateway"
+msgstr "Fecha de Pago"
+
+#: core/views/appointment/manage_appointment.php:227
+#: core/views/appointment/manage_appointment.php:442
+#: core/views/appointment/manage_appointment.php:643
+#: core/views/dashboard/manage_dashboard.php:206
+#: core/views/dashboard/manage_dashboard.php:406
+#: core/views/dashboard/manage_dashboard.php:589
+#: core/views/settings/payment_setting_tab.php:156
+msgid "Payment Method"
+msgstr "Método De Pago"
+
+#: core/views/settings/payment_setting_tab.php:120
+msgid "Payment Method Settings"
+msgstr "Configuración del Método de Pago"
+
+#: core/views/settings/payment_setting_tab.php:147
+msgid "Payment Mode"
+msgstr "Modo De Pago"
+
+#: core/views/settings/payment_setting_tab.php:9
+msgid "Payment Settings"
+msgstr "Configuración de los Pagos"
+
+#: core/views/payment/manage_payment.php:37
+#: core/views/payment/manage_payment.php:575
+msgid "Payment Status"
+msgstr "Estado del Pago"
+
+#: core/classes/class.bookingpress_payment.php:57
+#| msgid "Coupon status change successfully"
+msgid "Payment status change successfully"
+msgstr "Cambio de estado del pago con éxito"
+
+#: core/classes/class.bookingpress_payment.php:829
+#: core/classes/class.bookingpress_payment.php:878
+msgid "Payment Transaction has been deleted successfully."
+msgstr "Transacción de  pago borrada correctamente."
+
+#: core/views/bookingpress_header.php:72
+#: core/views/settings/payment_setting_tab.php:4
+msgid "Payments"
+msgstr "Pagos"
+
+#: core/views/settings/payment_setting_tab.php:136
+msgid "PayPal"
+msgstr "PayPal"
+
+#: core/views/settings/debug_log_settings.php:123
+msgid "Paypal"
+msgstr "Paypal"
+
+#: autoload.php:72 core/classes/class.bookingpress_global_options.php:475
+#: core/classes/class.bookingpress_global_options.php:485
+msgid "Pending"
+msgstr "Pendiente"
+
+#: core/views/dashboard/manage_dashboard.php:33
+msgid "Pending Appointments"
+msgstr "Turnos pendientes"
+
+#: core/views/appointment/manage_appointment.php:719
+#: core/views/customers/manage_customers.php:216
+#: core/views/payment/manage_payment.php:512
+msgid "Per Page"
+msgstr "Por Página"
+
+#: core/views/customers/manage_customers.php:77
+#: core/views/customers/manage_customers.php:127
+#: core/views/customers/manage_customers.php:376
+#: core/views/settings/company_setting_tab.php:77
+msgid "Phone"
+msgstr "Teléfono"
+
+#: core/views/wizard/manage_wizard.php:81
+msgid "Phone No"
+msgstr "El Teléfono No"
+
+#: core/views/settings/notification_setting_tab.php:46
+msgid "PHP mail() function"
+msgstr "PHP mail() de la función"
+
+#: core/views/customize/manage_form_field_customize.php:56
+#: core/views/customize/manage_form_field_customize.php:115
+msgid "Placeholder"
+msgstr "Marcador de posición"
+
+#: core/classes/class.bookingpress_notifications.php:48
+#: core/classes/class.bookingpress_notifications.php:157
+msgid "Placeholder copied"
+msgstr ""
+
+#: core/views/notifications/manage_notifications.php:137
+msgid "Please add <br /> in the email message to add a new line"
+msgstr ""
+
+#: core/classes/class.bookingpress_service_categories.php:452
+msgid "Please add valid data for category name"
+msgstr "Por favor agregue datos válidos para el nombre de la categoría."
+
+#: core/classes/class.bookingpress_service_categories.php:66
+msgid "Please enter category name"
+msgstr "Por favor ingrese el nombre de la Categoria"
+
+#: core/classes/class.bookingpress_appointment.php:536
+msgid "Please enter email address"
+msgstr "Por favor, introduzca la dirección de correo electrónico"
+
+#: core/classes/class.bookingpress_calendar.php:698
+msgid "Please fill all required values"
+msgstr "Por favor rellena todos los campos requeridos "
+
+#: core/classes/class.bookingpress_fileupload_class.php:38
+msgid "Please select a file to process"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:945
+#: core/classes/class.bookingpress_payment.php:418
+#: core/classes/class.bookingpress_service_categories.php:277
+msgid "Please select any action."
+msgstr "Por favor, seleccione cualquier acción."
+
+#: core/classes/class.bookingpress_appointment.php:320
+#: core/classes/class.bookingpress_calendar.php:156
+msgid "Please select booking date"
+msgstr "Por favor seleccione la fecha de reserva"
+
+#: core/classes/class.bookingpress_appointment.php:327
+#: core/classes/class.bookingpress_calendar.php:163
+msgid "Please select booking time"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:306
+#: core/classes/class.bookingpress_calendar.php:142
+msgid "Please select customer"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:145
+#: core/classes/class.bookingpress_fileupload_class.php:154
+msgid "Please select image file only."
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:989
+#: core/classes/class.bookingpress_payment.php:462
+#: core/classes/class.bookingpress_service_categories.php:320
+msgid "Please select one or more records."
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:529
+msgid "Please select page"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:313
+#: core/classes/class.bookingpress_appointment.php:522
+#: core/classes/class.bookingpress_calendar.php:149
+msgid "Please select service"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:1096
+#: core/classes/class.bookingpress_calendar.php:1190
+msgid "Please select service to get available date and time slots."
+msgstr "Seleccione el servicio para obtener las fechas y horarios disponibles."
+
+#: core/views/bookingpress_tinymce_options_shortcodes.php:18
+msgid "Please select shortcode which you want to add in a page/post"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:165
+msgid "Please set extensions to validate file."
+msgstr ""
+
+#: core/views/customers/manage_customers.php:295
+#: core/views/services/manage_services.php:448
+#: core/views/settings/company_setting_tab.php:34
+#: core/views/wizard/manage_wizard.php:98
+msgid "Please upload jpg/png/webp file"
+msgstr "Por favor subir jpg/png/archivo webp"
+
+#: core/views/settings/notification_setting_tab.php:96
+#: core/views/settings/notification_setting_tab.php:100
+msgid "Port"
+msgstr "Puerto"
+
+#: core/views/wizard/manage_wizard.php:269
+#: core/views/wizard/manage_wizard.php:341
+#: core/views/wizard/manage_wizard.php:408
+msgid "Prev"
+msgstr "Prev"
+
+#: core/views/payment/manage_payment.php:134
+#: core/views/payment/manage_payment.php:295
+#: core/views/services/manage_services.php:103
+msgid "Price"
+msgstr "Precio"
+
+#: core/views/services/manage_services.php:510
+msgid "Price:"
+msgstr "Precio:"
+
+#: core/views/wizard/manage_wizard.php:385
+msgid "Primary"
+msgstr "Primaria"
+
+#: core/views/addons/addons_list.php:34
+msgid "Read More"
+msgstr "Leer Más"
+
+#: core/views/bookingpress_main.php:127 core/views/bookingpress_main.php:139
+msgid "Read more"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:423
+msgid "Ready"
+msgstr "Listo"
+
+#: core/views/customers/manage_customers.php:78
+msgid "Recent Appointment"
+msgstr "Turnos recientes"
+
+#: core/views/customers/manage_customers.php:178
+msgid "Recent Appointment:"
+msgstr "La Reciente Cita De:"
+
+#: core/classes/class.bookingpress_global_options.php:493
+msgid "Rejected"
+msgstr "Rechazado"
+
+#: core/views/settings/daysoff_setting_tab.php:128
+msgid "Repeat Every Year"
+msgstr ""
+
+#: core/views/settings/daysoff_setting_tab.php:15
+msgid "Repeat Yearly"
+msgstr "Repita Anualmente"
+
+#. Author of the plugin
+msgid "Repute Infosystems"
+msgstr "La Reputación Infosystems"
+
+#: core/views/customize/manage_form_field_customize.php:42
+#: core/views/customize/manage_form_field_customize.php:105
+#, fuzzy
+#| msgid "is required"
+msgid "Required"
+msgstr "se requiere"
+
+#: core/views/appointment/manage_appointment.php:73
+#: core/views/customers/manage_customers.php:30
+#: core/views/payment/manage_payment.php:48
+#: core/views/services/manage_services.php:46
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: core/views/dashboard/manage_dashboard.php:37
+msgid "Revenue"
+msgstr "Ingresos"
+
+#: core/views/settings/workhours_setting_tab.php:33
+#: core/views/wizard/manage_wizard.php:219
+msgid "Saturday"
+msgstr "Sábado"
+
+#: core/views/appointment/manage_appointment.php:762
+#: core/views/calendar/manage_calendar.php:176
+#: core/views/customers/manage_customers.php:260
+#: core/views/customize/manage_form_field_customize.php:68
+#: core/views/customize/manage_form_field_customize.php:127
+#: core/views/dashboard/manage_dashboard.php:672
+#: core/views/notifications/manage_notifications.php:56
+#: core/views/services/manage_services.php:376
+#: core/views/services/manage_services.php:402
+#: core/views/settings/company_setting_tab.php:17
+#: core/views/settings/daysoff_setting_tab.php:143
+#: core/views/settings/debug_log_settings.php:17
+#: core/views/settings/general_setting_tab.php:14
+#: core/views/settings/messages_setting_tab.php:15
+#: core/views/settings/notification_setting_tab.php:14
+#: core/views/settings/payment_setting_tab.php:14
+#: core/views/settings/workhours_setting_tab.php:14
+#: core/views/settings/workhours_setting_tab.php:142
+msgid "Save"
+msgstr "Guardar"
+
+#: core/views/customize/manage_form_field_customize.php:9
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: core/views/bookingpress_header.php:203
+msgid "Scale your appointment scheduling business"
+msgstr ""
+
+#: core/views/customers/manage_customers.php:25
+msgid "Search customer"
+msgstr "Buscar paciente"
+
+#: core/views/appointment/manage_appointment.php:67
+msgid "Search for customers, services..."
+msgstr "Búsqueda de clientes, servicios..."
+
+#: core/views/appointment/manage_appointment.php:914
+msgid "Search for Page"
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:106
+msgid "Secure connection"
+msgstr "Conexión segura"
+
+#: core/views/appointment/manage_appointment.php:739
+#: core/views/customers/manage_customers.php:236
+#: core/views/payment/manage_payment.php:533
+#: core/views/services/manage_services.php:200
+msgid "Select"
+msgstr "Seleccione"
+
+#: core/views/importexport/import_export_tab.php:49
+msgid "Select ALL"
+msgstr "Seleccionar todos"
+
+#: core/views/services/manage_services.php:478
+msgid "Select Category"
+msgstr "Seleccionar Categoria"
+
+#: core/views/services/manage_services.php:37
+#: core/views/services/manage_services.php:476
+msgid "Select category"
+msgstr "Seleccionar Categoria"
+
+#: core/views/wizard/manage_wizard.php:251
+msgid "Select Currency"
+msgstr "Seleccione La Moneda"
+
+#: core/views/appointment/manage_appointment.php:797
+#: core/views/calendar/manage_calendar.php:198
+#: core/views/dashboard/manage_dashboard.php:704
+msgid "Select Customer"
+msgstr "Seleccionar paciente"
+
+#: core/views/wizard/manage_wizard.php:60
+msgid "Select date format"
+msgstr "Seleccione el formato de fecha"
+
+#: core/views/importexport/import_export_tab.php:39
+msgid "Select Export Data"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:368
+msgid "Select Font"
+msgstr "Seleccione La Fuente"
+
+#: core/views/settings/debug_log_settings.php:60
+#: core/views/settings/debug_log_settings.php:134
+msgid "Select log duration to download"
+msgstr "Seleccione duración del registro para descargar"
+
+#: core/views/appointment/manage_appointment.php:912
+#, fuzzy
+#| msgid "Select Date"
+msgid "Select Page"
+msgstr "Seleccione La Fecha"
+
+#: core/views/settings/notification_setting_tab.php:110
+msgid "Select secure"
+msgstr "Seleccione segura"
+
+#: core/widgets/bookingpress_element_add.php:68
+#: core/views/appointment/manage_appointment.php:809
+#: core/views/appointment/manage_appointment.php:812
+#: core/views/appointment/manage_appointment.php:926
+#: core/views/appointment/manage_appointment.php:928
+#: core/views/calendar/manage_calendar.php:210
+#: core/views/dashboard/manage_dashboard.php:716
+msgid "Select Service"
+msgstr "Seleccione el servicio"
+
+#: core/classes/class.bookingpress_appointment.php:442
+#: core/views/appointment/manage_appointment.php:44
+#: core/views/calendar/manage_calendar.php:213
+#: core/views/dashboard/manage_dashboard.php:718
+#: core/views/payment/manage_payment.php:29
+msgid "Select service"
+msgstr ""
+
+#: core/classes/class.bookingpress_calendar.php:777
+msgid "Select Services"
+msgstr "Seleccione los servicios"
+
+#: core/views/bookingpress_tinymce_options_shortcodes.php:21
+msgid "Select shortcode"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:270
+#: core/views/appointment/manage_appointment.php:487
+#: core/views/appointment/manage_appointment.php:682
+#: core/views/appointment/manage_appointment.php:850
+#: core/views/calendar/manage_calendar.php:251
+#: core/views/dashboard/manage_dashboard.php:253
+#: core/views/dashboard/manage_dashboard.php:450
+#: core/views/dashboard/manage_dashboard.php:627
+#: core/views/dashboard/manage_dashboard.php:755
+#: core/views/payment/manage_payment.php:185
+#: core/views/payment/manage_payment.php:337
+#: core/views/payment/manage_payment.php:475
+msgid "Select Status"
+msgstr "Seleccione Estado"
+
+#: core/views/appointment/manage_appointment.php:54
+#: core/views/payment/manage_payment.php:39
+#| msgid "Select Staff"
+msgid "Select status"
+msgstr "Seleccionar estado"
+
+#: core/views/appointment/manage_appointment.php:838
+#: core/views/calendar/manage_calendar.php:239
+#: core/views/dashboard/manage_dashboard.php:743
+msgid "Select Time"
+msgstr "Seleccione El Tiempo"
+
+#: core/views/wizard/manage_wizard.php:53
+msgid "Select Time Format"
+msgstr "Seleccione El Formato De Hora"
+
+#: core/views/wizard/manage_wizard.php:73
+msgid "Select your country"
+msgstr "Seleccione su país"
+
+#: core/views/notifications/manage_notifications.php:98
+#: core/views/notifications/manage_notifications.php:102
+msgid "Send Notification"
+msgstr "Enviar Notificación"
+
+#: core/views/settings/notification_setting_tab.php:225
+#: core/views/settings/notification_setting_tab.php:278
+#: core/views/settings/notification_setting_tab.php:330
+msgid "Send Test Email"
+msgstr "Enviar Correo Electrónico De Prueba"
+
+#: core/views/settings/notification_setting_tab.php:200
+#: core/views/settings/notification_setting_tab.php:253
+#: core/views/settings/notification_setting_tab.php:305
+msgid "Send test email notification"
+msgstr "Enviar correo electrónico de prueba de la notificación"
+
+#: core/views/settings/notification_setting_tab.php:66
+msgid "Sender email"
+msgstr "Correo electrónico del remitente"
+
+#: core/views/settings/notification_setting_tab.php:56
+msgid "Sender name"
+msgstr "Nombre del remitente"
+
+#: core/views/appointment/manage_appointment.php:42
+#: core/views/appointment/manage_appointment.php:258
+#: core/views/appointment/manage_appointment.php:476
+#: core/views/dashboard/manage_dashboard.php:241
+#: core/views/dashboard/manage_dashboard.php:439
+#: core/views/notifications/manage_notifications.php:162
+#: core/views/payment/manage_payment.php:27
+#: core/views/payment/manage_payment.php:125
+#: core/views/payment/manage_payment.php:166
+#: core/views/payment/manage_payment.php:286
+#: core/views/payment/manage_payment.php:326
+#: core/views/payment/manage_payment.php:584
+#: core/views/wizard/manage_wizard.php:282
+msgid "Service"
+msgstr "Servicio"
+
+#: core/views/services/manage_services.php:35
+msgid "Service Category"
+msgstr "Categoria de Servicio"
+
+#: core/views/services/manage_services.php:29
+msgid "Service Name"
+msgstr "Nombre del Servicio"
+
+#: core/views/services/manage_services.php:463
+msgid "Service Name:"
+msgstr "Nombre del Servicio:"
+
+#: core/views/wizard/manage_wizard.php:286
+msgid "Service Options"
+msgstr "Opciones De Servicio"
+
+#: core/views/bookingpress_header.php:98
+msgid "Services"
+msgstr "Servicios"
+
+#: core/views/bookingpress_header.php:160
+msgid "Settings"
+msgstr "Configuración"
+
+#: core/views/appointment/manage_appointment.php:1001
+msgid "Share"
+msgstr "Compartir"
+
+#: core/views/appointment/manage_appointment.php:897
+#| msgid "Last Appointment"
+msgid "Share Appointment"
+msgstr "Compartir Turno"
+
+#: core/views/notifications/manage_notifications.php:36
+#| msgid "Share Appointment URL Notification"
+msgid "Share Appointment Notification"
+msgstr "Compartir notificación de turno"
+
+#: core/views/notifications/manage_notifications.php:39
+msgid "Share Appointment URL"
+msgstr "Compartir URL de turno"
+
+#: core/views/settings/general_setting_tab.php:202
+#| msgid "Share timeslot between all services"
+msgid "Share time slot between all services"
+msgstr "Compartir intervalo de tiempo entre todos los servicios "
+
+#: core/views/appointment/manage_appointment.php:20
+msgid "Share URL"
+msgstr "Compartir URL"
+
+#: core/classes/class.bookingpress_appointment.php:215
+msgid "Share URL generated successfully"
+msgstr "URL compartida satisfactoriamente"
+
+#: core/views/appointment/manage_appointment.php:947
+msgid "Share With"
+msgstr "Compartir con"
+
+#: core/views/settings/general_setting_tab.php:56
+msgid "Show time as per service duration"
+msgstr "Mostrar la hora como por la duración del servicio"
+
+#: core/views/appointment/manage_appointment.php:717
+#: core/views/customers/manage_customers.php:214
+#: core/views/payment/manage_payment.php:510
+#: core/views/settings/debug_log_settings.php:229
+msgid "Showing"
+msgstr "Mostrando"
+
+#: core/views/bookingpress_header.php:204
+msgid "Simplify the booking experiences for your customers, automate employee"
+msgstr ""
+
+#: core/views/bookingpress_header.php:291
+msgid "Smooth two-way sync of bookings across calendars"
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:47
+msgid "SMTP method"
+msgstr "SMTP método"
+
+#: core/classes/class.bookingpress_email_notifications.php:78
+msgid "SMTP Test Email cannot sent successfully"
+msgstr "Email de prueba no se pudo enviar"
+
+#: core/views/settings/notification_setting_tab.php:362
+msgid "SMTP Test Full Log"
+msgstr "SMTP Prueba de Log Completo"
+
+#: core/views/services/manage_services.php:121
+msgid "so you will not be able to delete it"
+msgstr ""
+
+#: core/classes/class.bookingpress_addons.php:116
+msgid "Something went wrong while fetching list of addons"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:73
+#: core/classes/class.bookingpress_appointment.php:661
+#: core/classes/class.bookingpress_appointment.php:693
+#: core/classes/class.bookingpress_appointment.php:798
+#: core/classes/class.bookingpress_appointment.php:847
+#: core/classes/class.bookingpress_appointment.php:887
+#: core/classes/class.bookingpress_appointment.php:931
+#: core/classes/class.bookingpress_appointment.php:977
+#: core/classes/class.bookingpress_appointment.php:1139
+#: core/classes/class.bookingpress_appointment.php:1492
+#: core/classes/class.bookingpress_appointment.php:1535
+#: core/classes/class.bookingpress_calendar.php:494
+#: core/classes/class.bookingpress_calendar.php:847
+#: core/classes/class.bookingpress_calendar.php:889
+#: core/classes/class.bookingpress_calendar.php:1280
+#: core/classes/class.bookingpress_email_notifications.php:250
+#: core/classes/class.bookingpress_email_notifications.php:666
+#: core/classes/class.bookingpress_email_notifications.php:919
+#: core/classes/class.bookingpress_notifications.php:235
+#: core/classes/class.bookingpress_notifications.php:302
+#: core/classes/class.bookingpress_notifications.php:457
+#: core/classes/class.bookingpress_notifications.php:552
+#: core/classes/class.bookingpress_payment.php:174
+#: core/classes/class.bookingpress_payment.php:404
+#: core/classes/class.bookingpress_payment.php:450
+#: core/classes/class.bookingpress_payment.php:518
+#: core/classes/class.bookingpress_payment.php:549
+#: core/classes/class.bookingpress_payment.php:587
+#: core/classes/class.bookingpress_payment.php:823
+#: core/classes/class.bookingpress_payment.php:865
+#: core/classes/class.bookingpress_service_categories.php:211
+#: core/classes/class.bookingpress_service_categories.php:237
+#: core/classes/class.bookingpress_service_categories.php:263
+#: core/classes/class.bookingpress_service_categories.php:309
+#: core/classes/class.bookingpress_service_categories.php:418
+#: core/classes/class.bookingpress_service_categories.php:484
+#: core/classes/class.bookingpress_service_categories.php:526
+#: core/classes/class.bookingpress_service_categories.php:581
+#: core/classes/class.bookingpress_service_categories.php:632
+msgid "Something went wrong.."
+msgstr "Algo salió mal.."
+
+#: core/classes/class.bookingpress_growth_tools.php:95
+#: core/classes/class.bookingpress_growth_tools.php:178
+#: core/classes/class.bookingpress_growth_tools.php:260
+msgid "Somthing went wrong please try again later."
+msgstr ""
+
+#: core/classes/class.bookingpress-core.php:24
+#: core/classes/class.bookingpress-core.php:31
+msgid "Sorry! You do not have enough permission to perform this action"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:99
+#: core/classes/class.bookingpress_fileupload_class.php:109
+#: core/classes/class.bookingpress_fileupload_class.php:113
+msgid "Sorry, you don't have permission to perform this action."
+msgstr ""
+
+#: core/classes/class.bookingpress-core.php:40
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr ""
+"Lo siento, Su solicitud no puede ser procesada debido a razones de seguridad."
+
+#: core/classes/frontend/class.bookingpress_spam_protection.php:56
+msgid "Sorry, Your request can not process due to security reason."
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:120
+#: core/classes/class.bookingpress_fileupload_class.php:125
+msgid "Sorry, Your request could not be processed due to security reasons."
+msgstr ""
+
+#: core/classes/class.bookingpress_addons.php:104
+#: core/classes/class.bookingpress_appointment.php:63
+#: core/classes/class.bookingpress_appointment.php:146
+#: core/classes/class.bookingpress_appointment.php:203
+#: core/classes/class.bookingpress_appointment.php:1259
+#: core/classes/class.bookingpress_appointment.php:1479
+#: core/classes/class.bookingpress_appointment.php:1523
+#: core/classes/class.bookingpress_calendar.php:35
+#: core/classes/class.bookingpress_calendar.php:248
+#: core/classes/class.bookingpress_calendar.php:310
+#: core/classes/class.bookingpress_calendar.php:482
+#: core/classes/class.bookingpress_calendar.php:719
+#: core/classes/class.bookingpress_calendar.php:835
+#: core/classes/class.bookingpress_calendar.php:877
+#: core/classes/class.bookingpress_growth_tools.php:25
+#: core/classes/class.bookingpress_growth_tools.php:108
+#: core/classes/class.bookingpress_growth_tools.php:190
+#: core/classes/class.bookingpress_notifications.php:446
+#: core/classes/class.bookingpress_notifications.php:540
+#: core/classes/class.bookingpress_notifications.php:602
+#: core/classes/class.bookingpress_payment.php:37
+#: core/classes/class.bookingpress_payment.php:162
+#: core/classes/class.bookingpress_payment.php:652
+#: core/classes/class.bookingpress_payment.php:810
+#: core/classes/class.bookingpress_payment.php:853
+#: core/classes/class.bookingpress_payment.php:899
+#: core/classes/class.bookingpress_service_categories.php:354
+#: core/classes/class.bookingpress_service_categories.php:404
+#: core/classes/class.bookingpress_service_categories.php:471
+#: core/classes/class.bookingpress_service_categories.php:513
+#: core/classes/class.bookingpress_service_categories.php:569
+#: core/classes/class.bookingpress_service_categories.php:618
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Lo siento. Algo salió mal durante la tramitación de la solicitud"
+
+#: core/views/services/manage_services.php:247
+msgid "Start by clicking the Add New button"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:33
+#: core/views/dashboard/manage_dashboard.php:16
+#: core/views/payment/manage_payment.php:18
+#: core/views/settings/debug_log_settings.php:71
+#: core/views/settings/debug_log_settings.php:145
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: core/views/settings/general_setting_tab.php:80
+#: core/views/settings/general_setting_tab.php:94
+#: core/views/settings/general_setting_tab.php:107
+#: core/views/settings/workhours_setting_tab.php:41
+#: core/views/settings/workhours_setting_tab.php:113
+#: core/views/settings/workhours_setting_tab.php:115
+msgid "Start Time"
+msgstr "Hora De Inicio"
+
+#: core/views/appointment/manage_appointment.php:37
+#: core/views/appointment/manage_appointment.php:799
+#: core/views/calendar/manage_calendar.php:200
+#: core/views/dashboard/manage_dashboard.php:706
+#: core/views/payment/manage_payment.php:22
+#| msgid "Start typing to fetch Customer"
+msgid "Start typing to fetch customer"
+msgstr "Comenzar a escribir para buscar paciente"
+
+#: core/views/customers/manage_customers.php:313
+msgid "Start typing to fetch user."
+msgstr "Comenzar a escribir para recuperar el usuario."
+
+#: core/views/appointment/manage_appointment.php:52
+#: core/views/appointment/manage_appointment.php:231
+#: core/views/appointment/manage_appointment.php:260
+#: core/views/appointment/manage_appointment.php:446
+#: core/views/appointment/manage_appointment.php:477
+#: core/views/appointment/manage_appointment.php:647
+#: core/views/dashboard/manage_dashboard.php:210
+#: core/views/dashboard/manage_dashboard.php:243
+#: core/views/dashboard/manage_dashboard.php:410
+#: core/views/dashboard/manage_dashboard.php:440
+#: core/views/dashboard/manage_dashboard.php:593
+#: core/views/payment/manage_payment.php:116
+#: core/views/payment/manage_payment.php:175
+#: core/views/payment/manage_payment.php:277
+#: core/views/payment/manage_payment.php:327
+msgid "Status"
+msgstr "Estado"
+
+#: core/views/importexport/import_export_tab.php:105
+msgid "Stop Export"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:354
+#: core/views/wizard/manage_wizard.php:358
+msgid "Styling"
+msgstr "Estilo"
+
+#: core/views/wizard/manage_wizard.php:393
+msgid "Sub Title"
+msgstr "Sub Título"
+
+#: core/classes/class.bookingpress_addons.php:162
+#: core/classes/class.bookingpress_appointment.php:94
+#: core/classes/class.bookingpress_appointment.php:157
+#: core/classes/class.bookingpress_appointment.php:214
+#: core/classes/class.bookingpress_appointment.php:710
+#: core/classes/class.bookingpress_appointment.php:1127
+#: core/classes/class.bookingpress_appointment.php:1499
+#: core/classes/class.bookingpress_appointment.php:1547
+#: core/classes/class.bookingpress_calendar.php:632
+#: core/classes/class.bookingpress_calendar.php:693
+#: core/classes/class.bookingpress_calendar.php:852
+#: core/classes/class.bookingpress_calendar.php:895
+#: core/classes/class.bookingpress_calendar.php:1253
+#: core/classes/class.bookingpress_growth_tools.php:89
+#: core/classes/class.bookingpress_growth_tools.php:172
+#: core/classes/class.bookingpress_growth_tools.php:254
+#: core/classes/class.bookingpress_notifications.php:511
+#: core/classes/class.bookingpress_notifications.php:579
+#: core/classes/class.bookingpress_payment.php:56
+#: core/classes/class.bookingpress_payment.php:196
+#: core/classes/class.bookingpress_payment.php:828
+#: core/classes/class.bookingpress_payment.php:877
+#: core/classes/class.bookingpress_service_categories.php:429
+#: core/classes/class.bookingpress_service_categories.php:447
+#: core/classes/class.bookingpress_service_categories.php:491
+#: core/classes/class.bookingpress_service_categories.php:545
+#: core/classes/class.bookingpress_service_categories.php:593
+#: core/classes/class.bookingpress_service_categories.php:657
+#: core/classes/frontend/class.bookingpress_spam_protection.php:66
+msgid "Success"
+msgstr "El éxito"
+
+#: core/views/settings/workhours_setting_tab.php:34
+#: core/views/wizard/manage_wizard.php:234
+msgid "Sunday"
+msgstr "Domingo"
+
+#: core/views/dashboard/manage_dashboard.php:48
+msgid "Technical Analysis"
+msgstr "Análisis técnicos"
+
+#: autoload.php:73
+msgid "Terminated"
+msgstr "Terminado"
+
+#: core/views/settings/notification_setting_tab.php:239
+#: core/views/settings/notification_setting_tab.php:292
+#: core/views/settings/notification_setting_tab.php:344
+msgid "Test Email Sent Successfully"
+msgstr "Correo De Prueba Enviado Con Éxito"
+
+#: core/classes/class.bookingpress_fileupload_class.php:314
+#: core/classes/class.bookingpress_fileupload_class.php:321
+msgid ""
+"The file could not be uploaded due to security reason as it contains "
+"malicious code"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:139
+msgid "The file could not be uploaded due to security reasons."
+msgstr ""
+
+#: core/classes/class.bookingpress_email_notifications.php:123
+msgid "The full debugging output is shown below:"
+msgstr ""
+
+#: core/views/settings/notification_setting_tab.php:52
+msgid ""
+"The Gmail mailer works well for sites that send low numbers of emails. "
+"However, Gmail's API has rate limitations and a number of additional "
+"restrictions that can lead to challenges during setup. If you expect to send "
+"a high volume of emails, or if you find that your web host is not compatible "
+"with the Gmail API restrictions, then we recommend considering a different "
+"mailer option."
+msgstr ""
+"El Gmail de correo funciona bien para los sitios que enviar un bajo número "
+"de mensajes de correo electrónico. Sin embargo, Gmail API tasa de "
+"limitaciones y una serie de restricciones adicionales que pueden conducir a "
+"los desafíos durante la instalación. Si usted espera para enviar un gran "
+"volumen de correos electrónicos, o si usted encuentra que su proveedor de "
+"alojamiento web no es compatible con la de Gmail restricciones de la API, a "
+"continuación, le recomendamos considerar diferentes mailer opción."
+
+#: core/classes/class.bookingpress_email_notifications.php:98
+msgid "The SMTP debugging output is shown below:"
+msgstr ""
+
+#: core/classes/class.bookingpress_fileupload_class.php:251
+msgid "There is an issue while uploading a file. Please try again"
+msgstr ""
+
+#: core/classes/class.bookingpress_service_categories.php:532
+msgid ""
+"This category can not be deleted because it has one or more services "
+"associated with it"
+msgstr ""
+"Esta categoría no se puede eliminar porque tiene uno o más servicios "
+"asociados"
+
+#: core/views/settings/payment_setting_tab.php:93
+msgid "Thousand Separator"
+msgstr "Separador De Miles"
+
+#: core/views/settings/workhours_setting_tab.php:31
+#: core/views/wizard/manage_wizard.php:189
+msgid "Thursday"
+msgstr "Jueves"
+
+#: core/views/appointment/manage_appointment.php:158
+#: core/views/appointment/manage_appointment.php:373
+#: core/views/appointment/manage_appointment.php:574
+#: core/views/dashboard/manage_dashboard.php:137
+#: core/views/dashboard/manage_dashboard.php:337
+#: core/views/dashboard/manage_dashboard.php:520
+#: core/views/payment/manage_payment.php:131
+#: core/views/payment/manage_payment.php:292
+msgid "Time"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:52
+msgid "Time Format"
+msgstr "Formato De Hora"
+
+#: core/views/settings/messages_setting_tab.php:90
+msgid "Time slot already booked"
+msgstr "Ranura de tiempo ya reservado"
+
+#: core/views/settings/general_setting_tab.php:69
+msgid "Timeslot Grouping Settings"
+msgstr ""
+
+#: core/views/wizard/manage_wizard.php:389
+msgid "Title"
+msgstr "Título"
+
+#: core/classes/class.bookingpress_appointment.php:1433
+#: core/views/settings/debug_log_settings.php:145
+#: core/views/settings/notification_setting_tab.php:203
+#: core/views/settings/notification_setting_tab.php:256
+#: core/views/settings/notification_setting_tab.php:308
+msgid "To"
+msgstr "A"
+
+#: core/views/payment/manage_payment.php:146
+#: core/views/payment/manage_payment.php:307
+#: core/views/payment/manage_payment.php:442
+#, fuzzy
+#| msgid "No"
+msgid "to"
+msgstr "No"
+
+#: core/views/notifications/manage_notifications.php:86
+msgid "To Admin"
+msgstr "A Admin"
+
+#: core/views/notifications/manage_notifications.php:81
+msgid "To Customer"
+msgstr "Para el paciente"
+
+#: core/views/calendar/manage_calendar.php:52
+msgid "Today"
+msgstr "Hoy"
+
+#: core/views/appointment/manage_appointment.php:235
+#: core/views/appointment/manage_appointment.php:450
+#: core/views/appointment/manage_appointment.php:651
+#: core/views/dashboard/manage_dashboard.php:214
+#: core/views/dashboard/manage_dashboard.php:414
+#: core/views/dashboard/manage_dashboard.php:597
+msgid "Total Amount"
+msgstr ""
+
+#: core/views/customers/manage_customers.php:80
+#: core/views/dashboard/manage_dashboard.php:25
+msgid "Total Appointments"
+msgstr "Total de turnos"
+
+#: core/views/customers/manage_customers.php:182
+msgid "Total Appointments:"
+msgstr "Total de turnos:"
+
+#: core/views/services/manage_services.php:264
+msgid "Total Services"
+msgstr ""
+
+#: core/views/payment/manage_payment.php:17
+msgid "Transaction Date"
+msgstr "Fecha de Transacción"
+
+#: core/views/payment/manage_payment.php:112
+#: core/views/payment/manage_payment.php:273
+#: core/views/payment/manage_payment.php:418
+#: core/views/payment/manage_payment.php:614
+#, fuzzy
+#| msgid "Transaction Id"
+msgid "Transaction ID"
+msgstr "Id De Transacción"
+
+#: core/views/settings/workhours_setting_tab.php:29
+#: core/views/wizard/manage_wizard.php:159
+msgid "Tuesday"
+msgstr "Martes"
+
+#: core/views/bookingpress_header.php:307
+msgid "Understand your business better with reports"
+msgstr "Comprenda mejor su negocio con informes"
+
+#: core/views/bookingpress_header.php:198
+msgid "Unlock the Powerful Pro Features"
+msgstr ""
+
+#: core/views/settings/messages_setting_tab.php:80
+msgid "Unsupported currency selected for the payment"
+msgstr "Moneda seleccionada no compatible para el pago"
+
+#: core/views/dashboard/manage_dashboard.php:68
+msgid "Upcoming Appointments"
+msgstr "Próximos Turnos"
+
+#: core/views/bookingpress_header.php:360
+msgid "Upgrade to BookingPress Pro Now"
+msgstr ""
+
+#: bookingpress-appointment-booking.php:41
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: core/views/addons/addons_list.php:27
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: core/views/appointment/manage_appointment.php:980
+msgid "URL"
+msgstr ""
+
+#: core/classes/class.bookingpress_appointment.php:711
+msgid "URL copied successfully."
+msgstr "Dirección web copiada"
+
+#: core/views/wizard/manage_wizard.php:494
+msgid "Useful Links"
+msgstr "Enlaces Útiles"
+
+#: core/views/customers/manage_customers.php:343
+#: core/views/settings/notification_setting_tab.php:118
+#: core/views/settings/notification_setting_tab.php:122
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: core/views/payment/manage_payment.php:551
+msgid "View Details"
+msgstr ""
+
+#: core/views/settings/debug_log_settings.php:49
+#: core/views/settings/debug_log_settings.php:123
+msgid "View log"
+msgstr "Ver registro"
+
+#: core/classes/class.bookingpress_service_categories.php:531
+#, fuzzy
+#| msgid "Warning"
+msgid "warning"
+msgstr "Advertencia"
+
+#: core/views/settings/company_setting_tab.php:66
+#: core/views/wizard/manage_wizard.php:87
+msgid "Website"
+msgstr "Sitio web"
+
+#: core/views/settings/workhours_setting_tab.php:30
+#: core/views/wizard/manage_wizard.php:174
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: core/views/calendar/manage_calendar.php:37
+msgid "Week"
+msgstr "La semana"
+
+#: core/views/settings/notification_setting_tab.php:45
+#, fuzzy
+#| msgid "Wordpress default"
+msgid "WordPress default"
+msgstr "Wordpress por defecto"
+
+#: core/views/customers/manage_customers.php:311
+msgid "WordPress User"
+msgstr "Usuario de Wordpress"
+
+#: core/views/settings/workhours_setting_tab.php:4
+#: core/views/settings/workhours_setting_tab.php:9
+msgid "Working Hours"
+msgstr "Las Horas De Trabajo"
+
+#: core/views/wizard/manage_wizard.php:32
+#: core/views/wizard/manage_wizard.php:36
+msgid "Your Site"
+msgstr "Su Sitio"
+
+#: core/views/wizard/manage_wizard.php:466
+msgid "Your site is ready & below are the details"
+msgstr "Su sitio está listo y a continuación están los detalles"
+
+#: core/views/bookingpress_main.php:71
+msgid "YouTube Channel"
+msgstr ""

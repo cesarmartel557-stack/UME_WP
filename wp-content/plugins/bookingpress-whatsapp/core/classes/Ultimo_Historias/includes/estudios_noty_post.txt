@@ -1,0 +1,329 @@
+
+ ESTUDIOnoty: parametros
+Array
+(
+    [0] => Array
+        (
+            [token] => TK_17994ea04a3b0ee6d9275bd8fbede54373eba171faff364813ef652b702d763a
+            [secret] => SK_MngwZ3JGTzBGbDRrZjdJcEp4TjdjQ0VSYm95disvd0E2ZFhxT1ZKdDVIUT06OlPNAjVPk1JoRrhc82Jy1Sc=
+            [a] => 
+            [x] => 3
+        )
+
+    [1] => Array
+        (
+            [accept] => Array
+                (
+                    [0] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                )
+
+            [accept_encoding] => Array
+                (
+                    [0] => gzip, deflate, br, zstd
+                )
+
+            [accept_language] => Array
+                (
+                    [0] => es-419,es;q=0.9,en;q=0.8
+                )
+
+            [cookie] => Array
+                (
+                    [0] => PHPSESSID=hrm43p695rrii8utml9m8p79t2; wordpress_test_cookie=WP%20Cookie%20check; wp_lang=es_ES; bookingpress_staffmember_view=customize_view; _ga=GA1.3.1983707855.1764945758; _ga_9Q6H0QETRF=GS2.3.s1764945758$o1$g0$t1764945758$j60$l0$h0; wp-settings-1=edit_element_vcUIPanelWidth%3D650%26ampampampedit_element_vcUIPanelLeft%3D720px%26ampampampedit_element_vcUIPanelTop%3D74px%26ampampampeditor%3Dtinymce%26ampampamplibraryContent%3Dbrowse%26ampampampmfold%3Do%26libraryContent%3Dbrowse%26editor_expand%3Doff%26editor%3Dhtml%26edit_element_vcUIPanelLeft%3D699px%26edit_element_vcUIPanelTop%3D74px%26hidetb%3D1%26mfold%3Do; wp-settings-time-1=1768346202
+                )
+
+            [host] => Array
+                (
+                    [0] => turnos2.clinicaume.com.ar
+                )
+
+            [user_agent] => Array
+                (
+                    [0] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+                )
+
+            [sec_ch_ua] => Array
+                (
+                    [0] => "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+                )
+
+            [sec_ch_ua_mobile] => Array
+                (
+                    [0] => ?0
+                )
+
+            [sec_ch_ua_platform] => Array
+                (
+                    [0] => "Windows"
+                )
+
+            [upgrade_insecure_requests] => Array
+                (
+                    [0] => 1
+                )
+
+            [sec_fetch_site] => Array
+                (
+                    [0] => cross-site
+                )
+
+            [sec_fetch_mode] => Array
+                (
+                    [0] => navigate
+                )
+
+            [sec_fetch_user] => Array
+                (
+                    [0] => ?1
+                )
+
+            [sec_fetch_dest] => Array
+                (
+                    [0] => document
+                )
+
+            [priority] => Array
+                (
+                    [0] => u=0, i
+                )
+
+            [authorization] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+)
+
+
+ ESTUDIOnoty: post
+ Array
+(
+)
+
+
+ ESTUDIOnoty: input
+ 
+TEST MAX
+--------------------------------------
+
+
+ ESTUDIOnoty: parametros
+Array
+(
+    [0] => Array
+        (
+            [token] => TK_17994ea04a3b0ee6d9275bd8fbede54373eba171faff364813ef652b702d763a
+            [secret] => SK_MngwZ3JGTzBGbDRrZjdJcEp4TjdjQ0VSYm95disvd0E2ZFhxT1ZKdDVIUT06OlPNAjVPk1JoRrhc82Jy1Sc=
+            [a] => 
+            [x] => 3
+        )
+
+    [1] => Array
+        (
+            [accept] => Array
+                (
+                    [0] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                )
+
+            [accept_encoding] => Array
+                (
+                    [0] => gzip, deflate, br, zstd
+                )
+
+            [accept_language] => Array
+                (
+                    [0] => es-419,es;q=0.9,en;q=0.8
+                )
+
+            [cookie] => Array
+                (
+                    [0] => PHPSESSID=hrm43p695rrii8utml9m8p79t2; wordpress_test_cookie=WP%20Cookie%20check; wp_lang=es_ES; bookingpress_staffmember_view=customize_view; _ga=GA1.3.1983707855.1764945758; _ga_9Q6H0QETRF=GS2.3.s1764945758$o1$g0$t1764945758$j60$l0$h0; wordpress_logged_in_5912becba71be1a6eb834b5a879277f0=fwxggo%7C1769266073%7CfqmfLq2FejIxOS8LHE5YDgOBl5xNFz52fxsrem63tkI%7Cad1753c73755d95c8bc658cd15caae0283071c4908e761a00907d129980417d8; wp-settings-1=edit_element_vcUIPanelWidth%3D650%26ampampampedit_element_vcUIPanelLeft%3D720px%26ampampampedit_element_vcUIPanelTop%3D74px%26ampampampeditor%3Dtinymce%26ampampamplibraryContent%3Dbrowse%26ampampampmfold%3Do%26libraryContent%3Dbrowse%26editor_expand%3Doff%26editor%3Dhtml%26edit_element_vcUIPanelLeft%3D699px%26edit_element_vcUIPanelTop%3D74px%26hidetb%3D1%26mfold%3Do; wp-settings-time-1=1769093273
+                )
+
+            [host] => Array
+                (
+                    [0] => turnos2.clinicaume.com.ar
+                )
+
+            [user_agent] => Array
+                (
+                    [0] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+                )
+
+            [sec_ch_ua] => Array
+                (
+                    [0] => "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+                )
+
+            [sec_ch_ua_mobile] => Array
+                (
+                    [0] => ?0
+                )
+
+            [sec_ch_ua_platform] => Array
+                (
+                    [0] => "Windows"
+                )
+
+            [upgrade_insecure_requests] => Array
+                (
+                    [0] => 1
+                )
+
+            [sec_fetch_site] => Array
+                (
+                    [0] => cross-site
+                )
+
+            [sec_fetch_mode] => Array
+                (
+                    [0] => navigate
+                )
+
+            [sec_fetch_user] => Array
+                (
+                    [0] => ?1
+                )
+
+            [sec_fetch_dest] => Array
+                (
+                    [0] => document
+                )
+
+            [priority] => Array
+                (
+                    [0] => u=0, i
+                )
+
+            [authorization] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+)
+
+
+ ESTUDIOnoty: post
+ Array
+(
+)
+
+
+ ESTUDIOnoty: input
+ 
+
+--------------------------------------
+
+
+ ESTUDIOnoty: parametros
+Array
+(
+    [0] => Array
+        (
+            [token] => TK_17994ea04a3b0ee6d9275bd8fbede54373eba171faff364813ef652b702d763a
+            [secret] => SK_MngwZ3JGTzBGbDRrZjdJcEp4TjdjQ0VSYm95disvd0E2ZFhxT1ZKdDVIUT06OlPNAjVPk1JoRrhc82Jy1Sc=
+            [a] => 
+            [x] => 3
+        )
+
+    [1] => Array
+        (
+            [accept] => Array
+                (
+                    [0] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                )
+
+            [accept_encoding] => Array
+                (
+                    [0] => gzip, deflate, br, zstd
+                )
+
+            [accept_language] => Array
+                (
+                    [0] => es-419,es;q=0.9,en;q=0.8
+                )
+
+            [cookie] => Array
+                (
+                    [0] => PHPSESSID=hrm43p695rrii8utml9m8p79t2; wordpress_test_cookie=WP%20Cookie%20check; wp_lang=es_ES; bookingpress_staffmember_view=customize_view; _ga=GA1.3.1983707855.1764945758; _ga_9Q6H0QETRF=GS2.3.s1764945758$o1$g0$t1764945758$j60$l0$h0; wordpress_logged_in_5912becba71be1a6eb834b5a879277f0=fwxggo%7C1769266073%7CfqmfLq2FejIxOS8LHE5YDgOBl5xNFz52fxsrem63tkI%7Cad1753c73755d95c8bc658cd15caae0283071c4908e761a00907d129980417d8; wp-settings-1=edit_element_vcUIPanelWidth%3D650%26ampampampedit_element_vcUIPanelLeft%3D720px%26ampampampedit_element_vcUIPanelTop%3D74px%26ampampampeditor%3Dtinymce%26ampampamplibraryContent%3Dbrowse%26ampampampmfold%3Do%26libraryContent%3Dbrowse%26editor_expand%3Doff%26editor%3Dhtml%26edit_element_vcUIPanelLeft%3D699px%26edit_element_vcUIPanelTop%3D74px%26hidetb%3D1%26mfold%3Do; wp-settings-time-1=1769093273
+                )
+
+            [host] => Array
+                (
+                    [0] => turnos2.clinicaume.com.ar
+                )
+
+            [user_agent] => Array
+                (
+                    [0] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+                )
+
+            [sec_ch_ua] => Array
+                (
+                    [0] => "Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"
+                )
+
+            [sec_ch_ua_mobile] => Array
+                (
+                    [0] => ?0
+                )
+
+            [sec_ch_ua_platform] => Array
+                (
+                    [0] => "Windows"
+                )
+
+            [upgrade_insecure_requests] => Array
+                (
+                    [0] => 1
+                )
+
+            [sec_fetch_site] => Array
+                (
+                    [0] => cross-site
+                )
+
+            [sec_fetch_mode] => Array
+                (
+                    [0] => navigate
+                )
+
+            [sec_fetch_user] => Array
+                (
+                    [0] => ?1
+                )
+
+            [sec_fetch_dest] => Array
+                (
+                    [0] => document
+                )
+
+            [priority] => Array
+                (
+                    [0] => u=0, i
+                )
+
+            [authorization] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+)
+
+
+ ESTUDIOnoty: post
+ Array
+(
+)
+
+
+ ESTUDIOnoty: input
+ 
+
+--------------------------------------

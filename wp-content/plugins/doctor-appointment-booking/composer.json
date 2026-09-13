@@ -1,0 +1,17 @@
+{
+    "name": "creativeitem/doctor-appointment-booking",
+    "description": "This plugin manages doctor's chamber with patient appointment booking, prescription & billing. It supports multiple chambers for a single doctor.",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Creativeitem",
+            "email": "support@creativeitem.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Ctmdcd\\": "./inc"}
+    }
+}

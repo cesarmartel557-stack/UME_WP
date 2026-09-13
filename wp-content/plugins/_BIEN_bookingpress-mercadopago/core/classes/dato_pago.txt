@@ -1,0 +1,3210 @@
+
+
+ res: Array
+(
+    [bookingpress_is_cart] => 0
+    [entry_id] => 263
+)
+
+
+
+ res: Array
+(
+    [bookingpress_is_cart] => 0
+    [entry_id] => 264
+)
+
+
+
+ res: 263
+
+
+ res: 264
+
+
+ res: 264
+
+
+ res: 264
+
+
+ res: 264
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000003
+                    [last_name] => testt0000000003
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T19:32:34.000-04:00
+            [date_last_updated] => 2024-06-22T19:32:34.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T19:32:34.000-04:00
+                    [id] => 1318662322-001
+                    [last_updated] => 2024-06-22T19:32:34.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T19:32:34.495-04:00
+    [date_created] => 2024-06-22T19:32:34.273-04:00
+    [date_last_updated] => 2024-06-22T19:32:34.495-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-265
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1318662322
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 265
+        )
+
+    [money_release_date] => 2024-07-10T19:32:34.495-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20037904034
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 186.48.120.40
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 230
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => testt0000000002
+                    [last_name] => testt0000000002
+                )
+
+        )
+
+    [authorization_code] => 229549003
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.57.1
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 12345678
+                            [type] => DNI
+                        )
+
+                    [name] => APRO
+                )
+
+            [country] => 
+            [date_created] => 2024-06-22T17:23:00.000-04:00
+            [date_last_updated] => 2024-06-22T17:23:00.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2025
+            [first_six_digits] => 503175
+            [id] => 
+            [last_four_digits] => 0604
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 9.43
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-06-22T17:23:00.000-04:00
+                    [id] => 1324227245-001
+                    [last_updated] => 2024-06-22T17:23:00.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-06-22T17:23:00.826-04:00
+    [date_created] => 2024-06-22T17:23:00.597-04:00
+    [date_last_updated] => 2024-06-22T17:23:00.826-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-264
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 9.43
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 1324227245
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 3
+    [live_mode] => 
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 264
+        )
+
+    [money_release_date] => 2024-07-10T17:23:00.826-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20032466418
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [identification] => Array
+                (
+                    [number] => 32659430
+                    [type] => DNI
+                )
+
+            [entity_type] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [last_name] => 
+            [id] => 1870553526
+            [type] => 
+            [first_name] => 
+            [email] => test_user_80507629@testuser.com
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 5924780738444
+                        )
+
+                )
+
+            [id] => master
+            [issuer_id] => 3
+            [type] => credit_card
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 230
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 230
+            [net_received_amount] => 220.57
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 230
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 190.139.41.106
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 100
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => Cesar
+                    [last_name] => Azar
+                )
+
+        )
+
+    [authorization_code] => 355735
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.59.0
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [bin] => 411197
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 26969057
+                            [type] => DNI
+                        )
+
+                    [name] => CESAR MARTEL
+                )
+
+            [country] => ARG
+            [date_created] => 2024-07-05T19:41:51.000-04:00
+            [date_last_updated] => 2024-07-05T19:41:51.000-04:00
+            [expiration_month] => 8
+            [expiration_year] => 2025
+            [first_six_digits] => 411197
+            [id] => 9066624548
+            [last_four_digits] => 5282
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 4.1
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-07-05T19:41:50.000-04:00
+                    [id] => 81881132477-001
+                    [last_updated] => 2024-07-05T19:41:50.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-07-05T19:41:53.000-04:00
+    [date_created] => 2024-07-05T19:41:50.000-04:00
+    [date_last_updated] => 2024-07-05T19:41:53.000-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-291
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 4.1
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 81881132477
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 1
+    [live_mode] => 1
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 291
+        )
+
+    [money_release_date] => 2024-07-23T19:41:53.000-04:00
+    [money_release_schema] => 
+    [money_release_status] => pending
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20489474211
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [email] => cesarmartel012@gmail.com
+            [entity_type] => 
+            [first_name] => 
+            [id] => 189238100
+            [identification] => Array
+                (
+                    [number] => 20269690578
+                    [type] => CUIT
+                )
+
+            [last_name] => 
+            [operator_id] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [type] => 
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 1007
+                        )
+
+                )
+
+            [id] => debvisa
+            [issuer_id] => 1
+            [type] => debit_card
+        )
+
+    [payment_method_id] => debvisa
+    [payment_type_id] => debit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [location] => Array
+                (
+                    [source] => Payer
+                    [state_id] => AR-W
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                    [ticket_id] => 46029986159_776f76787f7b7b7f3d3c_P
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [release_info] => 
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => MERPAGO*GERARDOLOPEZF
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 100
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 100
+            [net_received_amount] => 95.9
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 100
+        )
+
+)
+
+
+
+ res: Array
+(
+    [accounts_info] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [authentication_code] => 
+            [available_balance] => 
+            [ip_address] => 190.139.41.106
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => 
+                            [description] => 
+                            [id] => 
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => Cardiología
+                            [unit_price] => 100
+                        )
+
+                )
+
+            [nsu_processadora] => 
+            [payer] => Array
+                (
+                    [first_name] => Cesar
+                    [last_name] => Azar
+                )
+
+        )
+
+    [authorization_code] => 355735
+    [binary_mode] => 
+    [brand_id] => 
+    [build_version] => 3.59.0
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [bin] => 411197
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 26969057
+                            [type] => DNI
+                        )
+
+                    [name] => CESAR MARTEL
+                )
+
+            [country] => ARG
+            [date_created] => 2024-07-05T19:41:51.000-04:00
+            [date_last_updated] => 2024-07-05T19:41:51.000-04:00
+            [expiration_month] => 8
+            [expiration_year] => 2025
+            [first_six_digits] => 411197
+            [id] => 9066624548
+            [last_four_digits] => 5282
+            [tags] => 
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [amounts] => Array
+                        (
+                            [original] => 4.1
+                            [refunded] => 0
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2024-07-05T19:41:50.000-04:00
+                    [id] => 81881132477-001
+                    [last_updated] => 2024-07-05T19:41:50.000-04:00
+                    [metadata] => Array
+                        (
+                        )
+
+                    [name] => mercadopago_fee
+                    [refund_charges] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [type] => fee
+                )
+
+        )
+
+    [collector_id] => 80679947
+    [corporation_id] => 
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => ARS
+    [date_approved] => 2024-07-05T19:41:53.000-04:00
+    [date_created] => 2024-07-05T19:41:50.000-04:00
+    [date_last_updated] => 2024-07-11T09:51:09.000-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => Cardiología
+    [differential_pricing_id] => 
+    [external_reference] => ref-291
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 4.1
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [financing_group] => 
+    [id] => 81881132477
+    [installments] => 1
+    [integrator_id] => 
+    [issuer_id] => 1
+    [live_mode] => 1
+    [marketplace_owner] => 
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+            [bookingpress_is_cart] => 0
+            [entry_id] => 291
+        )
+
+    [money_release_date] => 2024-07-11T09:51:09.000-04:00
+    [money_release_schema] => 
+    [money_release_status] => released
+    [notification_url] => https://www.turnos.sanatoriolomalinda.com.ar/?bookingpress-listener=bpa_pro_mercadopago_url
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+            [id] => 20489474211
+            [type] => mercadopago
+        )
+
+    [payer] => Array
+        (
+            [email] => cesarmartel012@gmail.com
+            [entity_type] => 
+            [first_name] => 
+            [id] => 189238100
+            [identification] => Array
+                (
+                    [number] => 20269690578
+                    [type] => CUIT
+                )
+
+            [last_name] => 
+            [operator_id] => 
+            [phone] => Array
+                (
+                    [number] => 
+                    [extension] => 
+                    [area_code] => 
+                )
+
+            [type] => 
+        )
+
+    [payment_method] => Array
+        (
+            [data] => Array
+                (
+                    [routing_data] => Array
+                        (
+                            [merchant_account_id] => 1007
+                        )
+
+                )
+
+            [id] => debvisa
+            [issuer_id] => 1
+            [type] => debit_card
+        )
+
+    [payment_method_id] => debvisa
+    [payment_type_id] => debit_card
+    [platform_id] => 
+    [point_of_interaction] => Array
+        (
+            [business_info] => Array
+                (
+                    [branch] => Merchant Services
+                    [sub_unit] => checkout_pro
+                    [unit] => online_payments
+                )
+
+            [location] => Array
+                (
+                    [source] => Payer
+                    [state_id] => AR-W
+                )
+
+            [transaction_data] => Array
+                (
+                    [e2e_id] => 
+                    [ticket_id] => 46029986159_776f76787f7b7b7f3d3c_P
+                )
+
+            [type] => CHECKOUT
+        )
+
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [release_info] => 
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => MERPAGO*GERARDOLOPEZF
+    [status] => approved
+    [status_detail] => accredited
+    [store_id] => 
+    [tags] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 100
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 100
+            [net_received_amount] => 95.9
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 100
+        )
+
+)
+

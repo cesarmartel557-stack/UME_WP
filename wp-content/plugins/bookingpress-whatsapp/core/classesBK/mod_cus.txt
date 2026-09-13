@@ -1,0 +1,377 @@
+20
+
+---------
+
+Array
+(
+    [action] => bookingpress_book_appointment_booking
+    [_wpnonce] => 748f304279
+    [appointment_data] => Array
+        (
+            [selected_category] => 1
+            [selected_service] => 1
+            [selected_service_name] => Clínica Médica
+            [selected_service_price] => $0,00
+            [service_price_without_currency] => 0
+            [selected_date] => 2024-08-15
+            [selected_end_date] => 
+            [selected_start_time] => 18:00
+            [selected_end_time] => 18:15
+            [customer_email] => 
+            [selected_payment_method] => 
+            [customer_phone_country] => AR
+            [total_services] => 
+            [total_category] => 
+            [selected_service_duration] => 15
+            [selected_service_duration_unit] => m
+            [is_enable_validations] => 1
+            [check_bookingpress_username_set] => 0
+            [bpa_check_user_login] => 0
+            [customer_firstname] => 
+            [customer_lastname] => 
+            [text_C6kufq] => 
+            [is_particular] => 
+            [obra_soc_seguros] => 
+            [text_o9q4Cr] => _
+            [customer_phone] => 
+            [is_waiting_list] => 0
+            [check_username_validation] => false
+            [invalid_customer_username] => false
+            [invalid_customer_message] => Invalid Username
+            [related_category_service] => Array
+                (
+                    [1] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                            [5] => 6
+                            [6] => 9
+                            [7] => 11
+                            [8] => 12
+                            [9] => 14
+                            [10] => 17
+                            [11] => 18
+                            [12] => 19
+                            [13] => 20
+                            [14] => 21
+                            [15] => 23
+                            [16] => 24
+                            [17] => 25
+                            [18] => 26
+                            [19] => 27
+                            [20] => 28
+                            [21] => 29
+                            [22] => 30
+                            [23] => 32
+                            [24] => 33
+                            [25] => 34
+                            [26] => 36
+                            [27] => 37
+                        )
+
+                )
+
+            [customer_phone_dial_code] => 54
+            [bookingpress_customer_timezone] => 180
+            [bookingpress_form_token] => 66be569e7121a_0oft7f7s3dkg
+            [form_fields] => Array
+                (
+                    [customer_firstname] => norberto
+                    [customer_lastname] => zaiser
+                    [customer_email] => 
+                    [customer_phone] => +54 364 418 2016
+                    [customer_phone_country] => AR
+                    [text_C6kufq] => 28238445
+                    [text_o9q4Cr] => _
+                    [is_particular] => obra social
+                    [obra_soc_seguros] => AMUR
+                    [persona_genero] => 
+                    [persona_fecha] => 
+                    [persona_dir] => 
+                    [persona_alergias] => 
+                    [persona_city] => 
+                    [persona_provincia] => 
+                    [send_whatsapp_notification] => true
+                    [customer_username] => 28238445
+                )
+
+            [coupon_code] => 
+            [total_payable_amount] => 0
+            [total_payable_amount_with_currency] => $0,00
+            [card_holder_name] => 
+            [card_number] => 
+            [expire_month] => 
+            [expire_year] => 
+            [cvv] => 
+            [bpa_password_already_exists] => false
+            [bpa_user_email_already_exists] => false
+            [bookingpress_front_field_data] => Array
+                (
+                    [customer_name] => 1
+                    [customer_firstname] => 2
+                    [text_C6kufq] => 20
+                    [customer_lastname] => 3
+                    [obra_soc_seguros] => 26
+                    [text_o9q4Cr] => 22
+                    [is_particular] => 25
+                    [persona_dir] => 30
+                    [persona_city] => 32
+                    [persona_provincia] => 33
+                    [customer_email] => 4
+                    [persona_genero] => 28
+                    [customer_phone] => 5
+                    [persona_fecha] => 29
+                    [appointment_note] => 6
+                    [persona_alergias] => 31
+                    [terms_and_conditions_AKklQr] => 7
+                    [customer_username] => 8
+                )
+
+            [bookingpress_deposit_payment_method] => deposit_or_full_price
+            [deposit_payment_type] => 
+            [deposit_payment_amount] => 
+            [deposit_payment_amount_percentage] => 
+            [deposit_payment_formatted_amount] => 
+            [bookingpress_selected_extra_details] => Array
+                (
+                )
+
+            [bookingpress_selected_extra_service_count] => 0
+            [bookingpress_selected_bring_members] => 1
+            [service_max_capacity] => 1
+            [service_min_capacity] => 1
+            [bookingpress_selected_staff_member_details] => Array
+                (
+                    [selected_staff_member_id] => 34
+                    [staff_member_id] => 34
+                    [select_any_staffmember] => false
+                    [is_any_staff_option_selected] => 0
+                )
+
+            [selected_staff_member_id] => 34
+            [is_extra_service_exists] => 0
+            [is_staff_exists] => 1
+            [hide_staff_selection] => false
+            [form_sequence] => Array
+                (
+                    [0] => service_selection
+                    [1] => staff_selection
+                )
+
+            [booking_form_redirection_mode] => in-built
+            [is_transaction_completed] => 
+            [bookingpress_repeater_fields_key] => Array
+                (
+                )
+
+            [stime] => 1723764967
+            [spam_captcha] => iRr4DP3Mmquf
+            [bookingpress_uniq_id] => 66be569e7121a
+            [bookingpress_captcha_66be569e7121a] => 
+            [base_price_without_currency] => 0
+            [multiple_quantity_token] => NjZiZTU2OWU3MTIxYTFhMTIxN2U5NjVlYjY2
+            [any_staff_selected] => 0
+            [available_staffs] => Array
+                (
+                )
+
+            [selected_formatted_start_time] => 18:00
+            [selected_formatted_end_time] => 18:15
+            [selected_formatted_start_end_time] => 18:00 - 18:15
+            [store_start_time] => 18:00
+            [store_end_time] => 18:15
+            [client_offset] => 
+            [store_selected_date] => 2024-08-15
+            [authorized_token] => cee085c0a824cffeac07a9e5ed84a234
+            [authorized_time] => 1723739430
+        )
+
+    [appointment_data_obj] => Array
+        (
+            [selected_category] => 1
+            [selected_service] => 1
+            [selected_service_name] => Clínica Médica
+            [selected_service_price] => $0,00
+            [service_price_without_currency] => 0
+            [selected_date] => 2024-08-15
+            [selected_end_date] => 
+            [selected_start_time] => 18:00
+            [selected_end_time] => 18:15
+            [customer_email] => 
+            [selected_payment_method] => 
+            [customer_phone_country] => AR
+            [total_services] => 
+            [total_category] => 
+            [selected_service_duration] => 15
+            [selected_service_duration_unit] => m
+            [is_enable_validations] => 1
+            [check_bookingpress_username_set] => 0
+            [bpa_check_user_login] => 0
+            [customer_firstname] => 
+            [customer_lastname] => 
+            [text_C6kufq] => 
+            [is_particular] => 
+            [obra_soc_seguros] => 
+            [text_o9q4Cr] => _
+            [customer_phone] => 
+            [is_waiting_list] => 0
+            [check_username_validation] => false
+            [invalid_customer_username] => false
+            [invalid_customer_message] => Invalid Username
+            [related_category_service] => Array
+                (
+                    [1] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                            [5] => 6
+                            [6] => 9
+                            [7] => 11
+                            [8] => 12
+                            [9] => 14
+                            [10] => 17
+                            [11] => 18
+                            [12] => 19
+                            [13] => 20
+                            [14] => 21
+                            [15] => 23
+                            [16] => 24
+                            [17] => 25
+                            [18] => 26
+                            [19] => 27
+                            [20] => 28
+                            [21] => 29
+                            [22] => 30
+                            [23] => 32
+                            [24] => 33
+                            [25] => 34
+                            [26] => 36
+                            [27] => 37
+                        )
+
+                )
+
+            [customer_phone_dial_code] => 54
+            [bookingpress_customer_timezone] => 180
+            [bookingpress_form_token] => 66be569e7121a_0oft7f7s3dkg
+            [form_fields] => Array
+                (
+                    [customer_firstname] => norberto
+                    [customer_lastname] => zaiser
+                    [customer_email] => 
+                    [customer_phone] => +54 364 418 2016
+                    [customer_phone_country] => AR
+                    [text_C6kufq] => 28238445
+                    [text_o9q4Cr] => _
+                    [is_particular] => obra social
+                    [obra_soc_seguros] => AMUR
+                    [persona_genero] => 
+                    [persona_fecha] => 
+                    [persona_dir] => 
+                    [persona_alergias] => 
+                    [persona_city] => 
+                    [persona_provincia] => 
+                    [send_whatsapp_notification] => true
+                    [customer_username] => 28238445
+                )
+
+            [coupon_code] => 
+            [total_payable_amount] => 0
+            [total_payable_amount_with_currency] => $0,00
+            [card_holder_name] => 
+            [card_number] => 
+            [expire_month] => 
+            [expire_year] => 
+            [cvv] => 
+            [bpa_password_already_exists] => false
+            [bpa_user_email_already_exists] => false
+            [bookingpress_front_field_data] => Array
+                (
+                    [customer_name] => 1
+                    [customer_firstname] => 2
+                    [text_C6kufq] => 20
+                    [customer_lastname] => 3
+                    [obra_soc_seguros] => 26
+                    [text_o9q4Cr] => 22
+                    [is_particular] => 25
+                    [persona_dir] => 30
+                    [persona_city] => 32
+                    [persona_provincia] => 33
+                    [customer_email] => 4
+                    [persona_genero] => 28
+                    [customer_phone] => 5
+                    [persona_fecha] => 29
+                    [appointment_note] => 6
+                    [persona_alergias] => 31
+                    [terms_and_conditions_AKklQr] => 7
+                    [customer_username] => 8
+                )
+
+            [bookingpress_deposit_payment_method] => deposit_or_full_price
+            [deposit_payment_type] => 
+            [deposit_payment_amount] => 
+            [deposit_payment_amount_percentage] => 
+            [deposit_payment_formatted_amount] => 
+            [bookingpress_selected_extra_details] => Array
+                (
+                )
+
+            [bookingpress_selected_extra_service_count] => 0
+            [bookingpress_selected_bring_members] => 1
+            [service_max_capacity] => 1
+            [service_min_capacity] => 1
+            [bookingpress_selected_staff_member_details] => Array
+                (
+                    [selected_staff_member_id] => 34
+                    [staff_member_id] => 34
+                    [select_any_staffmember] => false
+                    [is_any_staff_option_selected] => 0
+                )
+
+            [selected_staff_member_id] => 34
+            [is_extra_service_exists] => 0
+            [is_staff_exists] => 1
+            [hide_staff_selection] => false
+            [form_sequence] => Array
+                (
+                    [0] => service_selection
+                    [1] => staff_selection
+                )
+
+            [booking_form_redirection_mode] => in-built
+            [is_transaction_completed] => 
+            [bookingpress_repeater_fields_key] => Array
+                (
+                )
+
+            [stime] => 1723764967
+            [spam_captcha] => iRr4DP3Mmquf
+            [bookingpress_uniq_id] => 66be569e7121a
+            [bookingpress_captcha_66be569e7121a] => 
+            [base_price_without_currency] => 0
+            [multiple_quantity_token] => NjZiZTU2OWU3MTIxYTFhMTIxN2U5NjVlYjY2
+            [any_staff_selected] => 0
+            [available_staffs] => Array
+                (
+                )
+
+            [selected_formatted_start_time] => 18:00
+            [selected_formatted_end_time] => 18:15
+            [selected_formatted_start_end_time] => 18:00 - 18:15
+            [store_start_time] => 18:00
+            [store_end_time] => 18:15
+            [client_offset] => 
+            [store_selected_date] => 2024-08-15
+            [authorized_token] => cee085c0a824cffeac07a9e5ed84a234
+            [authorized_time] => 1723739430
+        )
+
+)
+
+######

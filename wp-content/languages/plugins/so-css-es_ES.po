@@ -1,0 +1,706 @@
+# Translation of Plugins - SiteOrigin CSS - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - SiteOrigin CSS - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-31 09:52:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - SiteOrigin CSS - Stable (latest release)\n"
+
+#. Description of the plugin
+#: so-css.php
+msgid "Powerful, simple CSS editing for WordPress. Visual controls & real-time previews for effortless site customization."
+msgstr "Edición de CSS potente y sencilla para WordPress. Controles visuales y previsualizaciones en tiempo real para personalizar el sitio sin esfuerzo."
+
+#: tpl/page.php:105
+msgid "Dedicated CSS File offers best performance, Internal CSS embeds styles in page HTML."
+msgstr "El archivo CSS dedicado ofrece el mejor rendimiento, el CSS interno incrusta los estilos en el HTML de la página."
+
+#: tpl/page.php:99
+msgid "Dedicated File"
+msgstr "Archivo dedicado"
+
+#: tpl/page.php:89
+msgid "CSS Output Location"
+msgstr "Ubicación de la salida CSS"
+
+#: inc/controller-config.php:246
+msgid "fixed"
+msgstr "corregido"
+
+#: inc/controller-config.php:245
+msgid "scroll"
+msgstr "desplazamiento"
+
+#: inc/controller-config.php:240
+msgid "Background Attachment"
+msgstr "Adjunto del fondo"
+
+#: tpl/page.php:165
+msgid "Enable SiteOrigin Installer: "
+msgstr "Activar el instalador de SiteOrigin: "
+
+#: tpl/page.php:160
+msgid "Other Settings"
+msgstr "Otros ajustes"
+
+#: inc/installer/tpl/admin.php:122
+msgid "Documentation"
+msgstr "Documentación"
+
+#: inc/installer/tpl/admin.php:116
+msgid "Demo"
+msgstr "Demostración"
+
+#: inc/installer/tpl/admin.php:103
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/installer/tpl/admin.php:91
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/installer/tpl/admin.php:86
+msgid "Get SiteOrigin Premium"
+msgstr "Obtener SiteOrigin Premium"
+
+#: inc/installer/tpl/admin.php:46 inc/installer/tpl/admin.php:59
+msgid "Theme"
+msgstr "Tema"
+
+#: inc/installer/tpl/admin.php:46 inc/installer/tpl/admin.php:57
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/installer/tpl/admin.php:45
+msgid "Required %s"
+msgstr "%s requerido"
+
+#: inc/installer/tpl/admin.php:11
+msgid "All"
+msgstr "Todo"
+
+#: inc/installer/tpl/admin.php:10
+msgid "Themes"
+msgstr "Temas"
+
+#: inc/installer/tpl/admin.php:9
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/installer/tpl/admin.php:5
+msgid "SiteOrigin Installer"
+msgstr "SiteOrigin Installer"
+
+#: inc/installer/inc/admin.php:142 inc/installer/tpl/admin.php:94
+msgid "Activate"
+msgstr "Activar"
+
+#: inc/installer/inc/admin.php:100 inc/installer/inc/admin.php:101
+msgid "Installer"
+msgstr "Instalador"
+
+#: inc/installer/inc/admin.php:50
+msgid "Click here"
+msgstr "Haz clic aquí"
+
+#: inc/installer/inc/admin.php:49
+msgid "%s to install recommended SiteOrigin plugins and a SiteOrigin theme to get your site going."
+msgstr "%s para instalar los plugins de SiteOrigin recomendados y un tema de SiteOrigin para poner tu sitio en marcha."
+
+#: tpl/page.php:80
+msgid "Dark"
+msgstr "Oscuro"
+
+#: tpl/page.php:79
+msgid "Light"
+msgstr "Claro"
+
+#: tpl/page.php:76
+msgid "Editor Theme"
+msgstr "Tema del editor"
+
+#: tpl/page.php:188
+msgid "Close"
+msgstr "Cerrar"
+
+#: tpl/page.php:131
+msgid "Open Visual Mode"
+msgstr "Abrir el modo visual"
+
+#: tpl/page.php:128
+msgid "Close Expanded Mode"
+msgstr "Cerrar el modo ampliado"
+
+#: tpl/page.php:126 tpl/page.php:127
+msgid "Open Expanded Mode"
+msgstr "Abrir el modo ampliado"
+
+#: so-css.php:595
+msgid "Addons"
+msgstr "Extensiones"
+
+#: inc/controller-config.php:316
+msgid "Border Radius"
+msgstr "Radio del borde"
+
+#: so-css.php:795
+msgid "No revisions yet."
+msgstr "Aún no hay revisiones."
+
+#: so-css.php:642
+msgid "Revert to this revision"
+msgstr "Volver a esta revisión"
+
+#: so-css.php:629
+msgid "Save %s CSS"
+msgstr "Guardar el CSS de %s"
+
+#: so-css.php:622
+msgid "Changes apply to the %s %s when the current theme is %s or its child themes"
+msgstr "Los cambios se aplican a %s %s cuando el tema actual es %s o sus temas hijos"
+
+#: so-css.php:617
+msgid "Editing CSS for: %s"
+msgstr "Editando el CSS de: %s"
+
+#: tpl/page.php:33
+msgid "Editing revision dated %s. Click %sRevert to this revision%s to keep using it."
+msgstr "Revisión de edición fechada el %s. Haz clic en %sVolver a esta revisión%s para seguir usándola."
+
+#: tpl/js-templates.php:69
+msgid "Get a %sGoogle Font%s selector."
+msgstr "Obtén un selector de %sGoogle Font%s."
+
+#: so-css.php:789
+msgid "Latest"
+msgstr "Última"
+
+#: so-css.php:698 so-css.php:719 so-css.php:738
+msgid "Invalid nonce."
+msgstr "Nonce no válido."
+
+#: so-css.php:697 so-css.php:718 so-css.php:737
+msgid "The supplied nonce is invalid."
+msgstr "El nonce proporcionado no es válido."
+
+#: tpl/page.php:49
+msgid "%sSiteOrigin Premium%s adds a <strong>Google Web Font</strong> selector to SiteOrigin CSS so you can easily change any font."
+msgstr "%sSiteOrigin Premium%s añade un selector de <strong>fuentes web de Google</strong> a SiteOrigin CSS para que puedas cambiar fácilmente cualquier fuente."
+
+#: tpl/page.php:47
+msgid "Get The Full Experience"
+msgstr "Consigue la experiencia completa"
+
+#: tpl/js-templates.php:59
+msgid "Invalid URI. Please make sure you're using a URL from the same site."
+msgstr "URI no válida. Por favor, asegúrate de que estás usando una URL del mismo sitio."
+
+#. Author URI of the plugin
+#: so-css.php
+msgid "https://siteorigin.com"
+msgstr "https://siteorigin.com"
+
+#. Author of the plugin
+#: so-css.php inc/installer/inc/admin.php:88 inc/installer/inc/admin.php:89
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Plugin URI of the plugin
+#: so-css.php
+msgid "https://siteorigin.com/css/"
+msgstr "https://siteorigin.com/css/"
+
+#: so-css.php:610 tpl/page.php:135 tpl/page.php:191
+msgid "Save CSS"
+msgstr "Guardar el CSS"
+
+#: so-css.php:789
+msgid "%d chars"
+msgstr "%d caracteres"
+
+#: tpl/page.php:69
+msgid "Are you sure you want to load this revision?"
+msgstr "¿Seguro que quieres cargar esta revisión?"
+
+#: tpl/page.php:67
+msgid "CSS Revisions"
+msgstr "Revisiones de CSS"
+
+#: tpl/page.php:58
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: tpl/page.php:57
+msgid "Getting Started Video"
+msgstr "Vídeo de primeros pasos"
+
+#: tpl/page.php:28
+msgid "Site design updated."
+msgstr "Diseño del sitio actualizado."
+
+#. Plugin Name of the plugin
+#: so-css.php so-css.php:606
+msgid "SiteOrigin CSS"
+msgstr "SiteOrigin CSS"
+
+#: tpl/js-templates.php:26
+msgid "Insert Snippet"
+msgstr "Insertar un fragmento de código"
+
+#: tpl/js-templates.php:14
+msgid "Search Snippets"
+msgstr "Buscar fragmentos de código"
+
+#: tpl/js-templates.php:8
+msgid "CSS Snippets"
+msgstr "Fragmentos de código CSS"
+
+#: tpl/inspector-templates.php:4
+msgid "Navigate To: "
+msgstr "Navegar a: "
+
+#: so-css.php:609
+msgid "Changes apply to %s and its child themes"
+msgstr "Los cambios se aplican a %s ya sus temas hijo"
+
+#: so-css.php:592
+msgid "Support"
+msgstr "Soporte"
+
+#: so-css.php:591
+msgid "CSS Editor"
+msgstr "Editor CSS"
+
+#: so-css.php:525
+msgid "Are you sure you want to leave without saving?"
+msgstr "¿Estas seguro que quieres salir sin guardar los cambios?"
+
+#: so-css.php:524
+msgid "Select Image"
+msgstr "Selecciona una imagen"
+
+#: so-css.php:523
+msgid "Select"
+msgstr "Selecciona"
+
+#: so-css.php:522
+msgid "Unchanged"
+msgstr "Sin cambios"
+
+#: so-css.php:456
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr "Estos cambios se mantendrán en todas las actualizaciones, por lo que es mejor que hagas todos los cambios aquí."
+
+#: so-css.php:455
+msgid "SiteOrigin CSS adds any custom CSS you enter here into your site's header. "
+msgstr "SiteOrigin CSS añade cualquier CSS personalizado que realizes en la cabecera de tu sitio."
+
+#: so-css.php:392 so-css.php:393 so-css.php:453
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: inc/controller-config.php:526
+msgid "Z-Index"
+msgstr "Z-Index"
+
+#: inc/controller-config.php:513
+msgid "Overflow Y"
+msgstr "Desbordamiento Y"
+
+#: inc/controller-config.php:500
+msgid "Overflow X"
+msgstr "Desbordamiento X"
+
+#: inc/controller-config.php:495 inc/controller-config.php:508
+#: inc/controller-config.php:521
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/controller-config.php:494 inc/controller-config.php:507
+#: inc/controller-config.php:520
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/controller-config.php:487
+msgid "Overflow"
+msgstr "Desbordamiento"
+
+#: inc/controller-config.php:482
+msgid "Collapse"
+msgstr "Fusionar"
+
+#: inc/controller-config.php:481 inc/controller-config.php:493
+#: inc/controller-config.php:506 inc/controller-config.php:519
+msgid "Hidden"
+msgstr "Oculto"
+
+#: inc/controller-config.php:480 inc/controller-config.php:492
+#: inc/controller-config.php:505 inc/controller-config.php:518
+msgid "Visible"
+msgstr "Visible"
+
+#: inc/controller-config.php:475
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#: inc/controller-config.php:470
+msgid "Both"
+msgstr "Ambos"
+
+#: inc/controller-config.php:462
+msgid "Clear"
+msgstr "Borrar"
+
+#: inc/controller-config.php:450
+msgid "Float"
+msgstr "Float"
+
+#: inc/controller-config.php:445
+msgid "Table Row"
+msgstr "Fila"
+
+#: inc/controller-config.php:444
+msgid "Table Column"
+msgstr "Columna"
+
+#: inc/controller-config.php:443
+msgid "Table Cell"
+msgstr "Celda"
+
+#: inc/controller-config.php:442
+msgid "Table Row Group"
+msgstr "Grupo de filas de tabla"
+
+#: inc/controller-config.php:441
+msgid "Table Footer Group"
+msgstr "Grupo del píe de tabla"
+
+#: inc/controller-config.php:440
+msgid "Table Header Group"
+msgstr "Grupo de cabecera de la tabla"
+
+#: inc/controller-config.php:439
+msgid "Table Column Group"
+msgstr "Grupo de columnas de tabla"
+
+#: inc/controller-config.php:438
+msgid "Table Caption"
+msgstr "Leyenda de la tabla"
+
+#: inc/controller-config.php:437
+msgid "Table"
+msgstr "Tabla"
+
+#: inc/controller-config.php:436
+msgid "Run In"
+msgstr "Ejecutar en"
+
+#: inc/controller-config.php:435
+msgid "List Item"
+msgstr "Listado de elementos"
+
+#: inc/controller-config.php:434
+msgid "Inline Table"
+msgstr "Tabla incrustada"
+
+#: inc/controller-config.php:433
+msgid "Inline Flex"
+msgstr "Flex incrustado"
+
+#: inc/controller-config.php:432
+msgid "Inline Block"
+msgstr "Bloque incrustado"
+
+#: inc/controller-config.php:431
+msgid "Flex"
+msgstr "Flex"
+
+#: inc/controller-config.php:430
+msgid "Block"
+msgstr "Bloque"
+
+#: inc/controller-config.php:429 tpl/page.php:100
+msgid "Inline"
+msgstr "Integrado"
+
+#: inc/controller-config.php:423
+msgid "Display"
+msgstr "Mostrar"
+
+#: inc/controller-config.php:415
+msgid "Height"
+msgstr "Altura"
+
+#: inc/controller-config.php:407
+msgid "Width"
+msgstr "Ancho"
+
+#: inc/controller-config.php:391
+msgid "Absolute Position"
+msgstr "Posición absoluta"
+
+#: inc/controller-config.php:386
+msgid "Inherit"
+msgstr "Heredar"
+
+#: inc/controller-config.php:385
+msgid "Static"
+msgstr "Estático"
+
+#: inc/controller-config.php:384
+msgid "Relative"
+msgstr "Relativo"
+
+#: inc/controller-config.php:383
+msgid "Fixed"
+msgstr "Fijo"
+
+#: inc/controller-config.php:382
+msgid "Absolute"
+msgstr "Absoluto"
+
+#: inc/controller-config.php:377
+msgid "Position"
+msgstr "Posición"
+
+#: inc/controller-config.php:360
+msgid "Padding"
+msgstr "Relleno"
+
+#: inc/controller-config.php:343
+msgid "Margin"
+msgstr "Margen"
+
+#: inc/controller-config.php:339
+msgid "Layout"
+msgstr "Estructura"
+
+#: inc/controller-config.php:273
+msgid "Borders"
+msgstr "Bordes"
+
+#: inc/controller-config.php:260
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: inc/controller-config.php:252
+msgid "Box Shadow"
+msgstr "Sombra de la caja"
+
+#: inc/controller-config.php:234
+msgid "contain"
+msgstr "contener"
+
+#: inc/controller-config.php:233
+msgid "cover"
+msgstr "cubrir"
+
+#: inc/controller-config.php:232
+msgid "percentage"
+msgstr "Porcentaje"
+
+#: inc/controller-config.php:231
+msgid "length"
+msgstr "longitud"
+
+#: inc/controller-config.php:230
+msgid "auto"
+msgstr "auto"
+
+#: inc/controller-config.php:225
+msgid "Background Size"
+msgstr "Tamaño del fondo"
+
+#: inc/controller-config.php:219
+msgid "no-repeat"
+msgstr "No repetir"
+
+#: inc/controller-config.php:218
+msgid "repeat-y"
+msgstr "repetir-y"
+
+#: inc/controller-config.php:217
+msgid "repeat-x"
+msgstr "repetir-x"
+
+#: inc/controller-config.php:216
+msgid "repeat"
+msgstr "Repetir"
+
+#: inc/controller-config.php:211
+msgid "Background Repeat"
+msgstr "Repetir el fondo"
+
+#: inc/controller-config.php:204
+msgid "Background Position"
+msgstr "Posición del fondo"
+
+#: inc/controller-config.php:196
+msgid "Background Image"
+msgstr "Imagen del fondo"
+
+#: inc/controller-config.php:189
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: inc/controller-config.php:185
+msgid "Decoration"
+msgstr "Decoración"
+
+#: inc/controller-config.php:173
+msgid "Text Shadow"
+msgstr "Sombra del texto"
+
+#: inc/controller-config.php:168
+msgid "Pre Wrap"
+msgstr "Pre Wrap"
+
+#: inc/controller-config.php:167
+msgid "Pre Line"
+msgstr "Línea pre"
+
+#: inc/controller-config.php:166
+msgid "Pre"
+msgstr "Pre"
+
+#: inc/controller-config.php:165
+msgid "Encountered"
+msgstr "Ahora en"
+
+#: inc/controller-config.php:159
+msgid "White Space"
+msgstr "Espacio en blanco"
+
+#: inc/controller-config.php:152
+msgid "Word Spacing"
+msgstr "Espacio entre palabras"
+
+#: inc/controller-config.php:145
+msgid "Letter Spacing"
+msgstr "Espacio entre letras"
+
+#: inc/controller-config.php:138
+msgid "Text Indent"
+msgstr "Sangría de texto"
+
+#: inc/controller-config.php:127
+msgid "Justify"
+msgstr "Justificar"
+
+#: inc/controller-config.php:126
+msgid "Center"
+msgstr "Centar"
+
+#: inc/controller-config.php:125 inc/controller-config.php:457
+#: inc/controller-config.php:469
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/controller-config.php:124 inc/controller-config.php:456
+#: inc/controller-config.php:468
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/controller-config.php:119
+msgid "Text Align"
+msgstr "Alineación de texto"
+
+#: inc/controller-config.php:112
+msgid "Font Family"
+msgstr "Familia de fuente"
+
+#: inc/controller-config.php:107
+msgid "Lowercase"
+msgstr "Minúsculas"
+
+#: inc/controller-config.php:106
+msgid "Uppercase"
+msgstr "Mayúsculas"
+
+#: inc/controller-config.php:105
+msgid "Capitalize"
+msgstr "Capitalizar"
+
+#: inc/controller-config.php:99
+msgid "Text Transform"
+msgstr "Transformación de texto"
+
+#: inc/controller-config.php:94
+msgid "Small Caps"
+msgstr "Minúsculas"
+
+#: inc/controller-config.php:88
+msgid "Font Variant"
+msgstr "Variante de fuente"
+
+#: inc/controller-config.php:78
+msgid "Line Through"
+msgstr "Tachado"
+
+#: inc/controller-config.php:77
+msgid "Overline"
+msgstr "Raya superior"
+
+#: inc/controller-config.php:76
+msgid "Underline"
+msgstr "Subrayar"
+
+#: inc/controller-config.php:70
+msgid "Text Decoration"
+msgstr "Decoración de texto"
+
+#: inc/controller-config.php:61
+msgid "Italic"
+msgstr "Itálica"
+
+#: inc/controller-config.php:59 inc/controller-config.php:75
+#: inc/controller-config.php:104 inc/controller-config.php:428
+#: inc/controller-config.php:455 inc/controller-config.php:467
+msgid "None"
+msgstr "Ninguna"
+
+#: inc/controller-config.php:54
+msgid "Font Style"
+msgstr "Estilo de fuente"
+
+#: inc/controller-config.php:40
+msgid "Lighter"
+msgstr "Mas Claro"
+
+#: inc/controller-config.php:39
+msgid "Bolder"
+msgstr "Más oscuro"
+
+#: inc/controller-config.php:38
+msgid "Bold"
+msgstr "Negrita"
+
+#: inc/controller-config.php:37 inc/controller-config.php:60
+#: inc/controller-config.php:93 inc/controller-config.php:164
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/controller-config.php:32
+msgid "Font Weight"
+msgstr "Grosor de la fuente"
+
+#: inc/controller-config.php:24
+msgid "Line Height"
+msgstr "Alto de línea"
+
+#: inc/controller-config.php:16
+msgid "Font Size"
+msgstr "Tamaño de la fuente"
+
+#: inc/controller-config.php:9
+msgid "Text Color"
+msgstr "Color del Texto"
+
+#: inc/controller-config.php:5
+msgid "Text"
+msgstr "Texto"

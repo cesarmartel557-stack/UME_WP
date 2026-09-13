@@ -1,0 +1,304 @@
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                    [0] => 11
+                    [1] => 18
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 10
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                    [0] => 11
+                    [1] => 18
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 10
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 0
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [is_valid] => 1
+            [msg] => 
+        )
+
+    [1] => Array
+        (
+            [rango_fechas] => Array
+                (
+                )
+
+            [days] => Array
+                (
+                )
+
+            [rango_horas] => Array
+                (
+                )
+
+            [days_horas_conjunto] => 
+            [max_obra_soc_x_dia] => 0
+        )
+
+)

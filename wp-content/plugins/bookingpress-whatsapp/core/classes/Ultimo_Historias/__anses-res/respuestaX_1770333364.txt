@@ -1,0 +1,181 @@
+Array
+(
+    [0] => /wEPDwUJODcwMjI0NTYwDxYCHghGZWNoYVNRTAUKMjcvMDEvMjAyNhYCZg9kFgICAQ9kFgICAw9kFggCAQ8PZBYCHgdvbktleVVwBR9yZXR1cm4gYXV0b1RhYih0aGlzLCAxMSwgZXZlbnQpZAIHDw8WAh4EVGV4dGVkZAIJDw8WAh4HVmlzaWJsZWhkFgICAQ88KwALAGQCCw8PFgIfAgUrTG9zIGRhdG9zIGVzdMOhbiBhY3R1YWxpemFkb3MgYWwgMjcvMDEvMjAyNmRkZOjheg55KyxANmMyMNK/ckW6/kKT+5OYl0buKwPeELK3
+    [1] => 85A7BA68
+    [2] => /wEdAATX99V4CfwNHqja3yUyzlh8HpiEu0R7takrHOJWf39cdYraaQaFnXKaLuO1sKRm4e+MO7fmjkJSfq6Zbgk2kTWnpoAy8cNntrcSd3e2vs/L+xMW+zGzUt6e0X22X8o6R14=
+    [3] =>  id="tblCabecera" cellspacing="0" cellpadding="10" align="center" border="0"
+                    width="75%">
+                    <tr>
+                        <td valign="top" align="center" colspan="2" bgcolor="#F9F9F9">
+                            <div id="ContentPlaceHolder1_PanDetalle" style="width:100%;">
+	
+                                <table cellspacing="1" cellpadding="10" width="100%" align="center"
+                                    border="1">
+                                    <tr>
+                                        <td bgcolor="#F9F9F9" style="width: 250px">
+                                            <span id="ContentPlaceHolder1_lblTitulo"><strong>CUIL N°:</strong> </span>
+                                        </td>
+                                        <td bgcolor="#F9F9F9">
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblCuil">20 - 28154969 - 4</span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr bgcolor="#F9F9F9">
+                                        <td>
+                                            <strong>Apellido y Nombre:</strong>
+                                        </td>
+                                        <td>
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblNombre">LOPEZ GERARDO DANIEL     </span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr bgcolor="#F9F9F9">
+                                        <td>
+                                            <strong>Tipo y Número de Documento:</strong>
+                                        </td>
+                                        <td>
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblDoc">DU - 28154969</span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                <!-- Tabla Ultimo pase -->
+                                <!-- FIN Tabla Ultimo pase -->
+                            
+</div>
+                            <div id="ContentPlaceHolder1_PanelOOSS" bgcolor="#F9F9F9" style="width:100%;">
+	
+                                <div class='fdo_constancia' style="width: 100%;">
+                                    <div class="TextoNegro">
+                                        <p>
+                                            <strong>Tu Obra Social es:</strong>
+                                            </p>
+                                    </div>
+                                    <div>
+                                        <table cellspacing="0" id="ContentPlaceHolder1_DGOOSS" style="background-color:#F9F9F9;width:90%;border-collapse:collapse;">
+		<tr class="title" style="background-color:#F9F9F9;font-weight:bold;">
+			<td class="TextoNegro">Código</td><td class="TextoNegro">Descripción</td><td class="TextoNegro">Condición</td><td class="TextoNegro">Situación</td><td class="TextoNegro">CODEM</td>
+		</tr><tr style="background-color:#F9F9F9;">
+			<td>126205</td><td>O.S. LOS EMPL. DE COMERCIO Y ACTIVIDADES CIVILES  </td><td>Titular</td><td>MONOTRIBUTISTA</td><td align="center"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DGOOSS$ctl02$ctl00&#39;,&#39;&#39;)"><img src=App_Themes/Imagenes/imprimir2.gif border=0></a></td>
+		</tr>
+	</table>
+                                    </div>
+                                    <br />
+                                </div>
+                            
+</div>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td align="center">
+                            <div id="ContentPlaceHolder1_tdBotones">
+                                <input type="button" onclick="location.href='ConsultaDoc.aspx'" value="Volver" class="btn btn-default"
+                                    style="width: 120px" /><br />
+                                <br />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td class="col-sm-10">
+                            <p class="alert alert-info text-center" style="font-weight: bold">
+                                La presente no requiere autenticación con sello y firma de un agente de ANSES.”
+                                - Art. 1 - Res. DE 76/2009.
+                                <br />
+                                <br />
+                            </p>
+                            <!-- FIN FECHA DE ACTUALIZACION -->
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td style="height: 1px" align="center" colspan="2" height="1">
+                            <p>
+                                &nbsp;
+                                </p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td valign="middle" align="center" width="100%">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
+            </center>
+       
+
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ContentPlaceHolder1_ValidationSummary1"));
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ContentPlaceHolder1_ValidationSummary1');
+//]]>
+</script>
+</form>
+   
+    <div class="page-footer" style="position:absolute;bottom:0px; height:100px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="footer-copyright align-middle">
+                    <img src="App_Themes/imagenes/logo-footer.png"   alt="Escudo República Argentina" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="" ></script>
+    
+
+    <script src="Scripts/Controles/Controles.js" type="text/javascript"></script>
+    <script src="Scripts/Controles/jquery-3.4.1.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="Scripts/Controles/bootstrap.min.js"></script>
+    <input name="ctl00$hdnSiteKey" type="hidden" id="hdnSiteKey" value="6LeAsrEUAAAAAIdKPXBbfU8EyQXX3KRy8isRbj7-" />
+</body>
+</html>
+<script type="text/javascript">
+
+    function solonumeros(e) {
+        var key;
+        if (window.event) // IE
+        { key = e.keyCode; }
+        else if (e.which) // Netscape/Firefox/Opera
+        { key = e.which; }
+        if (key < 48 || key > 57) {
+            return false;
+        }
+        return true;
+    }
+
+
+    $(document).ready(function () {
+
+        if (navigator.appName == 'Microsoft Internet Explorer')
+            window.location.href = "Incopatibilidad.aspx";
+
+    });
+
+
+     
+</script>
+
+)

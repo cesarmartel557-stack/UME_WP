@@ -1,0 +1,827 @@
+body {
+    /*min-height: 100vh;*/
+}
+
+body.__bpa-is-staff-customize-view-active.bookingpress_page_bookingpress_appointments .bpa-table-actions>:not(.history_btn_area) {
+    display: none;
+}
+
+body.__expansion-is-admin-turnos #adminmenuwrap li.menu-top:not(#toplevel_page_bookingpress) {
+    /*display: none;*/
+}
+body.__expansion-is-admin-turnos ul#wp-admin-bar-root-default {
+    display: none;
+}
+body:not(.__expansion-is-admin-turnos) div#adminmenuwrap {
+    position: absolute !important;
+    background: #000 !important;
+}
+body:not(.__expansion-is-admin-turnos) div#adminmenuwrap #adminmenu {
+    background: #000 !important;
+}
+
+#adminmenu > li#toplevel_page_bookingpress > a {
+    /* display: none !important; */
+}
+.folded #adminmenuwrap #adminmenu > li#toplevel_page_bookingpress > a {
+    display: block !important;
+}
+
+.el-table td:not(:first-of-type) .cell, .el-table th:not(:first-of-type) .cell {
+    /* font-size: 11px !important; */ 
+    font-size: 0.74rem !important;
+    /* font-weight: 300; */
+    display: inline-block !important;
+    /* min-width: 110px; */
+    /* text-align: center; */
+}
+.el-table th:not(th.booking_id) .cell {
+    text-align: center;
+}
+
+
+/* @media (max-width: 1024px) {} body.__expansion-is-admin-turnos */
+.bpa-header-navbar-wrap .bpa-navbar-brand {
+    max-width: 58px;
+    /*max-height: 32px;*/
+    /*overflow: clip;*/
+    /*display: none; */
+}
+.bpa-navbar-brand img {
+    max-width: 100%;
+}
+
+
+/** ---- Sobreturnos ----- */
+.bk-expansion-out_of_time-icon {
+    color: #9E9E9E; vertical-align: middle; font-size: 22px; color: currentColor; opacity: 0.3;
+    margin-left: 4px;
+}
+
+
+/** ---- Fin Sobreturnos ----- */
+
+/** CESAR LIMITADOS 
+* modificado el css perteneciente a historias se llama en historias y no solo aplicado a medicos staffmembers
+* adminmenu css es retirado
+*/
+    .bpa-table-container .el-table__body-wrapper table tbody tr td {
+        font-weight: 400;
+    }
+    .bpa-fab-component {
+		display: none !important;
+	}
+    table.el-table__body td .cell:has(span.el-tooltip.material-icons-round.bpa-rescheduled-appointment-icon):after {
+        color: var(--bpa-pt-blue);
+        word-break: normal;
+    }
+    
+    /** PANEL ADMIN - body.__expansion-is-admin-turnos 
+     * body class __expansion-is-admin-turnos se limita al panel de admins
+     */
+    
+    /* COMENTADO NO SE VE UTILIDAD ? 
+    body.__expansion-is-admin-turnos .bpa-mlc-head-wrap.el-row.el-row--flex .bpa-hw-right-btn-group button:first-child {display:inline-block !important;}*/
+    
+    
+    
+/** FIN CESAR LIMITADOS */
+
+#bphc_history_add_modal.el-dialog__wrapper .el-dialog__body .bpa-dialog-body .bpa-form-row .el-row .el-col>.bpa-default-card.bpa-db-card {
+    background-color: #f4f8fb;
+}
+
+.bpa-frontend-main-container .bpa-front-dc--body {
+    max-height: 800px !important;
+}
+
+
+/* MODULO EDICION STAFFMEMBER - DURACION DE SERVICIOS ASIGNADOS */
+
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration .el-form-item__label {
+    width: 100%;
+}
+
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration .el-form-item__content>.bpa-form-control {
+    transition: all 0.3s;
+    opacity: 0.4;
+    background-color: #d4eff747;
+}
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration:has(.is-checked) .el-form-item__content>.bpa-form-control {
+    opacity: 1;
+    background-color: transparent;
+}
+.bookingpress_page_bookingpress_staff_members .custom-staff-duration-col {
+    display: flex;
+    justify-content: space-around;
+}
+.bookingpress_page_bookingpress_staff_members .el-col:has(>.bpa-card__item .custom-staff-duration-col) + .el-col>div {
+    min-width: 76px;
+}
+
+
+
+
+label.el-form-item__label[for=tipo_doc] span:after {
+    content: ' de preferencia DNI ';
+    display: inline-flex;
+    /* float: right; */
+    position: absolute;
+    right: -180px;
+    /* overflow: visible; */
+    min-width: 150px;
+    /* transform: translateX(50px); */
+    text-align: right;
+    color: lightskyblue;
+    color: #427ba9a6;
+    /*font-style: italic;*/
+    font-size: 90%;
+}
+
+.max-index {
+    z-index: 10000;
+}
+.force-max-index {
+    z-index: 10000 !important;
+}
+
+
+
+.bphc-componente-impesion .impresion-buttons-container {
+    margin-right: 36px;
+}
+
+.expansion-email-box .el-select .el-input__inner,
+.expansion-email-box .el-select .el-input--suffix .el-input__inner {
+    /*background: white !important;*/
+}
+
+
+
+.el-dialog__wrapper:has(.expansion-dialog-box) {
+    z-index: 9997 !important;
+}
+
+.expansion-dialog-box.sssalud-lista-table, .expansion-dialog-box:has(.obras_rnas_table) {
+    box-shadow: 0 0 20px lightgray;
+    width: calc(100% - 240px);
+    min-width: 400px;
+    margin-top: 150px !important;
+    margin-left: 200px;
+    font-size: 70%;
+    height: calc(100vh - 180px);
+    overflow: auto;
+    margin-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+}
+
+.obras_rnas_container {
+    margin: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+.obras_rnas_header {
+    margin: 10px 2px;
+}
+.obras_rnas_header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.obras_rnas_header>div>div {
+    min-width: 30%;
+}
+
+.obras_rnas_header .bpa-form-field-value-input {
+    justify-content: right;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    gap: 16px;
+}
+.obras_rnas_header .expansion-border-down {
+    width: 400px;
+    max-width: 100%;
+    border: 1px solid var(--bpa-gt-gray-300) !important;
+    border-width: 0 0 1px 0 !important;
+    border-radius: 0 !important;
+    padding-left: 10px !important;
+}
+
+.expansion-dialog-box .obras_rnas_table {
+    height: 80%;
+    /*max-height: calc(100vh - 200px);*/
+    overflow-y: scroll;
+}
+.expansion-dialog-box .obras_rnas_table table {
+    /* table-layout: fixed; */
+    width: 100%;
+    margin-top: 10px;
+}
+.expansion-dialog-box .obras_rnas_table thead tr {
+    position: sticky;
+    top: 0;
+    background: var(--bpa-dt-black-400);
+    font-size: 0.7rem;
+    color: var(--bpa-dt-black-100);
+}
+.expansion-dialog-box .obras_rnas_table tbody tr:nth-of-type(even) {
+    background-color: #58738a06;
+}
+
+.expansion-dialog-box .obras_rnas_table th { width: 80px; }
+.expansion-dialog-box .obras_rnas_table th:nth-of-type(2) {
+    width: 200px;
+    max-width: 200px;
+}
+.expansion-dialog-box .obras_rnas_table td {
+    min-width: 60px;
+    padding: 5px;
+    border: 1px solid var(--bpa-dt-black-200-alpha-12);
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.expansion-dialog-box .obras_rnas_table td:nth-of-type(1) {
+    color: blueviolet;
+}
+.expansion-dialog-box .obras_rnas_table td:nth-of-type(2) {
+    color: seagreen;
+    color: #22814c;
+}
+
+.expansion-dialog-box {
+    box-shadow: 0 0 20px lightgray;
+}
+.expansion-dialog-box button.el-dialog__headerbtn {
+    z-index: 5;
+}
+.expansion-dialog-box .el-dialog__body {
+    position: relative;min-height: 200px;
+}
+.expansion-dialog-body {
+    height: 100%;box-sizing: border-box;
+}
+
+
+body:not(.__expansion-is-admin-turnos) nav.bpa-header-navbar.bpa-header-navbar--v2 {
+    min-height: 105px;
+}
+
+
+.expansion-minimal-link {
+    cursor: pointer;
+    max-width: 100%;
+    padding: 2px;
+    border: 1px solid lightgrey;
+    border: 1px solid transparent;
+    background: white;
+    margin: 2px;
+}
+.expansion-minimal-link:hover {
+    border: 1px solid lightgrey;
+    text-decoration: underline;
+}
+.expansion-border-down {
+    border: 1px solid var(--bpa-gt-gray-300);
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    
+    padding-left: 10px;
+}
+.total-rnas-show {
+    min-width: 30%;
+}
+
+
+/** NUEVO ESPACIO OBRA_ITEM  */
+
+.obra_item>div:first-of-type {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+}
+.obra_item>div:nth-of-type(2) {
+    min-width: 15%;
+    width: 15%;
+}
+.obra_item>div:nth-of-type(3) {
+    min-width: 15%;
+    width: 15%;
+}
+
+.expansion-btn-add-obra {
+    background-color: lightsteelblue !important;
+}
+.expansion-btn-add-obra:hover {
+    background-color: #4682b4db !important;
+}
+.add-obra-sss_name {
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.obra_item.active { color: #28285eed; }
+
+.obra_item .label2,
+.option__desc .label2 {
+    /* width: 100%; */
+    display: block;
+    line-height: 11px;
+    word-break: auto-phrase;
+    color: cornflowerblue;
+    color: lightgray;
+    color: lightseagreen;
+    /* color: slateblue; */
+    /* color: #35c5bfdb; */
+    
+    /* font-size: 0.73rem; */
+}
+
+input.rnas_number { width: 110px; min-width: 100px; max-width: 110px; color: darkorchid; color: slateblue; }
+
+
+.el-col.reglas_particular * {
+    font-weight: 300;
+}
+
+.modulo_ajustes_medicos_obs_particular textarea {
+    padding: 20px;
+    height: 150px;
+    color: inherit;
+}
+
+
+
+
+
+/* ---- estudios biobox ---- */
+
+.lista-historias.estudio-container {
+    display: none;
+    height: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.lista-historias.estudio-container:has(iframe) {
+    display: flex;
+    height: 100%;
+    opacity: 1;
+    background-color: white;
+    width: calc(100% - 35px);
+}
+.lista-historias.estudio-container:has(iframe)+.lista-historias {
+    display: none;
+    height: 0%;
+}
+
+.biobox-head {
+    margin: 0 20px;
+    padding: 0px;
+    font-weight: 600;
+    color: var(--bpa-dt-black-400);
+    border: 1px solid var(--bpa-gt-gray-50);
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.biobox-body {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0 10px 20px;
+    border-radius: 5px;
+    min-height: 380px;
+    max-height: 100%;
+    background-color: #fcfcfc;
+}
+
+
+
+/** si llega a ser necesario agregar .bp_hc_dual_view_container .lista-historias-container  */
+.lista-historias.estudio-container:has(iframe) {
+    display: flex;
+    height: 100%;
+    opacity: 1;
+    background-color: white;
+    width: calc(100% - 35px);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+
+/* si lo requiere por preferencia del neveg agregar :has(iframe) */
+.lista-historias.estudio-container.full,
+.lista-historias.estudio-container.full:has(iframe) {
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px solid var(--bpa-gt-gray-100);
+    box-shadow: 0 0 10px #00000020;
+    box-sizing: border-box;
+    justify-self: center;
+    overflow: hidden;
+    width: calc(100% - 20px);
+    height: calc(100% - 110px);
+}
+/*
+.estudio-container.full .biobox-head {
+    border: 1px solid transparent;
+}*/
+.estudio-container.full .biobox-head {
+    border: 1px solid transparent;
+    padding: 20px 8px 4px 8px;
+}
+/*
+.estudio-container.full .biobox-body {
+    padding: 10px;
+    margin: 10px 0px 10px 20px;
+    border-radius: 5px;
+    min-height: 380px;
+    background-color: rgb(252, 252, 252);
+    overflow: overlay;
+    height: 100%;
+}
+*/
+.estudio-container.full .biobox-body {
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+    border-radius: 5px;
+    min-height: 280px;
+    background-color: rgb(252, 252, 252);
+    overflow-y: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.estudio-container.full iframe,
+.estudio-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.estudio-container.full iframe, .estudio-container iframe {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    /* zoom: 0.75; */
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+    min-height: 280px;
+    overflow: clip;
+}
+
+
+/* ******* Front 2026 *********** */
+
+.option__desc .label2 {
+    color: #afab9ceb;
+    color: lightsteelblue;
+}
+
+.el-form-item__error:before {
+    margin-left: -2px;
+}
+
+@media (min-width: 1024px){
+    .bpa-front-thankyou-module-container {
+        /*margin: 0 50px;*/
+        /*justify-self: right;*/
+        max-width: 746px;
+    }
+}
+
+/** historias FORZADO DE HEADER DE LISTA HISTORIAS  ### NO DEBE VARIAR ### */
+.histories-listing-header {
+    height: 100px !important;
+    min-height: 100px !important;
+    box-sizing: border-box !important;
+}
+div#bphc_main_historias_el {
+    min-height: 100vh;
+}
+.bp_hc_dual_view_container.portrait {
+    min-height: calc(100vh - 110px);
+}
+
+.main-historias .bpa-dialog-heading,
+.main-historias .bpa-dialog-heading .bpa-dh__btn-group-col {
+    align-items: start;
+}
+.main-historias .bpa-dialog-heading .bpa-dh__btn-group-col {
+    min-width: 235px; display: flex; gap: 10px; justify-content: end;
+}
+
+
+.histories-listing-header .view-impresion-btns button {
+    position: relative;
+    outline: 1px solid rgb(163 173 195 / 9%);
+    margin: 0 4px;
+    justify-content: center;
+    border-radius: 5px;
+    color: #a3adc3;
+    color: #959fb5;
+    transition: all 0.1s;
+    background-color: #5185cc06;
+}
+
+
+
+
+
+.hist-share-btn {
+    padding: 2px 20px;
+    background-color: #00000005;
+    border: 0;
+    /* outline: 2px solid #2090c6; */
+    box-shadow: 0px 0px 8px #00000040;
+    color: #1cc2c0;
+    border-radius: 5px;
+    color: transparent;
+    z-index: 2;
+}
+.hist-share-btn:hover {
+    background-color: #ffffffed;
+}
+.hist-share-btn .span_share {
+    font-size: 20px;
+    color: #2c242650;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 0 0 greenyellow;
+    color: var(--bpa-pt-main-green);
+}
+
+
+.impresion-buttons, .impresion-buttons__inner {
+    background-color: #f8f8f800 !important;
+    /*background-color: #fffffe03;*/
+}
+.impresion-buttons__inner {
+    transition: filter 0.5s;
+    filter: drop-shadow(2px 2px 5px aquamarine);
+}
+
+.animate_end .impresion-buttons__inner {
+    filter: drop-shadow(0 0 0 #ffffff00);
+    transition: all 0.5s;
+}
+
+
+.expansion-email-list {
+    z-index: 9999 !important;
+}
+
+.el-dialog:has([type*="pdf"]) {
+    max-height: 90vh;
+    margin: auto;
+    margin-top: 10vh !important;
+    justify-self: center;
+}
+
+.is_pdf_load {
+    cursor: wait;
+}
+.is_pdf_load #root_app {
+    pointer-events: none;
+}
+
+
+.expansion-popover-info {
+    padding: 10px;background: white;font-family: var(--bpa-primary-font);
+}
+
+
+
+
+.main-historias-super {
+    box-sizing: border-box;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* min-height: 500px; */
+}
+.lista-pacientes .el-table th .cell {
+    font-size: 11px;
+}
+
+
+/* Extra CSS */
+.bpa-ssn__navbar li:not(:last-child) {
+    margin-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+
+.expansion_customer-anses-data {
+    outline: 0px solid lightblue;
+}
+.expansion_customer-anses-data button.el-button--primary {
+    /* background-image: url("https://www.anses.gob.ar/themes/custom/ansessite/images/logo_anses_ch.png"); */
+}
+.anses-input .el-input__inner,
+.anses-input .el-input__inner:focus {
+    border: 1px solid #409eff;
+}
+
+
+
+@media (max-width: 900px) {
+    .busquedadni {
+        /* width: 100%; */
+        width: calc(40% - 6px) !important;
+    }
+    div:has(>.busquedadni)>div {
+        /* width: 100% !important; */
+    }
+}
+
+/*
+body.__expansion-is-admin-turnos .bpa-ssn__brand-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+*/
+li:has(>.expansion-wp-menu-item:not(.collapse-toggle)) {
+    display: none;
+}
+
+
+.anses-logo-strong {
+    margin: 5px;
+    font-size: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #0a5fa2;
+    /* background-image: none !important; */
+    color: transparent;
+}
+
+.expansion-chat.chat-container .anses-individual span.anses-obras-result {
+    margin: 0;
+    border-radius: 3px;
+    font-size: 90%;
+}
+.expansion-chat.chat-container div.anses-pers {
+    margin: 5px 0;
+    width: 100%;
+    max-width: calc( 100% - 10px);
+    font-size: 80%;
+}
+
+/*
+Cambiar label
+app.field_settings_fields
+"Nro. Documento"
+
+*/
+.acepta_solo_particular {
+    font-size: 12px;
+}
+.bookingpress_page_bookingpress_appointments label[for="is_particular"] {
+    line-height: 11px;
+}
+.bookingpress_page_bookingpress_appointments .acepta_solo_particular.el-tag {
+    display: inline;
+    line-height: 11px;
+}
+.bookingpress_page_bookingpress_appointments .bpa-table-actions {
+    display: flex;
+}
+
+
+.modulo_ajustes_medicos_obs_particular textarea::placeholder {
+    color: #bbc6ce;    
+}
+
+.el-col:has(>.el-form-item>.el-form-item__content>#service_min_capacity),
+.el-col:has(>.el-form-item>.el-form-item__content>#service_max_capacity) {
+    display: none;
+}
+
+
+
+.bookingpress_page_bookingpress_staff_members {
+    .bpa-dc__staff--assigned-service .bpa-as__body .bpa-card .el-col:nth-of-type(3),
+    .bpa-dc__staff--assigned-service .bpa-as__body .bpa-card .el-col:nth-of-type(4) {
+        display: none;
+        opacity: 0;
+    }
+    .bpa-dialog--add-assign-service .el-form .el-col:nth-of-type(2),
+    .bpa-dialog--add-assign-service .el-form .el-col:nth-of-type(3) {
+        opacity: 0;
+        visibility: hidden;
+        height: 0px;
+        max-height: 10px;
+    }
+/*
+    .el-col:has(+.el-col+.orig-serv-duration-col-title),
+    .el-col:has(+.el-col+.orig-serv-duration-col),
+    .el-col:has(+.orig-serv-duration-col-title),
+    .el-col:has(+.orig-serv-duration-col) {
+        display: none;
+        opacity: 0.3;        
+    }
+    .bpa-dialog--add-assign-service .el-form .el-col:has(+.el-col>.custom-staff-duration),
+    .bpa-dialog--add-assign-service .el-form .el-col:has(+.el-col+.el-col>.custom-staff-duration) {
+        display: none;
+        opacity: 0.3;
+    }
+*/
+}
+
+
+.bookingpress_page_bookingpress_services {
+    
+    .bpa-dc__staff--assigned-service .bpa-as__body .bpa-card .el-col:nth-of-type(3),
+    .bpa-dc__staff--assigned-service .bpa-as__body .bpa-card .el-col:nth-of-type(4) {
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bpa-dialog--add-assign-staff .el-form .el-col:nth-of-type(2),
+    .bpa-dialog--add-assign-staff .el-form .el-col:nth-of-type(3) {
+        /* display: none; */
+        opacity: 0;
+        visibility: hidden;
+        height: 10px;
+        max-height: 20px;
+    }
+}
+
+/*
+
+// 1. Define the container 
+.card-wrapper {
+  container-type: inline-size; // Observe the container's width
+  // The container's width must be determined by the layout (e.g., grid or flexbox)
+}
+
+// 2. Apply styles to descendants based on the container's size
+@container (min-width: 400px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    // Other styles for a horizontal layout 
+  }
+}
+
+@container (max-width: 400px) {
+  .card {
+    display: block;
+    // Other styles for a stacked layout 
+  }
+}
+
+
+
+// CON IDENTIFICADOR DE CONTENEDOR
+
+
+.card-wrapper {
+  container-type: inline-size;
+  container-name: card; // Optional, but recommended for clarity
+}
+
+// Default styles for .card 
+.card {
+  // Stacked layout, small font, etc.
+}
+
+@container card (min-width: 400px) {
+  // Styles applied when the 'card' container is at least 400px wide
+  .card {
+    display: flex; // Switch to a horizontal layout
+  }
+  .card-title {
+    font-size: 1.5rem; // Increase font size 
+  }
+}
+
+@container card (min-width: 600px) {
+  // Additional styles for even wider containers
+  .card-paragraph {
+    font-size: 1rem;
+  }
+}
+
+*/

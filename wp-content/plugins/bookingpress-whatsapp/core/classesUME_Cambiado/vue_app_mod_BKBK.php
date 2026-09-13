@@ -1,0 +1,1031 @@
+<!--
+<select  placeholder="proba esto" style="min-height: 30px;">
+<option>PAMI - RED LOMA LINDA (2 cupos disponibes)</option>
+<option>esto</option>
+<option>es</option>
+<option>select viejo</option>
+
+</select>
+<br /><br />
+-->
+<div class="overlay_container"></div>
+<div class="vue_mod" >
+<?php
+//if( ! isset($_GET['obs']) ) return;
+
+include_once __DIR__ . '/descripciones_medicos.php';
+?>
+<!-- 
+<script src="https://unpkg.com/vue-multiselect"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue-multiselect/dist/vue-multiselect.css">
+-->
+  <script src="https://unpkg.com/vue-multiselect@2.1.0"></script>
+  <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
+
+<style>
+:root{
+    --principal-green: #22B49B;/*#2dc2a5;*/
+    --principal-disable: #a6a6a6;
+    --principal-font: Arial !important;
+    
+}
+
+.vue_mod {
+    display: none;
+}
+.overlay_container {
+    position: fixed;
+    width: 90vw;
+    height: 80vh;
+    top: 10vh;
+    left:  5vw;
+    z-index: 9999999999999;
+    display: none;
+}
+.overlay_container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0vh;
+    left: 0vw;
+    z-index: 9999999999999;
+    display: none;
+    flex-direction: column;
+    background: #00000070;
+    justify-items: center;
+    justify-content: center;
+}
+.overlay_container.show {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 100px 100px #0000005e;
+    background: #000000b5;
+}
+.overlay_container>div{
+    max-height: 80vh !important;
+    max-width: 90vw;
+    border-radius: 10px;
+}
+
+.obra_social, .plan_obra_social {
+    display:none;
+}
+.bpa-field-main-col:has(.obra_social),
+.bpa-field-main-col:has(.plan_obra_social) {
+    display:none;
+}
+
+
+.option__desc.grupo {
+    
+    //font-size: 20px;
+    //text-decoration: underline;
+}
+
+.option__desc.grupo {
+    font-size: 20px;
+    /* text-decoration: underline; */
+    /* border-bottom: 1px solid gray; */
+    padding: 0;
+    //color: black;
+    /* text-align: center; */
+}
+li.multiselect__element {
+    //margin: 0px 10px;
+    border-bottom: 1px solid #c9d4cb1a;
+    padding: 2px 10px;
+}
+.multiselect__element:has(.option__desc.grupo) {
+    //height: 30px;
+    padding: 0;
+    margin: 0;
+    
+}
+span.multiselect__option:has(.option__desc.grupo) {
+    background: #a1e1e1b8;
+    background: white;
+}
+span.cupos {
+    //float: right;
+    color: forestgreen;
+    color: var(--principal-green);
+}
+.multiselect__option:hover span.cupos,.multiselect__option--highlight span.cupos {
+    color: white;
+    color: dimgrey;
+}
+
+span.cupos.sin-cupos {
+    color: var(--principal-disable);//white;
+    /* float: right; */
+}
+
+
+
+.obra_soc_seguros {
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(0.59, 0.03, 0.67, 0.96)
+}
+.bpa-field-main-col:has(.obra_soc_seguros) {
+    margin-top: -20px;
+    margin-bottom: 5px !important;
+}
+.bpa-bdf--single-col-item:has(.obra_soc_seguros) {
+    padding-top: 10px;
+}
+div:has(>.hide_me){
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.hide_me {
+    transition: all 0.5s ease;
+    opacity: 0;
+    margin-top: -100px;
+    z-index: 0;
+}
+
+#obs_seg_price{
+    //margin-top: 25px;
+
+}
+/*
+#obs_seg_price div.aviso_price {
+    opacity: 0;
+    transition:  opacity 0.8s ease;
+    //padding-left: 20px;
+    color: #29b26d;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: var(--principal-green);
+}*/
+#obs_seg_price div.aviso_price {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    //padding-left: 20px;
+    color: #29b26d;
+    padding: 2px;
+    /* text-align: center; */
+    /* border-bottom: 1px solid; */
+    color: var(--bpa-pt-main-green);
+}
+
+#obs_seg_price div.aviso_price.con-valor {
+    transition: opacity 0.8s ease;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.fade-enter-active{
+    transition:  opacity 0.5s ease;
+    //opacity: 1;
+}
+.fade-leave-active {
+    transition:  opacity 0.5s ease;
+    //opacity: 1;
+    
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 1;
+}
+
+.bpa-front-dc--body {
+    //min-height: 800px !important;
+}
+
+
+
+.presentar_doc{
+    text-align: center;
+}
+
+.presentar_title {
+    color:var(--bpa-pt-main-green);
+    text-align: center;
+}
+
+.presentar {
+    display: flex;
+    flex-direction: row;
+    /* min-height: 100px; */
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--bpa-dt-black-400);
+    font-family: var(--principal-font);
+}
+
+.presentar span {
+    margin: 5px;
+    display: flex;
+    padding: 2px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    outline: double 4px lightgray;
+}
+.presentar span {
+    margin: 5px;
+    display: flex;
+    padding: 2px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    outline: solid 1px #d3d3d359;
+    border-radius: 5px;
+}
+
+/COLOR DE OPCIONES-------------------------------------
+.multiselect__option--disabled {
+    background: #d1cdcd;
+    /* color: #f2f6fc; */
+}
+.multiselect__option--selected::after {
+    /* font-size: 15px; */
+    text-shadow: 1px 1px 2px #31e4b1fc;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: unset;
+}
+.multiselect__option--selected.multiselect__option--highlight:after {
+    background: unset;
+    //content: attr(data-deselect);
+    //color: #fff;
+}
+.multiselect__option--selected {
+    background: #5495d5;
+    background: #bfdbee66;
+    color: #35495e;
+    font-weight: 700;
+}
+.multiselect__option--highlight{
+    background: unset;
+    color: unset;
+}
+.multiselect__option:hover {
+    /* background: unset; */
+    color: var(--bpa-dt-black-300);
+    color: white;
+    /* background: #2dc2a5; */
+    background: var(--bpa-pt-main-green);
+    background-color: #d3e6ef;
+    text-shadow: -2px -2px 1px #ececec3b;
+    color: dimgrey;
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+    background: #6aabff;
+    color: #fff;
+}
+
+
+.el-form-item__content {
+    line-height: inherit;
+    /* font-size: 10px; */
+}
+.multiselect, .multiselect__input, .multiselect__single {
+    font-family: Poppins;
+    font-family: var(--principal-font);
+    font-size: 13px;
+}
+.option__desc {
+    font-size: 13px;
+    font-family: Poppins;
+    font-family: var(--principal-font);
+    line-height: 20px;
+    //border-bottom: 1px solid #71df783d;
+    //border-bottom: 1px solid #71df781a;
+}
+
+
+span.multiselect__option {
+    margin: 0;
+    //max-height: 35px;
+    min-height: 20px;
+    font-weight: 500;
+}
+span.multiselect__option {
+    margin: 0;
+    /* max-height: 35px; */
+    min-height: 20px !important;
+    font-weight: 500;
+    /* height: 100%; */
+    padding: 5px;
+    white-space: normal;
+}
+
+
+.multiselect__element:has([particular=true]) {
+    display: none;
+}
+
+.aviso_obras {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px gray;
+    margin: 10px 0px;
+    background: #fff3cd;//#f3f6899e;
+    transition: all 0.5s ease;
+    color: gray;
+}
+/*
+.aviso_obras {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    transition: all 0.5s ease;
+    color: grey;
+}*/
+.asterisco-green{
+    color: var(--principal-green);
+    margin-right: 2px;
+}
+label[for=obra_soc_seguros] {
+    display: none;
+}
+.bpa-bd-fields--sel-container:has(.obra_soc_seguros) {
+    z-index: 1 !important;
+}
+</style>
+<!-- group-values="opciones" group-label="grupo" --> <!-- select-label="Click/Enter para seleccionar" deselect-label="Click/Enter para quitar" -->
+<div id="main_obs_seg" class="obs_seg_main">
+    <div id="obs_seg_select" vif=" max.appointment_step_form_data ==null || max.appointment_step_form_data !=null && max.appointment_step_form_data.form_fields.is_particular != 'particular' "> 
+       <!-- <label class="typo__label">Obras Sociales / Seguros con convenio</label> --> 
+        <multiselect v-model="obs_value" label="label" track-by="label" @open="multiOpen()" @close="multiClose()" selected-label="&#10003; " :allow-empty="false"  :group-select="false" :options="checkOptions()"  :searchable="false" :close-on-select="true" :show-labels="true"  select-label="" deselect-label="&#10003; "   placeholder="Selecciona una opcion." > 
+            <template #singleLabel="props">
+            <span class="option__desc"><span class="option__title">{{ props.option.label }}</span></span>
+            </template>
+            <template #option="props" :disabled="props.option.disabled" >
+                <div v-if="props.option.grupo" class="option__desc grupo">
+                    <span  class="option__title">{{ props.option.grupo }}</span>&nbsp;
+                </div>
+                <div v-if="props.option.grupo == null || props.option.grupo==false" class="option__desc" v-bind:particular="(props.option.value=='particular'?true:false)">
+                     
+                    <span  class="option__title">{{ props.option.label }}</span>&nbsp;
+                    <span v-if="mobile==false && props.option.grupo==false && props.option.limitado && props.option.cupos>0 " class="option__small cupos">( {{ props.option.cupos }} cupos disponibles)</span>
+                    <span v-if="mobile==false && props.option.grupo==false && props.option.limitado && props.option.cupos<1 " class="option__small cupos sin-cupos">( sin cupos disponibles)</span>
+                    <span v-if="mobile && props.option.grupo==false && props.option.limitado && props.option.cupos>0 " class="option__small cupos">({{ props.option.cupos }} cupos disponibles)</span>
+                    <span v-if="mobile && props.option.grupo==false && props.option.limitado && props.option.cupos<1 " class="option__small cupos sin-cupos">(0 cupos disponibles)</span>
+                </div>
+            </template>
+                     
+        </multiselect>
+        <Transition>
+            <div :class="{'hide_me': (is_particular=='particular') }" class="aviso_obras"  v-show="is_particular!='particular'">
+            <span class="asterisco-green">*</span><span>Si no tienes una de estas Obras Sociales / Seguros con convenio aceptados podrás atenderte de forma particular</span>
+            </div>
+        </Transition>
+    </div>
+    <div>
+        <span v-if="max.appointment_step_form_data != null" >ES PARTICULAR {{max.appointment_step_form_data.form_fields.is_particular}}</span>
+    </div>
+    
+    <div id="obs_seg_price">
+    <Transition name="fade">
+        <div v-if="price>0" :class="['aviso_price',{'con-valor': (price>0?1:0) }]"> Costo de la consulta particular: {{max.appointment_step_form_data.selected_service_price}} (No incluye estudios)</div>
+    </Transition>
+    </div>
+    
+    <div style="height: 300px;text-align: center;">
+    
+    tab {{current_tab}} 
+    <br />
+    obra_soc_seguros {{obra_soc_seguros}} 
+    <br />
+    is_particular {{is_particular}}
+    <br />
+    
+    <pre class="language-json"><code>{{ obs_value }}</code></pre> 
+    
+    </div>
+    
+</div>
+<template id="part_text">
+    <span v-if="max.appointment_step_form_data != null" >ES PARTICULAR {{max.appointment_step_form_data.form_fields.is_particular}}</span>
+</template>
+
+<?php
+//$medic_config = '{}';//get_bookings_day();
+
+echo '<script> '.
+'var configuracion_medico = '.json_encode($medic_config).'; 
+configuracion_medico = {};
+console.log(configuracion_medico);'.
+'configuracion_medico["obras_sociales"] = [
+            {label: "PAMI ", value: "PAMI", limitado: true, cupos:0, },
+            {label: "OSDE ", value: "OSDE", limitado: true, cupos:0, }, 
+            {label: "INSSSEP ", value: "INSSSEP", limitado: false, cupos:0}
+            ]; 
+            '.
+'</script>';
+
+?>
+
+<script>
+var data_turno = {medico:0,date:"",hora:""};
+var opss = configuracion_medico["obras_sociales"];
+/*[
+            {label: "PAMI ", value: "PAMI", limitado: true, cupos:0, },
+            {label: "OSDE ", value: "OSDE", limitado: true, cupos:0, }, 
+            {label: "INSSSEP ", value: "INSSSEP", limitado: false, cupos:0}
+            ];
+*/
+
+//window.addEventListener('DOMContentLoaded', function() {
+    function load_obs_select(){ //LLAMADO DESDE bookingpress wpp LINEA 3311
+        
+        opss = [];
+        opss = set_medic_opss();
+        obs.max = maxApp;
+        //obs.loadOptions();
+    }//fin func
+    
+const obs = new Vue({
+    el: '#main_obs_seg',
+    props: [
+    ],
+    data() {
+        return {
+            selectRemplace: 0,
+            mobile: false,
+            turno: {},
+            medico: 0,
+            obs_value: {},
+            prev_obs_value: {},
+            options: opss,
+            max: {appointment_step_form_data:null}
+        }
+    },
+    components: {
+       Multiselect: window.VueMultiselect.default
+    },
+    methods: {
+        multiOpen(){
+            if( this.mobile ){
+            $select_obs = document.getElementById("obs_seg_select").querySelector(".multiselect__content-wrapper");
+            $select_obs.style.maxHeight="80vh";
+            $select_obs_parent = $select_obs.parentElement;
+            overlay_container = document.querySelector(".overlay_container");
+            overlay_container.append($select_obs);
+            overlay_container.className = "overlay_container show";
+            }
+        },
+        multiClose(){
+            if( this.mobile ){
+            /*
+            select_obs = document.getElementById("obs_seg_select").parentElement;
+            
+            */
+            overlay_container = document.querySelector(".overlay_container");
+            overlay_container.className = "overlay_container";
+            $select_obs_parent.append($select_obs);
+            }
+            opcion_highlight = document.querySelector(".multiselect__option.multiselect__option--highlight");
+            if(opcion_highlight!=null) opcion_highlight.classList.remove("multiselect__option--highlight");
+        },
+        labelOption(option){
+            return option.label;
+        },
+        checkOptions(){
+            ob_sel = "";
+            if(this.max.appointment_step_form_data != null){
+                    if(this.max.appointment_step_form_data.form_fields.is_particular == 'particular'){
+                        ob_sel = 'particular';
+                        this.max.appointment_step_form_data.form_fields.obra_soc_seguros = 'particular';
+                        
+                    }else{
+                        ob_sel = '';
+                        //ob_sel = this.max.appointment_step_form_data.form_fields.obra_soc_seguros;
+                        this.max.appointment_step_form_data.form_fields.obra_soc_seguros = '';
+                    }
+            }
+            opts = this.options;
+            for(x in opts){
+                if(opts[x].limitado){
+                    if(opts[x].cupos < 1) opts[x].$isDisabled = true;
+                    console.log(opts[x]);
+                }
+                if(ob_sel!= "" && ob_sel == opts[x].value){
+                    this.obs_value = opts[x];
+                    //this.max.appointment_step_form_data.form_fields.obra_soc_seguros = ob_sel; 
+                }
+            }
+            
+            if(this.obs_value!=null && this.obs_value.value !=""){
+                if(this.obs_value.value !="particular") this.prev_obs_value = this.obs_value;
+                if(this.max.appointment_step_form_data != null) this.max.appointment_step_form_data.form_fields.obra_soc_seguros = this.obs_value.value;
+            }
+            
+            return opts;
+        },
+        loadOptions(){
+            console.log("load options");
+            
+            if( this.turno != data_turno.medico ) this.obs_value = {};
+            this.turno = data_turno;
+            this.medico = data_turno.medico;
+            this.options = configuracion_medico["obras_sociales"];//opss;
+            this.apply_config_medico();
+        },
+        hora_to_time( hora="00:00" ){
+            return Date.parse('1970-01-01 '+hora+' GMT');
+        },
+        apply_config_medico(){
+            es_solo_particular = 0;
+            label_msg = "";
+            label_msg = "Particular (atención particular disponible para este dia/hora)";//"Solo Particular disponible para este dia/hora";
+            
+            if(configuracion_medico.solo_particular){
+                es_solo_particular = 1;
+                label_msg = "Particular (Medico Particular)";
+            }
+            if(configuracion_medico.particular_habilitado){
+                console.log("particular esta habilitado");
+                
+                solo_horas_en_dias = configuracion_medico.regla_particular['days_horas_conjunto'];
+                
+                /* ********SOLO PARTICULAR EN DIAS************* */
+                if( configuracion_medico.regla_particular['days'] != null ){
+                if( configuracion_medico.regla_particular['days'].length ){
+                    console.log("REGLA dias no esta vacia");
+                    d = new Date( data_turno.date+' 00:00:00' );
+                    day = d.getDay();
+                    // Sunday - Saturday : 0 - 6
+                    dias = ["dom","lun","mar","mier","jue","vier","sab"  ];
+                    console.log(dias[day]);
+                    if(  configuracion_medico.regla_particular['days'].includes(dias[day]) ){
+                        console.log("SOLO partiCular X nombre de dia-----------");
+                    
+                        if(solo_horas_en_dias){
+                            es_solo_particular = "dia";
+                        }else{
+                            es_solo_particular = 1;
+                        }
+                        
+                    }
+                }}//fin if days
+                
+                /* ********SOLO PARTICULAR DE HORA A HORA*************  */
+                if( configuracion_medico.regla_particular['rango_horas'] !=null ){
+                if( configuracion_medico.regla_particular['rango_horas'].length ){
+                    hora = data_turno.hora;
+                    de = configuracion_medico.regla_particular['rango_horas'][0];
+                    hasta = configuracion_medico.regla_particular['rango_horas'][1];
+                    hasta = hasta!=null? hasta:"23:59";
+                        
+                    time_hora = this.hora_to_time(hora);
+                    time_de = this.hora_to_time(de);
+                    time_hasta = this.hora_to_time(hasta);
+                    
+                    if( time_de<=time_hora && time_hasta>=time_hora ){
+                        console.log("SOLO partiCular X rango DE HORA-----------");
+                        
+                        if(solo_horas_en_dias ){
+                            if(es_solo_particular == "dia"){
+                                es_solo_particular = "diaYhora";
+                            }
+                        }else{
+                            es_solo_particular = 1;
+                        }
+                        
+                    }
+                }}//fin if rango_horas
+                
+                /* ********SOLO PARTICULAR DE FECHA A FECHA*************  */
+                if( configuracion_medico.regla_particular['rango_fechas'] !=null ){
+                if( configuracion_medico.regla_particular['rango_fechas'].length ){
+                    console.log("verificacion rango fechas");
+                    de =    configuracion_medico.regla_particular['rango_fechas'][0];
+                    hasta = configuracion_medico.regla_particular['rango_fechas'][1];
+                    hasta = hasta!=null? hasta:31;
+                    d = new Date( data_turno.date+' 00:00:00' );
+                    day_num = d.getDate();
+                    if(de<=day_num && hasta>=day_num ){
+                        console.log("SOLO partiCular X rango numero de dia-----------");
+                        es_solo_particular = 1;
+                    }
+                }}//fin if rango_fechas
+                
+                /* ********SOLO PARTICULAR MAX DE OBRAS EN EL DIA*************  */
+                if( configuracion_medico.regla_particular['max_obra_soc_x_dia'] !=null ){
+                if( configuracion_medico.regla_particular['max_obra_soc_x_dia'] > 0 ){
+                    if(configuracion_medico.regla_particular['max_obra_soc_x_dia'] <= configuracion_medico.total_obras_day_cont){
+                        console.log("SOLO partiCular   X MAX OBRAS     EN EL dia-----------");
+                        es_solo_particular = 1;
+                    }
+                    
+                }}//fin if MAX obras x dia
+            }
+            
+            /* Se aplica condicion si cumple una de las reglas */
+            if( (solo_horas_en_dias && es_solo_particular == "diaYhora" ) || es_solo_particular==1 ){
+                console.log("ES SOLO PARTICULAR -> "+es_solo_particular);
+                //es_solo_particular = 1; 
+                particular_val = {label:label_msg,value:"particular",limitado:false,grupo: false};
+                this.options = [particular_val];
+                this.obs_value = particular_val;
+                this.max.appointment_step_form_data.form_fields.is_particular = 'particular';
+                setTimeout( async ()=>{
+                let solo_particular_opt = await document.querySelector(".multiselect__element [particular=true]");
+                if(solo_particular_opt){ console.log(solo_particular_opt); solo_particular_opt.setAttribute("particular","false");}
+                },100);
+            }else{
+                console.log("NO --> ES SOLO PARTICULAR -> "+es_solo_particular);
+            }
+        },
+        ajuste_precios(apply_price = 1 ){
+            if( apply_price ){
+                if(original_service_price_w>0){
+                maxApp.appointment_step_form_data.service_price_without_currency = original_service_price_w;
+                maxApp.appointment_step_form_data.base_price_without_currency = original_service_price_w;
+                maxApp.appointment_step_form_data.selected_service_price = original_service_price;
+                }
+                maxApp.appointment_step_form_data.selected_payment_method = "";
+                maxApp.is_only_onsite_enabled = false;
+                //maxApp.paypal_payment = true;
+                //maxApp.total_configure_gateways = 2;
+            }else{
+                if(maxApp.appointment_step_form_data.service_price_without_currency>0){
+                    original_service_price_w = maxApp.appointment_step_form_data.service_price_without_currency;
+                    original_service_price = maxApp.appointment_step_form_data.selected_service_price;
+                }
+                prices_to_cero();
+            }
+        },
+        precio_particular(){
+            apply_price = 0;
+            if(this.max.appointment_step_form_data.form_fields.is_particular == 'particular'){
+                apply_price = 1;
+            }
+            this.ajuste_precios(apply_price);
+        },
+        text_med_opacity(num=0){
+            txt_m_d = document.querySelectorAll(".text_medico_desc");
+                    for(x in txt_m_d){
+                        if( typeof txt_m_d[x] == 'object')
+                            txt_m_d[x].style.opacity = num;
+                    }
+        }
+    },//fin methods
+    computed : {
+        obra_soc_seguros: function(){
+            val="";
+            if( this.obs_value != null )
+                val = this.obs_value.value;
+            if( val == {} ) val="";
+            if( this.max.appointment_step_form_data != null){
+                this.max.appointment_step_form_data.form_fields['obra_soc_seguros'] = val;
+                if( val == 'particular' ){
+                    this.max.appointment_step_form_data.form_fields.is_particular = 'particular';
+                }else{
+                    this.max.appointment_step_form_data.form_fields.is_particular = 'obra social';
+                }
+            }
+            
+            return val;
+        },
+        price: function(){
+            price = 0;
+            
+            if( this.max.appointment_step_form_data !=null && this.max.bookingpress_current_tab=="basic_details"){
+                
+                if( this.obs_value!=null){
+                        if( (this.obs_value.value!=null && this.obs_value.value == 'particular') || this.max.appointment_step_form_data.form_fields.is_particular == 'particular' ){
+                            this.ajuste_precios( 1 );
+                        }else{
+                            this.ajuste_precios( 0 );
+                        }
+                }
+                price = this.max.appointment_step_form_data.base_price_without_currency;
+                
+            }
+            return price;
+        },
+        current_tab: function(){
+            tab = "";
+            if(this.max.current_screen_size != null){
+                console.log("screeennnnn: "+this.max.current_screen_size);
+                if(this.max.current_screen_size == "mobile"){
+                    this.mobile=true;
+                }else{ this.mobile=false; }
+            }
+            
+            if(this.max.bookingpress_current_tab != null)
+                tab = this.max.bookingpress_current_tab;
+            
+            if(tab == 'staffmembers'){
+                console.log("cambiando precio a cero ");
+                //original_service_price_w = 0;
+                apply_descripciones_medicos();
+                
+                this.text_med_opacity( 0 );
+                
+                setTimeout( function(){ 
+                    obs.text_med_opacity( 1 );
+                    /*txt_m_d = document.querySelectorAll(".text_medico_desc");
+                    for(x in txt_m_d){
+                        if( typeof txt_m_d[x] == 'object')
+                            txt_m_d[x].style.opacity=1;
+                    }*/
+                },100);
+            }
+            
+            if(tab == 'basic_details' && !this.selectRemplace){
+                $el_ob_soc_seg = document.querySelector(".obra_soc_seguros");
+                
+                $el_ob_soc_seg.querySelector(".el-select.bpa-front-form-control").replaceWith(
+                    document.getElementById("obs_seg_select")
+                );
+                
+                $el_ob_soc_seg.after(
+                    document.getElementById("obs_seg_price")
+                );
+                
+            
+                this.selectRemplace = 1;
+            }
+            
+            if(tab == 'summary'){
+                if(this.max.appointment_step_form_data.form_fields["customer_email"]==""){
+                    if(this.max.appointment_step_form_data.form_fields["text_C6kufq"]!=null){
+                        //this.max.appointment_step_form_data.form_fields["customer_username"] = this.max.appointment_step_form_data.form_fields["text_C6kufq"];
+                        }
+                        
+                }
+            }
+            
+            if(tab == 'summary' && document.getElementById("asiste_con_text") == null){
+                if(this.max.appointment_step_form_data.form_fields.obra_soc_seguros=="") this.max.appointment_step_form_data.form_fields.obra_soc_seguros = this.obs_value.value;
+                
+                $el_sumary_sm = document.querySelector(".bpa-front-summary-content__sm");
+                el_asiste_con = document.createElement("div");
+                el_asiste_con.id = "asiste_con_text";
+                el_asiste_con.className = "bpa-front-module--bs-summary-content presentar_doc";
+                el_asiste_con.innerHTML='<span class="presentar_title" style="color:var(--bpa-pt-main-green);">Presentarse con la documentacion requerida:</span>'+
+                '<div class="bpa-front-bs-sm__item-val presentar"><br><span>DNI.</span><br><span>CARNET.</span><br><span>Orden medica.</span><br><span>consulta/estudios.</span></div>';
+                
+                $el_sumary_sm.after(el_asiste_con);
+                
+            }
+            
+            return tab;
+        },
+        is_particular: function(){
+            is = "";
+            if(this.max.appointment_step_form_data != null){
+                is = this.max.appointment_step_form_data.form_fields.is_particular;
+            }
+            if(document.querySelector("div.obra_soc_seguros")!=null){
+                if( is == 'particular'){
+                    setTimeout( ()=>{
+                        document.querySelector("div.obra_soc_seguros").className="el-form-item is-required obra_soc_seguros hide_me"; 
+                    },100);
+                }else{
+                    setTimeout( ()=>{
+                        //obs.obs_value={}; 
+                        obs.obs_value = obs.prev_obs_value; 
+                        if(obs.prev_obs_value.value!=null) obs.max.appointment_step_form_data.form_fields.obra_soc_seguros = obs.prev_obs_value.value;
+                        document.querySelector("div.obra_soc_seguros").className="el-form-item is-required obra_soc_seguros";
+                    },100); 
+                }
+            }
+            return is;
+        }
+        /*
+        obs_value: function(){
+            if( this.obs_value.value == 'particular' ){
+                this.ajuste_precios( 1 );
+            }else{
+                this.ajuste_precios( 0 );
+            }
+            return this.obs_value;
+        }
+        */
+    },//fin computed
+    mounted : function(){
+            console.log('the component is now mounted.');
+            //this.max = maxApp;
+        }
+  })
+  //obs.mount('#main_obs_seg');
+
+    
+
+
+
+function set_medic_opss(){
+    options = [];
+    stp_f_fata = maxApp.appointment_step_form_data;
+    
+    data_turno.medico = stp_f_fata.selected_staff_member_id;
+    data_turno.date = stp_f_fata.selected_date;
+    data_turno.hora = stp_f_fata.store_start_time;
+    //options_for_member = medico;
+    
+    switch( data_turno.medico ){
+        case "4":
+            options = [
+            {label: "PAMI ", value: "PAMI", limitado: true, cupos:2 },
+            {label: "OSDE ", value: "OSDE", limitado: true, cupos:0 }, 
+            {label: "INSSSEP ", value: "INSSSEP", limitado: false, cupos:100}
+            ];
+            console.log("medico::::::::::: "+data_turno.medico);
+            break;
+            
+        default:
+            options = [
+            {label: "PAMI ", value: "PAMI", limitado: true, cupos:5, },
+            {label: "OSDE ", value: "OSDE", limitado: true, cupos:2, }, 
+            {label: "INSSSEP ", value: "INSSSEP", limitado: false, cupos:0}
+            ]; console.log("medico::::::::::: "+data_turno.medico);
+    }
+    //maxApp.isServiceLoadTimeLoader = "1";
+    bk_mod_postdata = {"action":"get_bookings_day",  "appoint_data": data_turno };
+                    axios.post( appoint_ajax_obj.ajax_url, Qs.stringify( bk_mod_postdata ) )
+					.then( function (response) {
+						//vm.appointment_step_form_data = response.data.appointment_data
+                        if( response.data['obras_sociales'] != null ){
+                            configuracion_medico = response.data;
+                        }
+                        //maxApp.isServiceLoadTimeLoader = "0";
+                        //maxApp = obs.max;
+                        obs.loadOptions();
+					});
+    
+    
+    return options;
+}
+
+
+
+
+
+
+//});
+</script>
+
+
+
+
+<?php
+
+
+function BACKUP_get_bookings_day( $medico = 3, $date = "2024-07-18", $hora=""){
+    global $wpdb, $BookingPress, $tbl_bookingpress_services,$tbl_bookingpress_appointment_bookings, $tbl_bookingpress_appointment_meta, $tbl_bookingpress_payment_logs,$tbl_bookingpress_customers,$bookingpress_global_options,$tbl_bookingpress_form_fields;
+    $response = array();
+    
+    if( empty($medico) || empty($date) ){
+        print_r(" faltan datos.");
+        return " faltan datos.";
+    }
+    
+    $config_medico = array(
+    "obras_sociales"=>[
+        array("label"=>"PAMI","value"=>"PAMI", "limitado"=>true, "cupos"=>1, "grupo"=>false),
+        array("label"=>"PAMI-LomaLinda","value"=>"PAMI-LomaLinda", "limitado"=>true, "cupos"=>2, "grupo"=>false),
+        array("label"=>"OSDE","value"=>"OSDE", "limitado"=>true, "cupos"=>2, "grupo"=>false),
+        array("label"=>"INSSSEP","value"=>"INSSSEP", "limitado"=>true, "cupos"=>5, "grupo"=>false), 
+    ],
+    "particular_habilitado"=>true,
+    "solo_particular"=>false,
+    "regla_particular"=> [ 
+        'rango_fechas' => [20,24],
+        'days' => [ "jue", "mier" ],
+        'rango_horas' => ["14:00","20:00"],
+        'days_horas_conjunto'=> true
+    ]
+    );
+    
+    
+    $config_medico_original = $config_medico;
+    
+    $where = " WHERE bookingpress_staff_member_id='{$medico}' AND bookingpress_appointment_date='{$date}' AND bookingpress_appointment_meta_key='obra_soc_art' ";
+    
+    $select_fields= "bookingpress_staff_member_id medico, bookingpress_appointment_date date, bookingpress_appointment_time hora, bookingpress_appointment_meta_value obra_soc_art";
+    
+    $res = $wpdb->get_results("SELECT $select_fields FROM {$tbl_bookingpress_appointment_bookings} join {$tbl_bookingpress_appointment_meta} meta ON bookingpress_appointment_booking_id = meta.bookingpress_appointment_id {$where} ", ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared --Reason: $tbl_bookingpress_appointment_bookings is a table name. false alarm
+    
+    $obra_count = array();
+    foreach($res as $turnos){
+        if( isset($obra_count[ $turnos['obra_soc_art'] ]) ){
+            $obra_count[ $turnos['obra_soc_art'] ]++;
+        }else{
+            $obra_count[ $turnos['obra_soc_art'] ] = 1;
+        }
+    }
+    
+    echo "<br />OBRA COUNT: ";
+    print_r($obra_count);
+    echo "<br /> xxxxx <br /><br />";
+    if( !empty($config_medico['obras_sociales']) ){
+        foreach($config_medico['obras_sociales'] as $k=> $opcion ){
+            $cupos=0;
+            if($opcion["limitado"]){
+                if( !empty( $obra_count[ $opcion["value"] ] ) ){
+                    $cupos = (int) $config_medico['obras_sociales'][$k]['cupos'];
+                    $cupos = $cupos - (int) $obra_count[ $opcion["value"] ];
+                    $cupos = $cupos<1? 0: $cupos;
+                    $config_medico['obras_sociales'][$k]['cupos'] = $cupos;
+                }
+            }
+            
+        }
+        echo "<br />original: ";
+        print_r($config_medico_original);
+        echo "<br />actualizado: ";
+        print_r($config_medico);
+    }
+    $merge_init = array();
+    if( $config_medico['particular_habilitado'] ){
+        $merge_init[] = array('label'=>"particular",'value'=>"particular",'limitado'=>false,'cupos'=>0, "grupo"=>false);
+    }
+    $merge_init[] = array("grupo"=>"Obras Sociales","label"=>"obras", "value"=>"","limitado"=>false,"\$isDisabled"=>true);
+    $config_medico['obras_sociales'] = array_merge( $merge_init , $config_medico['obras_sociales'] );
+    return $config_medico;
+    
+    echo "<br /><br />RESPUESTA BASE DE DATOS: <br />";
+    print_r($res);
+}
+
+
+
+
+
+
+echo "<br /><br />";
+
+        function BACKUP_save_obs_after_appointment( $appointment_id=0 ){
+			global $wpdb, $tbl_bookingpress_appointment_meta, $tbl_bookingpress_appointment_bookings;
+            if(!$appointment_id) return;
+            $obs_field = "";
+            $bookingpress_appointment_meta = $existe_obs_meta = array();
+            $obra_social_field_key = 'text_oO9f1B';
+            
+            //echo "corriendo save obs<br />";
+            
+            //$bookingpress_appointment_data = $wpdb->get_row($wpdb->prepare("SELECT * FROM {$tbl_bookingpress_appointment_bookings} WHERE bookingpress_appointment_booking_id = %d", $appointment_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared --Reason: $tbl_bookingpress_appointment_bookings is a table name. false alarm 
+            //if(empty($bookingpress_appointment_data)) return;
+            $existe_obs_meta = $wpdb->get_row($wpdb->prepare("SELECT * FROM {$tbl_bookingpress_appointment_meta} WHERE bookingpress_appointment_id = %d AND bookingpress_appointment_meta_key = 'obra_soc_art' ", $appointment_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared --Reason: $tbl_bookingpress_appointment_bookings is a table name. false alarm
+            //print_r($existe_obs_meta);
+            //echo "---------- $tbl_bookingpress_appointment_meta <br />";
+            //$bookingpress_appointment_meta = $wpdb->get_row($wpdb->prepare("SELECT * FROM `{$tbl_bookingpress_appointment_meta}` WHERE `bookingpress_appointment_booking_id` = '%d' AND `bookingpress_appointment_meta_key` = 'appointment_form_fields_data' ", $appointment_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared --Reason: $tbl_bookingpress_appointment_bookings is a table name. false alarm
+            
+            $bookingpress_appointment_meta = $wpdb->get_row($wpdb->prepare("SELECT * FROM `{$tbl_bookingpress_appointment_meta}` WHERE `bookingpress_appointment_id` = %d AND `bookingpress_appointment_meta_key` = 'appointment_form_fields_data' ", $appointment_id), ARRAY_A);
+            
+             //echo "+++++++++<br />";
+             //print_r(json_encode($bookingpress_appointment_meta) );
+            if(empty($bookingpress_appointment_meta)) return;
+            $appointment_fields = is_array($bookingpress_appointment_meta['bookingpress_appointment_meta_value'])? $bookingpress_appointment_meta['bookingpress_appointment_meta_value']:json_decode($bookingpress_appointment_meta['bookingpress_appointment_meta_value'], true);
+            
+            if( isset( $appointment_fields['form_fields'][$obra_social_field_key] ) ){
+                $obs_field = $appointment_fields['form_fields'][$obra_social_field_key];
+            }
+            if( isset( $appointment_fields['form_fields']['obra_soc_seguros'] ) ){
+                $obs_field = $appointment_fields['form_fields']['obra_soc_seguros'];
+            }
+                        
+            if( !empty($obs_field) ){
+                $bookingpress_appointment_meta['bookingpress_appointment_meta_key'] = 'obra_soc_art';
+                $bookingpress_appointment_meta['bookingpress_appointment_meta_value'] = $obs_field;
+                
+                if($appointment_fields['form_fields']['is_particular'] == 'particular'){
+                    $bookingpress_appointment_meta['bookingpress_appointment_meta_value'] = 'particular';
+                }
+                /*
+    			$bookingpress_appointment_form_fields_data = array(
+    				'form_fields' => !empty($bookingpress_appointment_data['bookingpress_appointment_meta_fields_value']) ? $bookingpress_appointment_data['bookingpress_appointment_meta_fields_value'] : array(),
+    				'bookingpress_front_field_data' => !empty($bookingpress_appointment_data['bookingpress_appointment_meta_fields_value']) ? $bookingpress_appointment_data['bookingpress_appointment_meta_fields_value'] : array(),
+    			);
+                */
+                
+    			$bookingpress_db_fields = $bookingpress_appointment_meta;
+                unset($bookingpress_db_fields['bookingpress_appointment_meta_id']);
+    
+    			if( empty($existe_obs_meta) ){
+                    $wpdb->insert($tbl_bookingpress_appointment_meta, $bookingpress_db_fields);
+                    echo "<br /> insert ";
+                }else{
+                    $wpdb->update($tbl_bookingpress_appointment_meta, $bookingpress_db_fields, $existe_obs_meta );
+                    echo "<br /> update ";
+                }
+                
+                //print_r($bookingpress_db_fields);
+            }
+		}
+        
+
+###save_obs_after_appointment( 160 );
+
+
+
+?>
+</div>

@@ -1,0 +1,278 @@
+body {
+    /*min-height: 100vh;*/
+}
+
+body.__bpa-is-staff-customize-view-active.bookingpress_page_bookingpress_appointments .bpa-table-actions>:not(.history_btn_area) {
+    display: none;
+}
+
+body.__expansion-is-admin-turnos #adminmenuwrap li.menu-top:not(#toplevel_page_bookingpress) {
+    /*display: none;*/
+}
+body.__expansion-is-admin-turnos ul#wp-admin-bar-root-default {
+    display: none;
+}
+body:not(.__expansion-is-admin-turnos) div#adminmenuwrap {
+    position: absolute !important;
+    background: #000 !important;
+}
+body:not(.__expansion-is-admin-turnos) div#adminmenuwrap #adminmenu {
+    background: #000 !important;
+}
+
+#adminmenu > li#toplevel_page_bookingpress > a {
+    /* display: none !important; */
+}
+.folded #adminmenuwrap #adminmenu > li#toplevel_page_bookingpress > a {
+    display: block !important;
+}
+
+.el-table td:not(:first-of-type) .cell, .el-table th:not(:first-of-type) .cell {
+    font-size: 11px !important;
+    /* font-weight: 300; */
+    display: inline-block !important;
+    /* min-width: 110px; */
+    /* text-align: center; */
+}
+.el-table th:not(th.booking_id) .cell {
+    text-align: center;
+}
+
+
+/* @media (max-width: 1024px) {} body.__expansion-is-admin-turnos */
+.bpa-header-navbar-wrap .bpa-navbar-brand {
+    max-width: 58px;
+    /*max-height: 32px;*/
+    /*overflow: clip;*/
+    /*display: none; */
+}
+.bpa-navbar-brand img {
+    max-width: 100%;
+}
+
+
+/** ---- Sobreturnos ----- */
+.bk-expansion-out_of_time-icon {
+    color: #9E9E9E; vertical-align: middle; font-size: 22px; color: currentColor; opacity: 0.3;
+    margin-left: 4px;
+}
+
+
+/** ---- Fin Sobreturnos ----- */
+
+/** CESAR LIMITADOS 
+* modificado el css perteneciente a historias se llama en historias y no solo aplicado a medicos staffmembers
+* adminmenu css es retirado
+*/
+    .bpa-table-container .el-table__body-wrapper table tbody tr td {
+        font-weight: 400;
+    }
+    .bpa-fab-component {
+		display: none !important;
+	}
+    table.el-table__body td .cell:has(span.el-tooltip.material-icons-round.bpa-rescheduled-appointment-icon):after {
+        color: var(--bpa-pt-blue);
+        word-break: normal;
+    }
+    
+    /** PANEL ADMIN - body.__expansion-is-admin-turnos 
+     * body class __expansion-is-admin-turnos se limita al panel de admins
+     */
+    
+    /* COMENTADO NO SE VE UTILIDAD ? 
+    body.__expansion-is-admin-turnos .bpa-mlc-head-wrap.el-row.el-row--flex .bpa-hw-right-btn-group button:first-child {display:inline-block !important;}*/
+    
+    
+    
+/** FIN CESAR LIMITADOS */
+
+#bphc_history_add_modal.el-dialog__wrapper .el-dialog__body .bpa-dialog-body .bpa-form-row .el-row .el-col>.bpa-default-card.bpa-db-card {
+    background-color: #f4f8fb;
+}
+
+.bpa-frontend-main-container .bpa-front-dc--body {
+    max-height: 800px !important;
+}
+
+
+/* MODULO EDICION STAFFMEMBER - DURACION DE SERVICIOS ASIGNADOS */
+
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration .el-form-item__label {
+    width: 100%;
+}
+
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration .el-form-item__content>.bpa-form-control {
+    transition: all 0.3s;
+    opacity: 0.4;
+    background-color: #d4eff747;
+}
+.bookingpress_page_bookingpress_staff_members .el-form-item.custom-staff-duration:has(.is-checked) .el-form-item__content>.bpa-form-control {
+    opacity: 1;
+    background-color: transparent;
+}
+.bookingpress_page_bookingpress_staff_members .custom-staff-duration-col {
+    display: flex;
+    justify-content: space-around;
+}
+.bookingpress_page_bookingpress_staff_members .el-col:has(>.bpa-card__item .custom-staff-duration-col) + .el-col>div {
+    min-width: 76px;
+}
+/*
+.bookingpress_page_bookingpress_staff_members .custom-staff-du-tuto:hover:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px lightgray;
+    background-color: aliceblue;
+    top: 30px;
+    right: 10px;
+    z-index: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/wp-content/plugins/bookingpress-whatsapp/core/classes/bookingmod-src/tuto_duration.gif");
+    background-image: var(--expansion-tuto-staff-dur) ;
+}
+.bookingpress_page_bookingpress_staff_members:has(.custom-staff-du-tuto:hover) .bpa-dc__staff--assigned-service {
+    overflow: visible;
+}
+*/
+
+
+
+label.el-form-item__label[for=tipo_doc] span:after {
+    content: '( ( de preferencia DNI ) )';
+    display: inline-flex;
+    /* float: right; */
+    position: absolute;
+    right: -180px;
+    /* overflow: visible; */
+    min-width: 150px;
+    /* transform: translateX(50px); */
+    text-align: right;
+    color: lightskyblue;
+    color: #427ba9a6;
+    /*font-style: italic;*/
+    font-size: 90%;
+}
+
+.max-index {
+    z-index: 10000;
+}
+.force-max-index {
+    z-index: 10000 !important;
+}
+
+
+
+.bphc-componente-impesion .impresion-buttons-container {
+    margin-right: 36px;
+}
+
+.expansion-email-box .el-select .el-input__inner,
+.expansion-email-box .el-select .el-input--suffix .el-input__inner {
+    /*background: white !important;*/
+}
+
+
+.lista-historias.estudio-container {
+    display: none;
+    height: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.lista-historias.estudio-container:has(iframe) {
+    display: flex;
+    height: 100%;
+    opacity: 1;
+}
+.lista-historias.estudio-container:has(iframe)+.lista-historias {
+    display: none;
+    height: 0%;
+}
+
+
+.el-dialog__wrapper:has(.expansion-dialog-box) {
+    z-index: 9999 !important;
+}
+
+.expansion-dialog-box:has(.obras_rnas_table) {
+    width: 1224px;
+    max-width: 90%;
+    margin-top: 150px !important;
+}
+.expansion-dialog-box .obras_rnas_table table {
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.expansion-dialog-box .obras_rnas_table td {
+    min-width: 80px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+.expansion-dialog-box .obras_rnas_table th:nth-of-type(2) {
+    min-width: 200px;
+    max-width: 250px;
+}
+
+/*
+
+// 1. Define the container 
+.card-wrapper {
+  container-type: inline-size; // Observe the container's width
+  // The container's width must be determined by the layout (e.g., grid or flexbox)
+}
+
+// 2. Apply styles to descendants based on the container's size
+@container (min-width: 400px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    // Other styles for a horizontal layout 
+  }
+}
+
+@container (max-width: 400px) {
+  .card {
+    display: block;
+    // Other styles for a stacked layout 
+  }
+}
+
+
+
+// CON IDENTIFICADOR DE CONTENEDOR
+
+
+.card-wrapper {
+  container-type: inline-size;
+  container-name: card; // Optional, but recommended for clarity
+}
+
+// Default styles for .card 
+.card {
+  // Stacked layout, small font, etc.
+}
+
+@container card (min-width: 400px) {
+  // Styles applied when the 'card' container is at least 400px wide
+  .card {
+    display: flex; // Switch to a horizontal layout
+  }
+  .card-title {
+    font-size: 1.5rem; // Increase font size 
+  }
+}
+
+@container card (min-width: 600px) {
+  // Additional styles for even wider containers
+  .card-paragraph {
+    font-size: 1rem;
+  }
+}
+
+*/

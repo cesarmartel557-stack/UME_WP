@@ -1,0 +1,21 @@
+# WordPress config with sensitive credentials - DO NOT COMMIT
+wp-config.php
+
+# Large backup files
+*.zip
+*.tgz
+*.tar.gz
+
+# WordPress cache
+wp-content/cache/
+wp-content/wpcontent/cache/
+wp-content/updraft/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

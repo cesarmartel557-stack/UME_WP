@@ -1,0 +1,302 @@
+[ {
+    "ID_TURNO_AMBU" : 3450662, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 1, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-07-29 16:13:52.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "AYALA RAMONA RAQUEL", "TEL" : "3644- 681189 \/ 3644- 149986 \/ 3644-650261",
+        "ID_PACIENTE" : 128921, "ESTADO_TURNO" : null, "OBSERVACIONES" : "SC",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "25 E\/ 8 Y 10 B\u00b0 OBRERO", "FECHANACIMIENTO" : null, "NRODOCUMENTO" :
+        11250635, "NROAFILIADO" : "150666060601\/00", "EDAD" : 70, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450663, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 2, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-07-30 10:18:09.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "LAGRA\u00d1A MARIA ", "TEL" : "3644-149957",
+        "ID_PACIENTE" : 91395, "ESTADO_TURNO" : null, "OBSERVACIONES" : "SC",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "COLONIA RIVADAVIA LOTE 58", "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 11005508,
+        "NROAFILIADO" : "150658285508\/00", "EDAD" : 70, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450664, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 36, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 3, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-01 10:52:41.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "ALVAREZ FLORENCIA CAMILA", "TEL" : "364 461-4359",
+        "ID_PACIENTE" : 106959, "ESTADO_TURNO" : null, "OBSERVACIONES" : "SC",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "In.S.S.Se.P.",
+        "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" : "CALLE 12 25 Y 27 BA OBRERO",
+        "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 43335588, "NROAFILIADO" : "20754836",
+        "EDAD" : 24, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450665, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 36, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 4, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-12 17:20:36.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "FORESTELLO PAOLA VANESA", "TEL" :
+        "3731-470371-3731400827", "ID_PACIENTE" : 105277, "ESTADO_TURNO" : null,
+        "OBSERVACIONES" : null, "CONSULTORIO" : null, "FORMA_LLAMADO" : null,
+        "OBRA_SOCIAL" : "In.S.S.Se.P.", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "AV HERNANDEZ MZA 61 PC 1 BARRIO MALVINAS", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 24751577, "NROAFILIADO" : "23858687", "EDAD" : 49,
+        "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450666, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 173, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 5, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-13 11:50:18.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "ROBLES ALDO", "TEL" : "3735\/409310", "ID_PACIENTE" :
+        215731, "ESTADO_TURNO" : null, "OBSERVACIONES" : null, "CONSULTORIO" : null,
+        "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "PAMI-FUERA DE CAPITA", "PRESTADOR" :
+        "RAMIREZ GABRIELA", "DOMICILIO" : "LA RIOJA 45", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 14595822, "NROAFILIADO" : "150943699607\/00", "EDAD" : 63,
+        "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450667, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 36, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 6, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 17:46:39.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "KVIATKOVSKI ANTONELA FLORENCIA ", "TEL" :
+        "3644576415    3644331812", "ID_PACIENTE" : 234064, "ESTADO_TURNO" : null,
+        "OBSERVACIONES" : null, "CONSULTORIO" : null, "FORMA_LLAMADO" : null,
+        "OBRA_SOCIAL" : "In.S.S.Se.P.", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "ESPA\u00d1A 181", "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 44945995,
+        "NROAFILIADO" : "21837799", "EDAD" : 20, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450668, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 7, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-20 17:09:23.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "RODRIGUEZ YOLANDA ELVIRA", "TEL" : "3644 325562",
+        "ID_PACIENTE" : 111311, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "URQUIZA 544", "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 14485363,
+        "NROAFILIADO" : null, "EDAD" : 62, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450669, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 8, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-22 10:16:38.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "PEREZ MABEL GRACIELA", "TEL" : "3644-564012",
+        "ID_PACIENTE" : 91427, "ESTADO_TURNO" : null, "OBSERVACIONES" : "PART",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "QUINTA 60 MZ 3 PC 19 B\u00b0SAN CAYETANO", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 10735781, "NROAFILIADO" : "15067173170800", "EDAD" : 71,
+        "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450671, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 348, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 9, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-15 10:35:16.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "JUNCO JORGE ADRIAN", "TEL" : "3644 122996", "ID_PACIENTE" :
+        235243, "ESTADO_TURNO" : null, "OBSERVACIONES" : null, "CONSULTORIO" : null,
+        "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "ART PREVENCION", "PRESTADOR" :
+        "RAMIREZ GABRIELA", "DOMICILIO" : "CALLE LOS AGRICULTORES", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 42485528, "NROAFILIADO" : null, "EDAD" : 24, "CONSULTA_AMBU" :
+        1}
+, {
+    "ID_TURNO_AMBU" : 3450672, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 348, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 10, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 17:28:42.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "GRAMAJO  RAMONA ANTONIA", "TEL" : "3644-686078",
+        "ID_PACIENTE" : 226137, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "ART PREVENCION",
+        "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "CALLE 137 E 132 Y 134 B MATADERO", "FECHANACIMIENTO" : null, "NRODOCUMENTO" :
+        22897940, "NROAFILIADO" : null, "EDAD" : 51, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450673, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 358, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 11, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 18:41:46.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "CUELLAR YONATHAN CARLOS", "TEL" : "3644 842647",
+        "ID_PACIENTE" : 235663, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "INTEGRO-SEG.ACCIDENTES PERSON", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "B\u00b0 SAN CAYETANO QTA 255", "FECHANACIMIENTO" : null, "NRODOCUMENTO" :
+        53656850, "NROAFILIADO" : null, "EDAD" : 10, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450674, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 60, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 12, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-23 11:50:38.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "GLIBOTA SERGIO ORLANDO", "TEL" : "3644-620876",
+        "ID_PACIENTE" : 43271, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "OSDE OBLIGATORIO P1-210\/1", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "URQUIZA No 464", "FECHANACIMIENTO" : 61117, "NRODOCUMENTO" : 20245806,
+        "NROAFILIADO" : "04203933801", "EDAD" : null, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3450675, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 36, "FECHA" : {
+        "date" : "2024-08-26 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 13, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-25 10:45:59.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "ENRIQUEZ DORA ESTHER", "TEL" : "364 411-9787",
+        "ID_PACIENTE" : 55748, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "In.S.S.Se.P.",
+        "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" : "ALBERTO ZARAGOZA 1134",
+        "FECHANACIMIENTO" : 0, "NRODOCUMENTO" : 11029327, "NROAFILIADO" : "43896",
+        "EDAD" : 70, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3462494, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 1, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-01 16:42:17.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "FERNANDEZ FELICIANA TERESA", "TEL" : "3644155784",
+        "ID_PACIENTE" : 69131, "ESTADO_TURNO" : null, "OBSERVACIONES" : "sc",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "CALLE 20 E\/41 - 43 B\u00ba S. MONICA", "FECHANACIMIENTO" : 56089,
+        "NRODOCUMENTO" : 11250487, "NROAFILIADO" : "", "EDAD" : 70, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3462495, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 2, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-02 13:27:11.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "DI CAMILLO JORGE IRENEO", "TEL" : "3644716216  3644198091\/3644279406",
+        "ID_PACIENTE" : 212024, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "CALLE 000 E 15 Y 17 BA OBRERO", "FECHANACIMIENTO" : null, "NRODOCUMENTO" :
+        10735320, "NROAFILIADO" : "46590366109\/00", "EDAD" : 71, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3462496, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 3, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 17:35:17.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "SACCO BERNARDINA MAGDALENA", "TEL" : "3644527146",
+        "ID_PACIENTE" : 117972, "ESTADO_TURNO" : null, "OBSERVACIONES" : "PART",
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "SAN MARTIN 835", "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 3963212,
+        "NROAFILIADO" : "150188719801\/00", "EDAD" : 84, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3462503, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 358, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 10, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 17:56:59.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "DUARTE SANTINO FABIAN", "TEL" : "3644 707122",
+        "ID_PACIENTE" : 235007, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "INTEGRO-SEG.ACCIDENTES PERSON", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "CALLE 49 ENTRE 00 Y 000 B\u00b0 SAN MARTIN", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 53228133, "NROAFILIADO" : null, "EDAD" : 11, "CONSULTA_AMBU" :
+        1}
+, {
+    "ID_TURNO_AMBU" : 3462504, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 473, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 11, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-21 16:39:23.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "PINTOS SHEILA MARIA ALDANA", "TEL" : "3735402055",
+        "ID_PACIENTE" : 75699, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "ART PROVINCIA",
+        "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" : "LAPRIDA 1388",
+        "FECHANACIMIENTO" : 70358, "NRODOCUMENTO" : 36973882, "NROAFILIADO" : "36973882",
+        "EDAD" : 31, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3462505, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 384, "FECHA" : {
+        "date" : "2024-09-02 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 12, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-21 17:07:31.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "LEDESMA MARTA ISABEL", "TEL" : "3644 628142",
+        "ID_PACIENTE" : 234551, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "ART GALENO S.A",
+        "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" : "PLANTA URBANA",
+        "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 33144866, "NROAFILIADO" : null,
+        "EDAD" : 36, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3469666, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-09 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 1, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-08 18:11:51.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "TONETTO BASILIA DEL CARMEN", "TEL" : "364 462-7530",
+        "ID_PACIENTE" : 229924, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" : null,
+        "FECHANACIMIENTO" : null, "NRODOCUMENTO" : 16375724, "NROAFILIADO" : null,
+        "EDAD" : null, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3469667, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-09 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 2, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-13 18:19:42.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "MOSQUEDA ELVA DOLORES", "TEL" : "3624-532219-3624097211",
+        "ID_PACIENTE" : 129535, "ESTADO_TURNO" : null, "OBSERVACIONES" : null,
+        "CONSULTORIO" : null, "FORMA_LLAMADO" : null, "OBRA_SOCIAL" :
+        "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" : "RAMIREZ GABRIELA", "DOMICILIO" :
+        "MZ 7 PC 8 BARRIO 130 VIVIENDAS ", "FECHANACIMIENTO" : null, "NRODOCUMENTO" :
+        13903449, "NROAFILIADO" : "155964329002\/00", "EDAD" : 64, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3471126, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 173, "FECHA" : {
+        "date" : "2024-09-16 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 1, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-15 17:06:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "PAVLIK PAULINA", "TEL" : "3735-525569", "ID_PACIENTE" :
+        80122, "ESTADO_TURNO" : null, "OBSERVACIONES" : null, "CONSULTORIO" : null,
+        "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "PAMI-FUERA DE CAPITA", "PRESTADOR" :
+        "RAMIREZ GABRIELA", "DOMICILIO" : "9 DE JULIO S\/N", "FECHANACIMIENTO" : null,
+        "NRODOCUMENTO" : 4527136, "NROAFILIADO" : null, "EDAD" : 81, "CONSULTA_AMBU" : 1}
+, {
+    "ID_TURNO_AMBU" : 3471127, "ID_PRESTADOR" : 182, "ID_OBRA_SOCIAL" : 433, "FECHA" : {
+        "date" : "2024-09-16 00:00:00.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "HORA" : null, "TURNO_NRO" : 2, "TIPO_SOLICITUD" : null, "FECHA_SOLICITA" : {
+        "date" : "2024-08-19 08:58:35.000000", "timezone_type" : 3, "timezone" : "UTC"}
+    , "TIPO_TURNO" : null, "MONTO_CONSULTA" : null, "MONTO_SENIA" : null,
+        "MONTO_PLUS" : null, "TIPO_ABONO" : null, "TURNO_CONFIRMADO" : 0, "TURNO" :
+        "TARDE", "PACIENTE" : "FERNANDEZ JOSE ABEL", "TEL" : "3644440633", "ID_PACIENTE" :
+        43825, "ESTADO_TURNO" : null, "OBSERVACIONES" : "SC", "CONSULTORIO" : null,
+        "FORMA_LLAMADO" : null, "OBRA_SOCIAL" : "PAMI CONVENIO LOMA LINDA ", "PRESTADOR" :
+        "RAMIREZ GABRIELA", "DOMICILIO" : "C.26 (5-7)Bo 1o DE MAYO", "FECHANACIMIENTO" :
+        57748, "NRODOCUMENTO" : 14019778, "NROAFILIADO" : "", "EDAD" : null,
+        "CONSULTA_AMBU" : 1}
+]

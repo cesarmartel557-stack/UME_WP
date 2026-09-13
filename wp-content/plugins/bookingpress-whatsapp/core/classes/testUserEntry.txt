@@ -1,0 +1,69 @@
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress_entry_id] => 18771
+            [bookingpress_order_id] => 0
+            [bookingpress_is_cart] => 0
+            [bookingpress_customer_id] => 0
+            [bookingpress_customer_name] => 
+            [bookingpress_username] => 28988088
+            [bookingpress_password] => $wp$2y$10$u3A34GDgdQk7lr.H4epCAufJfvUKuA71ZZbRDl89rPuprrRho1Ah2
+            [bookingpress_customer_phone] =>  379 423 4682
+            [bookingpress_customer_firstname] => cesar
+            [bookingpress_customer_lastname] => martel
+            [bookingpress_customer_country] => AR
+            [bookingpress_customer_phone_dial_code] => 54
+            [bookingpress_customer_email] => cesarmartel557@gmail.com
+            [bookingpress_customer_timezone] => 180
+            [bookingpress_dst_timezone] => 0
+            [bookingpress_service_id] => 2
+            [bookingpress_service_name] => Cardiología
+            [bookingpress_service_price] => 30000
+            [bookingpress_service_currency] => ARS
+            [bookingpress_service_duration_val] => 5
+            [bookingpress_service_duration_unit] => m
+            [bookingpress_payment_gateway] =>  - 
+            [bookingpress_appointment_date] => 2026-07-16
+            [bookingpress_appointment_time] => 15:30:00
+            [bookingpress_appointment_end_time] => 16:00:00
+            [bookingpress_appointment_internal_note] => 
+            [bookingpress_appointment_send_notifications] => 1
+            [bookingpress_appointment_status] => 1
+            [bookingpress_coupon_details] => []
+            [bookingpress_coupon_discount_amount] => 0
+            [bookingpress_tax_percentage] => 0
+            [bookingpress_tax_amount] => 0
+            [bookingpress_deposit_payment_details] => []
+            [bookingpress_deposit_amount] => 0
+            [bookingpress_selected_extra_members] => 1
+            [bookingpress_extra_service_details] => []
+            [bookingpress_staff_member_id] => 106
+            [bookingpress_staff_member_price] => 15
+            [bookingpress_staff_first_name] => PRUEBA TEST
+            [bookingpress_staff_last_name] => TEST1
+            [bookingpress_staff_email_address] => brave-new-world2@live.com
+            [bookingpress_staff_member_details] => {"bookingpress_staffmember_id":"106","bookingpress_wpuser_id":"305","bookingpress_staffmember_position":"105","bookingpress_staffmember_login":"brave-new-world2@live.com","bookingpress_staffmember_status":"1","bookingpress_staffmember_firstname":"PRUEBA TEST","bookingpress_staffmember_lastname":"TEST1","bookingpress_staffmember_email":"brave-new-world2@live.com","bookingpress_staffmember_phone":"","bookingpress_staffmember_country_phone":"AR","bookingpress_staffmember_country_dial_code":"54","bookingpress_staffmember_created":"2025-11-18 13:55:57","is_any_staff_selected":0}
+            [bookingpress_recurring_details] => 
+            [bookingpress_price_display_setting] => exclude_taxes
+            [bookingpress_display_tax_order_summary] => 1
+            [bookingpress_included_tax_label] => 
+            [bookingpress_paid_amount] => 0
+            [bookingpress_due_amount] => 0
+            [bookingpress_total_amount] => 0
+            [bookingpress_mark_as_paid] => 1
+            [bookingpress_complete_payment_url_selection] => 
+            [bookingpress_complete_payment_url_selection_method] => 
+            [bookingpress_complete_payment_token] => 
+            [bookingpress_created_at] => 2026-07-16 14:07:55
+        )
+
+    [1] => stdClass Object
+        (
+            [bookingpress_appointment_meta_value] => {"form_fields":{"customer_firstname":"cesar","customer_lastname":"martel","customer_email":"cesarmartel557@gmail.com","customer_phone":"+54 379 423 4682","customer_phone_country":"AR","text_C6kufq":"28988088","text_o9q4Cr":"_","is_particular":"obra social","obra_soc_seguros":"ACA SALUD","persona_genero":"","persona_fecha":"","persona_dir":"","persona_alergias":"","persona_city":"","persona_provincia":"","tipo_doc":"DU","send_whatsapp_notification":"1"},"bookingpress_front_field_data":{"customer_name":"1","customer_firstname":"2","tipo_doc":"42","customer_lastname":"3","text_C6kufq":"20","obra_soc_seguros":"26","text_o9q4Cr":"22","persona_fecha":"36","persona_genero":"39","is_particular":"25","persona_dir":"30","terms_and_conditions_AKklQr":"7","persona_city":"32","persona_provincia":"33","persona_alergias":"31","customer_email":"4","customer_phone":"5","appointment_note":"6","customer_username":"8"}}
+        )
+
+)
+
+

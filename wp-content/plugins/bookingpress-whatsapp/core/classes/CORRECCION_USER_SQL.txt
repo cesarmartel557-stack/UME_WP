@@ -1,0 +1,7 @@
+SELECT * FROM `a_bookings` ab join wp_bookingpress_appointment_meta am on ab.bookingpress_entry_id=am.bookingpress_entry_id where am.bookingpress_appointment_meta_key='appointment_form_fields_data' and bookingpress_customer_id=2401 and bookingpress_customer_firstname ='Audelina';
+
+
+
+UPDATE `a_bookings` ab join wp_bookingpress_appointment_meta am on ab.bookingpress_entry_id=am.bookingpress_entry_id 
+SET ab.ap_dni = JSON_UNQUOTE( JSON_EXTRACT(am.bookingpress_appointment_meta_value, '$.form_fields.text_C6kufq'))
+where am.bookingpress_appointment_meta_key='appointment_form_fields_data' and bookingpress_customer_id=2401 and bookingpress_customer_firstname ='Audelina';

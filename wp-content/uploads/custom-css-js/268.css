@@ -1,0 +1,78 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* FORZAR APLICACIÓN - MODO AGRESIVO */
+
+/* TODOS LOS INPUTS */
+.bookingpress * input[type="text"],
+.bookingpress * input[type="email"],
+.bookingpress * input[type="tel"],
+.bookingpress * input[type="date"],
+.bookingpress * input[type="time"],
+.bookingpress * input[type="number"],
+.bookingpress * select,
+.bookingpress * textarea,
+input.bookingpress_form_input,
+.bookingpress_input_field,
+.bp-form-control {
+    border: 2px solid #e9ecef !important;
+    border-radius: 12px !important;
+    padding: 14px 16px !important;
+    font-size: 14px !important;
+    background-color: #ffffff !important;
+    transition: all 0.3s ease !important;
+}
+
+/* FOCUS EN INPUTS */
+.bookingpress * input:focus,
+.bookingpress * select:focus,
+.bookingpress * textarea:focus,
+.bookingpress_form_input:focus,
+.bookingpress_input_field:focus {
+    border-color: #128CAA !important;
+    box-shadow: 0 0 0 4px rgba(18, 140, 170, 0.1) !important;
+    outline: none !important;
+}
+
+/* TODOS LOS BOTONES */
+.bookingpress * button,
+.bookingpress * input[type="submit"],
+.bookingpress_button,
+.bookingpress_primary_button,
+.bp-btn-primary,
+button[class*="bookingpress"],
+.bookingpress_action_button {
+    background: linear-gradient(135deg, #128CAA 0%, #0e7a8a 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 14px 28px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(18, 140, 170, 0.3) !important;
+}
+
+/* HOVER BOTONES */
+.bookingpress * button:hover,
+.bookingpress * input[type="submit"]:hover,
+.bookingpress_button:hover,
+.bookingpress_primary_button:hover {
+    background: linear-gradient(135deg, #0e7a8a 0%, #128CAA 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(18, 140, 170, 0.4) !important;
+}
+
+/* CARDS Y CONTENEDORES */
+.bookingpress_main_container,
+.bookingpress_form_container,
+.bookingpress_container,
+.bookingpress * .card,
+[class*="bookingpress"] .container {
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid #e9ecef !important;
+    padding: 24px !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

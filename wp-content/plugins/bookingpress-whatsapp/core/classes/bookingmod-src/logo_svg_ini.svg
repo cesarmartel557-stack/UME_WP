@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="animated-logo-svg" width="200" height="200" viewBox="0 0 800 400">
+       
+
+ <g xmlns="http://www.w3.org/2000/svg">
+     <animate id="opa_1" attributeName="opacity" values="0; 1; 0" dur="2.5s" keytimes=" 0.2; 1; 2.4" begin="0s"/>
+  <title>Layer 1</title>
+  
+  <g>
+<path xmlns="http://www.w3.org/2000/svg" fill="none" stroke=" #0ca3d4" d="m44.52591,106.119c0.00093,-115.92365 -0.86296,50.17458 0.00278,91.71159c0.86573,41.53701 18.33459,64.17804 37.79412,73.93963c19.45954,9.76159 43.60537,10.18796 63.43961,4.02579c19.83425,-6.16216 50.40395,-29.09846 50.10923,-75.51856c-0.29472,-46.42011 -4.22057,-211.4925 -1.34193,-95.67577" id="svg_9" stroke-width="56" opacity="0.8" filter="url(#svg_9_blur)" class="drawn" style="&#10;    /* stroke-dashoffset: 20; */&#10;    /* stroke-dasharray: 100; */&#10;    /* stroke-linejoin: round; */&#10;">  
+ 
+
+
+</path>
+    
+</g>
+  <path fill="none" stroke-width="56" d="m286.71518,73.61381l-2.11216,97.15868c-0.24833,33.30469 -0.49667,136.87257 0.68358,109.55806l-0.745,-120.57973c-0.70406,-31.46776 1.44905,-119.42158 2.17358,-86.13701z" id="svg_91" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path fill="none" stroke-width="56" d="m511.67342,77.23863l-2.11215,96.5624c-0.24833,33.1003 -0.49668,136.03256 0.68357,108.88568l-0.74499,-119.83971c-0.70406,-31.27463 1.44905,-118.68867 2.17357,-85.60837z" id="svg_95" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path fill="none" stroke-width="66" d="m569.46686,176.69768c-8.97687,-0.06159 -60.41899,-0.12317 -26.93062,-0.18476" id="svg_131" stroke="#ffffff" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path transform="rotate(-27 341.979 175.144)" fill="none" stroke-width="56" d="m341.16587,54.42402c0.13357,-27.12935 2.05706,312.39072 1.53781,230.08804" id="svg_96" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path transform="rotate(28 454.93 177.234)" fill="none" stroke-width="56" d="m454.11704,56.19686c0.13357,-27.20075 2.05706,313.21283 1.53781,230.69355" id="svg_98" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path fill="none" stroke-width="56" d="m617.19489,68.50051c0.13357,-23.79332 2.05706,273.97673 1.53781,201.79463" id="svg_127" stroke="#5fbf00" opacity="0.7" class="drawn" style="stroke-dashoffset: 0;"/>
+    <animate xmlns="http://www.w3.org/2000/svg" dur="3s" repeatCount="indefinite"/>
+    
+  <path transform="rotate(90 670.975 66.3181)" fill="none" stroke-width="56" d="m670.31796,29.48216c-1.23628,-76.96291 2.05706,123.28015 1.53781,86.995" id="svg_128" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  <path transform="rotate(90 671.975 281.384)" fill="none" stroke-width="56" d="m671.31796,244.54806c-1.23628,-76.96291 2.05706,123.28015 1.53781,86.995" id="svg_129" opacity="0.8" stroke=" #0ca3d4" class="drawn" style="stroke-dashoffset: 0;"/>
+  
+<path xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="56" d="m600.54373,175.97488c-233.92694,2.30447 236.14639,-4.21629 79.77289,-0.85357" id="svg_126" stroke="#5fbf00" opacity="0.7" class="drawn" style="stroke-dashoffset: 0;">
+    </path>
+  <text stroke="#003f7f" font-style="normal" font-weight="500" xml:space="preserve" text-anchor="start" font-family=" system-ui" font-size=" 55px" id="svg_130" y="373" x="31" stroke-width="0" fill=" #026f96" style="letter-spacing: 4px;">Unidad Médica Educativa</text>
+
+<animate xmlns="http://www.w3.org/2000/svg" id="logo_anim" attributeName="stroke-dasharray" from="-100,450" to="180,-10" dur="2.4s"/>
+     
+
+     
+</g>
+
+   
+
+</svg>

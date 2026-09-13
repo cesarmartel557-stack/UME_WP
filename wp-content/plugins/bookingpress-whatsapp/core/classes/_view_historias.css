@@ -1,0 +1,682 @@
+body {
+    /*display: none;*/
+}
+.bp_hc_dual_view_container {
+    /* padding-bottom: 30px; */
+}
+.histories-listing-header {
+    width: 100%;
+}
+
+.bp_hc_dual_view_container .bp_hc_dual_col_form {
+    padding: 2px 10px 20px 2px;
+    margin-bottom: 30px;
+    /*padding-bottom: 20px;*/
+}
+
+:not(.__is_bphc_popup) .main-historias:has(.bp_hc_dual_view_container.portrait) {
+    max-height: max(520px, 100vh );
+}
+.bp_hc_dual_view_container.portrait {
+    /* max-height: max(520px, calc(100vh - 80px) ); */
+}
+
+:not(.__is_bphc_popup) .bp_hc_dual_view_container.portrait .bp_hc_dual_col_form {
+    
+}
+
+
+.bp_hc_dual_col_form .bpa-default-card.bpa-db-card {
+    padding: 8px;
+}
+.bp_hc_dual_col_form .first-desc-form {
+    display: flex;justify-content: space-between;align-items: center;padding: 2px 0px 2px 2px;
+}
+.bp_hc_dual_col_form .first-desc-form .fdform_left {
+    text-align: start;align-self: center;
+}
+.bp_hc_dual_col_form .first-desc-form .fdform_right {
+    display: flex;justify-content:end;align-self:end;max-width:180px;
+}
+
+
+
+.bp_hc_dual_view_container .bpa-pagination {
+    margin-bottom: 30px;
+}
+
+
+.__is_bphc_popup main#all-page-main-container {
+    border: 0;
+}
+.__is_bphc_popup .historias_y_pacientes {
+    padding: 0;
+}
+
+
+/* **** Historias Page **** */
+
+
+
+.bp_hc_dual_view_container .bphc_historia-item-before {
+    padding-right: 0px;
+    min-width: 68px;
+}
+.bp_hc_dual_view_container .bphc_item-before-round.show>span {
+    margin: 0;
+    padding: 4px;
+    font-family: var(--bpa-primary-font);
+    font-family: var(--bpa-secondary-font);
+}
+
+
+
+/** CAMBIADO A BODY - APLICABLE NO SOLO A VISTA DE STAFFMEMBER (MEDICOS)
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container) {
+    margin-left: 266px;
+    margin-right: 16px;
+}
+
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container) .historias_y_pacientes {
+    flex-wrap: wrap;
+}
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container) .lista-pacientes {
+    width: 100%;
+    width: calc(100% - 26px);
+}
+
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container) #bphc_main_historias_el,
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container).histories-listing-header {
+    width: 100%;
+}
+*/
+/*
+.bpa-main-list-card__is-staff-custom-view:has(.bp_hc_dual_view_container) {
+    margin-left: 266px;
+    margin-right: 16px;
+}*/
+
+body.__expansion-is-admin-turnos .el-dialog.is-fullscreen.bpa-dialog--history-modal {
+    margin: 0;
+    width: 100%;
+}
+body.__expansion-is-admin-turnos #bphc_history_add_modal.el-dialog__wrapper {
+    /* margin: 141px 30px 20px 20px !important; */
+    /* width: calc(100% ) !important; */
+    width: 100% !important;
+    margin: 110px 0 0 0 !important;
+}
+/*
+body.__expansion-is-admin-turnos #bphc_history_add_modal.el-dialog__wrapper {
+    margin: 141px 30px 20px 20px !important;
+    width: calc(100% - 36px) !important;
+}
+*/
+
+
+body:has(.bp_hc_dual_view_container) .historias_y_pacientes {
+    flex-wrap: wrap;
+}
+body:has(.bp_hc_dual_view_container) .lista-pacientes {
+    width: 100%;
+    width: calc(100% - 26px);
+}
+
+body:has(.bp_hc_dual_view_container) #bphc_main_historias_el,
+body:has(.bp_hc_dual_view_container).histories-listing-header {
+    width: 100%;
+}
+
+body.__is_bphc_popup:has(.bp_hc_dual_view_container.landscape) .histories-listing-header {
+    width: calc(100% + 5px) !important;
+    
+}
+
+.__is_bphc_popup {
+}
+
+
+.bphc_inf_right {
+    min-width: 106px;align-items: center;/*align-self: flex-start;*/
+}
+.bphc_inf_right {
+    min-width: 106px;
+    align-items: center;
+    justify-content: right;
+}
+.the_history_time {
+    /* width: 100%; */
+    flex: 100%;
+    justify-content: right;
+}
+span.bphc-action-buttons {
+    min-width: 30px;
+    text-align: center;
+}
+
+
+.histories-listing-header {
+    height: 50px;
+    min-height: 50px;
+}
+.histories-listing-header .view-mode-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.histories-listing-header .view-mode-btns .bphc-view-mode-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    outline: 0px solid currentColor;
+    margin: 0 4px;
+    justify-content: center;
+    border-radius: 5px;
+    color: darkturquoise;
+    color: #cfd6e5;
+    transition: all;
+}
+.histories-listing-header .view-mode-btns .bphc-view-mode-btn.activo {
+    color: #142fd3a8;
+    outline: 1px solid #e6e6fa54;
+}
+.histories-listing-header .view-mode-btns .bphc-view-mode-btn.activo {
+    background-color: #a8b6bd21;
+    outline: 1px solid #e6e6fa9c;
+    color: #e53b2ae6;
+}
+.histories-listing-header .view-mode-btns .bphc-view-mode-btn:hover {
+    color: #b5d5f1;
+    outline: 1px solid #e6e6fa54;
+    outline: 1px solid #e6e6fa40;
+}
+
+
+/* view TOP button */
+
+.history-gototop-btn {
+    z-index: 100;position: fixed;bottom: 0;right: 20px;color: white;border-radius: 100%;padding: 13px;background-color: dodgerblue;width: 50px;height: 50px;display: flex;justify-content: center;align-items: center;
+    user-select: none;
+    cursor: default;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: -40px;
+    opacity: 0.1;
+}
+body.__is_bphc_popup .history-gototop-btn {
+    
+    right: 50px;
+}
+
+.history-gototop-btn.show {
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+body.__is_bphc_popup .history-gototop-btn.show {
+    margin-bottom: 104px;
+}
+
+
+
+/* *** colocado asi por el important en la otra modificacion.
+*
+*Tratar de no usar !important momentaneamente lo aplicamos!
+*
+* luego traeremos algunos otros estilos historias para este archivo.
+* algunos estilos que se utilizan en el popup en pagina de listado de turnos no estan aca, 
+unos se aplican desde mod_historias footer de Turnos, otros directamente en el archivo history popup
+*
+ *** */
+#bphc_history_add_modal.el-dialog__wrapper .el-dialog__body .bpa-dialog-body .bpa-form-row .el-row .el-col>.bpa-default-card.bpa-db-card {
+    background-color: #f4f8fb !important;
+}
+
+
+.header-right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* min-height: 45px; */
+}
+
+
+.bp_hc_dual_view_container.portrait {
+    width: 100%;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: calc(50% + 10px) auto;
+}
+
+.__is_bphc_popup #bpa-main-container > h3 {
+    display: none;
+}
+
+
+/** CESAR LIMITADOS */
+
+
+            .historia-item .bphc_inf_right {
+               color: #096f95;
+             }
+             
+             .el-textarea .el-textarea__inner {
+                background-color: #f8f8f8;
+             }
+             
+             .el-form-item .el-form-item__label {
+                margin-bottom: 4px;
+             }
+             
+             .historia-item .the_history_date, .historia-item .the_history_date div, .histories-listing-header .view-mode-btns .bphc-view-mode-btn.activo {
+                color: #096f95;
+             }
+             
+             .upload-demo .el-button--primary {
+                  color: #fff !important;
+                  background-color: rgb(18, 212, 136);
+                  border-color: rgb(18, 212, 136);
+              }
+              
+              .upload-demo .el-button--primary span {
+                  color: #fff !important;
+              }
+              
+              .bp_hc_dual_view_container.portrait, .bp_hc_dual_view_container.landscape {
+                  color: #096f95;
+                  background: #90bbda1a;
+                  padding: 18px 5px;
+                  border:1px solid lightgray;
+                  border-radius:6px
+              }
+              
+              .bpa-dialog.bpa-dialog--fullscreen {
+                  color: #096f95;
+                  background: #90bbda1a;
+                    border:1px solid lightgray;
+                  border-radius:6px
+              }
+              
+              #dual_view_bphc_history_add_container>div form .el-card, #dual_view_bphc_history_add_container>div .bpa-default-card {
+                  background:white;
+                  border:0 none;
+              }
+              
+              #dual_view_bphc_history_add_container>div .bp_hc_dual_col_form .bpa-default-card.bpa-db-card {
+                 background:white;
+                 border:0 none;
+              }
+              
+              .bpa-page-heading {
+                  color: #096f95;
+                  font-weight: 700;
+               }
+               
+               .lista-historias-container .bpa-pagination {
+                  width: 93% !important;
+                  padding: 15px 20px !important;
+                  background: white;
+              }
+              
+              .histories-listing-header {
+                  padding-bottom:70px
+              }
+              
+              .el-button.bpa-btn.el-button--default {
+                  background-color:white;
+               }
+               
+               .el-button.el-button.bpa-btn--primary, .el-message-box__btns .el-button.el-button--primary {
+                   background-color:#12D488
+               }
+               
+               #dual_view_bphc_history_add_container .bpa-page-heading {
+                   margin-top:8px;
+               }
+               
+               .lista-historias-container .bpa-page-heading {
+                   margin:8px 0 8px;
+               }
+               
+               
+/* Card principal */
+.medical-card {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medical-card:hover {
+    outline: 2px solid #7ea5c5c4;
+    /* background-color: #f7f7f7d6; */
+    box-shadow: 2px 5px 20px #1d1f1e14;
+}
+
+/* Header con gradiente */
+.card-header-gradient {
+    background: #096f95;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-title {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.header-subtitle {
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+.header-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Botones de acción del header */
+.action-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+
+.medical-card:hover .action-btn {
+    opacity: 1;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-view {
+    background-color: #e7f3ff;
+    color: #096f95;
+}
+
+.btn-view:hover {
+    background-color: #cfe2ff;
+}
+
+.btn-edit {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+.btn-edit:hover {
+    background-color: #e9ecef;
+}
+
+.action-btn .material-icons-round {
+    font-size: 20px;
+}
+
+/* Body de la card */
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Tags/Botones */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag-item {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-weight: 400;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tag-item:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Sección de información */
+.info-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+}
+
+.info-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.info-value {
+    font-size: 0.9rem;
+    color: #212529;
+    font-weight: 500;
+}
+
+/* Sección de diagnósticos */
+.diagnostics-section {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.diagnostic-item {
+    font-size: 0.9rem;
+    color: #495057;
+    padding: 0.25rem 0;
+    line-height: 1.5;
+}
+
+.diagnostic-item strong {
+    color: #212529;
+    font-weight: 600;
+}
+
+/* Botones de acción inferiores */
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-buttons .btn-primary-action2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background-color: #e8f7fc !important;
+    color: #096f95 !important;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-buttons .btn-primary-action2:hover {
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.3);
+}
+
+.action-buttons .btn-primary-action2 .material-icons-round {
+    font-size: 18px;
+}
+
+.btn-secondary-action2 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    /* color: #096f95; */
+    background: #90bbda1a !important;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-secondary-action:hover {
+    background-color: #f8f9fa;
+    border-color: #adb5bd;
+}
+
+.btn-secondary-action .material-icons-round {
+    font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .card-header-gradient {
+        padding: 1rem;
+    }
+    
+    .header-title {
+        font-size: 1.1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .action-btn {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.historia-item {
+    display: block;
+    width: 100%;
+    min-height: 160px;
+    margin: 4px 0;
+    margin-bottom: 36px;
+    outline: 0 none;
+    cursor: pointer;
+    background-color: transparent;
+    /* position: relative; */
+    left: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.historia-item:hover {
+    outline: 0 none;
+    /* background-color: #f7f7f7d6; */
+    box-shadow: none;
+}
+
+.histories-listing-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    /*height:auto !important;*/
+    /*padding-bottom:70px !important;*/
+    padding-top: 30px;
+   }
+   
+   .nombreYbtns {
+       width:auto;
+       display: flex;
+       align-items: center;
+   }
+   
+   #bpa-main-container > h3 {
+      margin:20px 10px 0 25px;
+      position: relative;
+    top: 10px;
+   }
+   
+   #bphc_history_add_modal.el-dialog__wrapper .el-dialog.is-fullscreen.bpa-dialog.bpa-dialog--fullscreen.bpa-dialog--history-modal.bpa--is-page-non-scrollable-mob {
+      border: 1px solid lightgray !important;
+      background-color: #90bbda1a !important;
+   }
+   
+   .bpa-dialog--fullscreen .bpa-dialog-heading { background-color: #F4F7FB;}
+   
+   #bphc_history_add_modal.el-dialog__wrapper .el-dialog__body .bpa-dialog-body .bpa-form-row .el-row .el-col>.bpa-default-card.bpa-db-card {
+       background-color: #F4F7FB !important;
+   }
+   
+   
+.histories-listing-header .view-mode-btns .bphc-view-mode-btn {
+    height: 34px;
+    width: 34px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 24px;
+   }
+   
+   .bpa-btn {padding:9px 15px}
+   
+   .bpa-table-container .el-table__body-wrapper table tbody tr td {
+        font-weight: 400;
+    }
+   
+   .v-modal {
+      background: white !important;
+    }
+

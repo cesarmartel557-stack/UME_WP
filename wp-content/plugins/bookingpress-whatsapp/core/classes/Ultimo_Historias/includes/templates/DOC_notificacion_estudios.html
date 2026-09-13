@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="author" content="Foatconcept - Maximiliano Suarez&lt;cv.msuarez@gmail.com&gt;">
+
+	<title>DOC API Notificacion de estudios</title>
+    
+ <style>
+body {
+    font-family: system-ui;
+}
+td, th {
+    padding-bottom: 30px;
+    border-bottom: 1px dotted lightgray;
+}
+
+th:first-of-type {
+    min-width: 250px;
+}
+.endpoint {
+    font-size: 16px;
+    background: #3e20b214;
+    padding: 5px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+.methodpost {
+    color: darkslategray;
+    border: 2px solid lightgray;
+    padding: 2px 15px;
+    background: #0ac984;
+    color: wheat;
+    border-radius: 10px;
+}
+
+
+.ejemplo_codigo {
+    padding: 10px;
+    border-radius: 5px;
+    background: aliceblue;
+    margin: 10px 20px;
+    width: 80%;
+    border: 1px solid powderblue;
+}
+ </style>
+</head>
+
+<body>
+
+
+<div dir="ltr" data-container-id="main-col" data-xid="VpUvz" jsname="KFl8ub" class="mZJni Dn7Fzd" jscontroller="Aoijq" jsuid="pcJmrb_4" data-ved="2ahUKEwj_j-C20Z-SAxV2GbkGHSEeENYQ3KYQegYIAQgAEAE" data-processed="true">
+    <div style="display: contents" data-container-id="5" data-processed="true">
+
+        <div class="otQkpb" aria-level="3" role="heading" data-animation-nesting="" data-sfc-cp="" jscontroller="a7qCn" jsuid="pcJmrb_d" data-complete="true" data-processed="true" data-sae="" style="">
+        <strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_e" data-complete="true">Endpoint</strong>
+        
+        </div>
+<div class="Y3BBE" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_f|npT2md" jscontroller="zcfIf" jsuid="pcJmrb_f" data-hveid="CAEIAhAA" data-processed="true" data-complete="true">
+<code dir="ltr" class="endpoint" jscontroller="PR9Qj" jsuid="pcJmrb_g" data-complete="true" data-sae="" style="">
+<strong class="methodpost">POST</strong> 
+https://turnos2.clinicaume.com.ar/wp-json/appointments-api/v1/study-notifications
+</code>
+</div>
+ 
+
+<hr class="j3tEEe" jscontroller="llbKvd" jsuid="pcJmrb_i" data-serialized-params="[]" data-processed="true" data-sae="" style="" data-complete="true">
+<div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_j|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_j" data-processed="true" data-complete="true"><!--Sv6Kpe[]--></div>
+<div class="otQkpb" aria-level="3" role="heading" data-animation-nesting="" data-sfc-cp="" jscontroller="a7qCn" jsuid="pcJmrb_k" data-complete="true" data-processed="true" data-sae="" style="margin-bottom: 10px;">
+<strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_l" data-complete="true">1. Casos de Error<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></div>
+<div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_m|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_m" data-processed="true" data-complete="true"><!--Sv6Kpe[]--></div>
+
+<div >
+<table class="NRefec" data-animation-nesting="" data-complete="true" data-sae="" style="">
+<tbody data-complete="true"><tr ><th >Código HTTP<!--Sv6Kpe[]--></th><th class="iry6k" colspan="undefined" data-sfc-cp="" jscontroller="uuu13" jsuid="pcJmrb_q" data-complete="true">Error (JSON)<!--Sv6Kpe[]--></th><th class="iry6k" colspan="undefined" data-sfc-cp="" jscontroller="uuu13" jsuid="pcJmrb_r" data-complete="true">Causa<!--Sv6Kpe[]--></th><!--Sv6Kpe[]--></tr><tr class="cZCYO" data-sfc-cp="" jscontroller="OkanJc" jsuid="pcJmrb_s" data-complete="true"><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_t" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_u" data-complete="true">401 Unauthorized<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_v" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_w" data-complete="true" data-sae="" style="">{"code": "rest_forbidden", "message": "Error al obtener autorización.", "data": {"status": 401}}<!--Sv6Kpe[]--></code><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_x" data-complete="true">Faltan las cabeceras <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_y" data-complete="true" data-sae="" style="">X-Access-Token<!--Sv6Kpe[]--></code> o <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_z" data-complete="true" data-sae="" style="">X-Secret-Key<!--Sv6Kpe[]--></code>, el prefijo no es <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_10" data-complete="true" data-sae="" style="">TK_<!--Sv6Kpe[]--></code>/<code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_11" data-complete="true" data-sae="" style="">SK_<!--Sv6Kpe[]--></code>, o las credenciales no coinciden con un usuario con capacidad 
+requerida<!--<code>expansion_noty_study</code>-->.</td>
+</tr>
+<tr class="cZCYO" data-sfc-cp="" jscontroller="OkanJc" jsuid="pcJmrb_13" data-complete="true"><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_14" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_15" data-complete="true">400 Bad Request<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_16" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_17" data-complete="true" data-sae="" style="">{"code": "no_data", "message": "No se recibieron datos", "data": {"status": 400}}<!--Sv6Kpe[]--></code><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_18" data-complete="true">La solicitud se autenticó correctamente pero el cuerpo (body) o los parámetros de la URL están vacíos.<!--Sv6Kpe[]--></td><!--Sv6Kpe[]--></tr><tr class="cZCYO" data-sfc-cp="" jscontroller="OkanJc" jsuid="pcJmrb_19" data-complete="true"><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_1a" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_1b" data-complete="true">400 Bad Request<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_1c" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_1d" data-complete="true" data-sae="" style="">{"code": "error", "message": "Error al procesar la solicitud.", "data": {"status": 400}}<!--Sv6Kpe[]--></code><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_1e" data-complete="true">Ocurrió una excepción inesperada (Throwable) durante el procesamiento de los datos.<!--Sv6Kpe[]--></td><!--Sv6Kpe[]--></tr></tbody></table><!--Sv6Kpe[[1,0,0,3,null,&quot;&quot;]]--></div><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1f|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_1f" data-complete="true" data-processed="true"><!--Sv6Kpe[]--></div><hr class="j3tEEe" jscontroller="llbKvd" jsuid="pcJmrb_1g" data-serialized-params="[]" data-processed="true" data-sae="" data-complete="true" style=""><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1h|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_1h" data-complete="true" data-processed="true"><!--Sv6Kpe[]--></div><div class="otQkpb" aria-level="3" role="heading" data-animation-nesting="" data-sfc-cp="" jscontroller="a7qCn" jsuid="pcJmrb_1i" data-complete="true" data-processed="true" data-sae="" style=""><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_1j" data-complete="true">2. Caso de Éxito (Success)<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></div><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1k|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_1k" data-processed="true" data-complete="true"><!--Sv6Kpe[]--></div><div class="Fv6NCb" jsuid="pcJmrb_1l" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1l|npT2md" jscontroller="kbUand" data-ved="2ahUKEwj_j-C20Z-SAxV2GbkGHSEeENYQ-q4QegYIAQgGEAA" data-processed="true" data-complete="true"><table class="NRefec" data-animation-nesting="" data-complete="true" data-sae="" style=""><tbody data-complete="true"><tr class="cZCYO" data-sfc-cp="" jscontroller="OkanJc" jsuid="pcJmrb_1m" data-complete="true"><th class="iry6k" colspan="undefined" data-sfc-cp="" jscontroller="uuu13" jsuid="pcJmrb_1n" data-complete="true">Código HTTP<!--Sv6Kpe[]--></th><th class="iry6k" colspan="undefined" data-sfc-cp="" jscontroller="uuu13" jsuid="pcJmrb_1o" data-complete="true">Respuesta (JSON)<!--Sv6Kpe[]--></th><th class="iry6k" colspan="undefined" data-sfc-cp="" jscontroller="uuu13" jsuid="pcJmrb_1p" data-complete="true">Condición<!--Sv6Kpe[]--></th><!--Sv6Kpe[]--></tr><tr class="cZCYO" data-sfc-cp="" jscontroller="OkanJc" jsuid="pcJmrb_1q" data-complete="true"><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_1r" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_1s" data-complete="true">200 OK<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></td><td class="cOeeGf" colspan="undefined" data-sfc-cp="" jscontroller="QYassd" jsuid="pcJmrb_1t" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_1u" data-complete="true" data-sae="" style="">{"status": "success"}<!--Sv6Kpe[]--></code><!--Sv6Kpe[]--></td>
+<td >Las credenciales son válidas y se han recibido parámetros en el body (JSON). <!--o vía query params.--></td><!--Sv6Kpe[]--></tr></tbody></table><!--Sv6Kpe[[1,0,0,3,null,&quot;&quot;]]--></div><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1w|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_1w" data-complete="true" data-processed="true"><!--Sv6Kpe[]--></div><hr class="j3tEEe" jscontroller="llbKvd" jsuid="pcJmrb_1x" data-serialized-params="[]" data-processed="true" data-sae="" data-complete="true" style=""><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_1y|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_1y" data-complete="true" data-processed="true"><!--Sv6Kpe[]--></div>
+
+<div style="margin-bottom: 20px;"><strong >3. Ejemplo de Envío de Información</strong></div>
+
+
+    <div class="Y3BBE" style="display: none;">
+        Aunque el código registra el método como <code>POST</code>, el callback <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_23" data-complete="true" data-sae="" style="">
+        process_study_notification</code> está diseñado para intentar leer parámetros de un cuerpo 
+        <strong>JSON</strong>, de parámetros <strong>POST</strong> o de la <strong>Query String</strong>.
+    </div>
+    
+    <div><strong >Headers y JSON Body</strong></div>
+    <div>
+    <strong >URL:</strong> 
+    <code>
+    https://turnos2.clinicaume.com.ar/wp-json/appointments-api/v1/study-notifications
+    </code>
+    <br>
+    <strong>Headers:</strong>
+    </div>
+    <ul class="KsbFXc U6u95" jscontroller="mPWODf" jsuid="pcJmrb_2f" data-complete="true" data-processed="true">
+        <li><span class="T286Pc" data-sfc-cp="" jscontroller="fly6D" jsuid="pcJmrb_2h" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_2i" data-complete="true" data-sae="" style="">X-Access-Token: &lt;tu_token_aqui&gt; <!--Sv6Kpe[]--></code><!--Sv6Kpe[]--></span><!--Sv6Kpe[]--></li>
+        <li><span class="T286Pc" data-sfc-cp="" jscontroller="fly6D" jsuid="pcJmrb_2k" data-complete="true"><code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_2l" data-complete="true" data-sae="" style="">X-Secret-Key: &lt;tu_clave_encriptada&gt; </code><!--Sv6Kpe[]--></span><!--Sv6Kpe[]--></li>
+        <li><span><code>Content-Type: application/json</code></span></li>
+    </ul>
+    <div class="Y3BBE" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_2p|npT2md" jscontroller="zcfIf" jsuid="pcJmrb_2p" data-hveid="CAEICxAA" data-processed="true" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_2q" data-complete="true" data-processed="true">Body:<!--Sv6Kpe[]--></strong><!--Sv6Kpe[]--></div><div class="Fsg96" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_2r|npT2md" jscontroller="KHhJQ" jsuid="pcJmrb_2r" data-processed="true" data-complete="true"><!--Sv6Kpe[]--></div>
+
+<div class="r1PmQe" jscontroller="HP6Sjf" jsuid="pcJmrb_2s" data-wiz-uids="pcJmrb_2t,pcJmrb_2u,pcJmrb_2v" data-hveid="CAEIDBAA" data-processed="true" data-complete="true">
+<div class="ejemplo_codigo" data-complete="true" data-processed="true">
+<div class="pHpOfb" data-animation-atomic="" data-sae="" style=""><div class="z0e9Qd"><div class="vVRw1d">json</div></div>
+<div class="pCTyYe" dir="ltr">
+    <pre>    <code jsuid="pcJmrb_2t">
+    <span class="undefined">{
+        </span>
+        <span class="CS0cqb">"nro_turno"</span>
+        <span class="undefined">: </span>
+        <span class="CS0cqb">"12345"</span>
+        <span class="undefined">,
+        </span>
+        <span class="CS0cqb">"metadata"</span>
+        <span class="undefined">: {
+            </span>
+            <span class="CS0cqb">"paciente"</span>
+            <span class="undefined">: </span>
+            <span class="CS0cqb">"Juan Pérez"</span><span class="undefined">,
+            </span><span class="CS0cqb">"estudio"</span><span class="undefined">: </span><span class="CS0cqb">"Radiografía de Tórax"</span><span class="undefined">,
+            </span><span class="CS0cqb">"fecha_2026"</span><span class="undefined">: </span><span class="CS0cqb">"2026-01-22"</span><span class="undefined">
+        }
+    }
+    </span>
+    </code>
+    </pre>
+
+</div></div>
+
+
+
+</div><!--Sv6Kpe[]--></div>
+
+</div>
+</div>
+
+
+<div style="display: none;">
+
+    <div class="AdPoic" aria-level="3" role="heading" data-animation-nesting="" data-sfc-cp="" jscontroller="SF2W9b" jsuid="pcJmrb_2z" data-complete="true" data-processed="true" data-sae="" style="">
+        <strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_30" data-complete="true">Opción B: Vía Parámetros de URL (Query String)</strong>
+    </div>
+    <div class="Y3BBE" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_31|npT2md" jscontroller="zcfIf" jsuid="pcJmrb_31" data-hveid="CAEIDRAA" data-complete="true" data-processed="true">
+        Si no se envían headers, el código busca los parámetros <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_32" data-complete="true" data-sae="" style="">token<!--Sv6Kpe[]--></code> y <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_33" data-complete="true" data-sae="" style="">secret</code> en la URL:
+    </div>
+    <div class="Y3BBE" data-sfc-cp="" jsaction="rcuQ6b:&amp;pcJmrb_34|npT2md" jscontroller="zcfIf" jsuid="pcJmrb_34" data-hveid="CAEIDhAA" data-processed="true" data-complete="true">
+        <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_35" data-complete="true" data-sae="" style="">https://turnos2.cli.test</code>
+    </div>
+    
+</div>
+
+
+    <hr class="j3tEEe" jscontroller="llbKvd" jsuid="pcJmrb_37" data-serialized-params="[]" data-processed="true" data-sae="" style="" data-complete="true">
+
+
+    <ol class="IaGLZe VimKh" jscontroller="xE4zce" jsuid="pcJmrb_3b" data-processed="true" data-complete="true">
+        <li><span class="T286Pc" data-sfc-cp="" jscontroller="fly6D" jsuid="pcJmrb_3d" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_3e" data-complete="true">Seguridad:<!--Sv6Kpe[]--></strong> El sistema verifica estrictamente que los tokens comiencen con <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_3f" data-complete="true" data-sae="" style="">TK_<!--Sv6Kpe[]--></code> y las llaves con <code dir="ltr" class="o8j0Mc" jscontroller="PR9Qj" jsuid="pcJmrb_3g" data-complete="true" data-sae="" style="">SK_</code>.</span></li>
+        <li><span class="T286Pc" data-sfc-cp="" jscontroller="fly6D" jsuid="pcJmrb_3i" data-complete="true"><strong class="Yjhzub" jscontroller="zYmgkd" jsuid="pcJmrb_3j" data-complete="true">Logs:<!--Sv6Kpe[]--></strong> Cada petición exitosa genera una entrada local dentro del sistema, incluyendo el Host de referencia y el dump de la información recibida para auditoría.</span></li>
+        <li><span><strong>Permisos:</strong> El usuario dueño del <code>Secret-Key</code> y <code>Token</code> debe tener explícitamente asignada la capacidad <code><!--expansion_noty_study --></code> requerida.</span></li>
+        <li><span><strong>Usuario:</strong> El usuario y su par de claves seran creados y asignados por un administrador.</span></li>
+    </ol>
+    
+
+<div style="margin: 20px;">
+<strong style="color: crimson;">
+Considérese que este es un ejemplo y el cuerpo JSON no requiere el campo metadata.<br>
+Se debe enviar información del numero de turno y el resto de información debe mantener un formato y/o estructura estable.<br>
+</strong>
+
+</div>
+
+
+<style>
+/*
+    --emphasized-curve: linear(0,0.00245 1.753%,0.004 2.29%,0.00994 3.55%,0.01966 4.916%,0.03415 6.402%,0.05334 7.836%,0.07441 9.061%,0.07376 9.061%,0.10031 10.32%,0.12808 11.414%,0.15979 12.444%,0.19399 13.366%,0.23105 14.21%,0.27138 14.974%,0.34474 16.052%,0.34403 16.052%,0.47679 17.475%,0.54434 18.338%,0.60689 19.389%,0.66036 20.609%,0.68967 21.461%,0.71671 22.4%,0.74193 23.444%,0.76532 24.589%,0.78755 25.874%,0.80828 27.285%,0.82719 28.791%,0.84475 30.42%,0.86492 32.632%,0.86558 32.713%,0.8645 32.713%,0.86561 32.715%,0.86856 33.078%,0.88332 35.056%,0.88876 35.862%,0.88763 35.862%,0.88881 35.871%,0.9002 37.721%,0.90085 37.833%,0.90007 37.833%,0.9039 38.373%,0.91554 40.622%,0.9295 43.795%,0.94208 47.239%,0.95333 50.97%,0.96327 54.986%,0.97199 59.335%,0.9795 64.011%,0.9858 69.036%,0.99095 74.434%,0.99492 80.205%,0.99774 86.373%,1);
+    --aim-input-plate-height: 60px;
+    --aim-input-plate-margin-bottom: 34px;
+    --linear-aura-gradient: linear-gradient(to right in oklch,#f63b35 0%,#f63b35 3%,#1265f0 7%,#477dff 17%,#2caf4f 20%,#72bb44 25%,#ffe523 27%,#ffcc25 30%,#ea4335 33%,#ea4335 45%,#1265f0 49%,#477dff 68%,#34a853 72%,#2caf4f 79%,#ffe523 82%,#ffcc25 87%,#f63b35 90%,#f63b35 100%);
+    --COEmY: #1f1f1f;
+    --xhUGwc: #ffffff;
+    --vZe0jb: #a8c7fa;
+    --nwXobb: #638ed4;
+    --VuZXBd: #001d35;
+    --uLz37c: #56595e;
+    --jINu6c: #0a0a0a;
+    --TyVYld: #0b57d0;
+    --ZEpPmd: #c3d9fb;
+    --QWaaaf: #638ed4;
+    --DEeStf: #f0f2f5;
+    --TSWZIb: #e9ebf0;
+    --BRLwE: #e1e3e8;
+    --gS5jXb: #dcdfe5;
+    --Aqn7xd: #d2d2d2;
+    --EpFNW: #fff;
+    --Xqboce: #1f1f1f;
+    --IXoxUe: #56595e;
+    --bbQxAb: #0a0a0a;
+    --YLNNHc: #0a0a0a;
+    --TMYS9: #0a0a0a;
+    --JKqx2: #1a0dab;
+    --rrJJUc: var(--Nsm0ce);
+    --mXZkqc: #f0f2f5;
+    --Nsm0ce: #0b50d0;
+    --vdwxpe: #a8c7fa;
+    --ywz01c: #fbbc04;
+    --XKMDxc: #f0f2f5;
+    --aYn2S: #e9ebf0;
+    --Lm570b: #e1e3e8;
+    --amnPwe: #56595e;
+    --ZXiaGf: #fff;
+    --EoKObe: #fff;
+    --cIehld: #fff;
+    --ONhrGd: #dadce0;
+    --gVUKcd: rgba(0,0,0,0.6);
+    --KIZPne: #a3c9ff;
+    --xPpiM: #001d35;
+    --Ehh4mf: var(--Nsm0ce);
+    --Yi4Nb: #d2d2d2;
+    --pEa0Bc: #474747;
+    --kloG3: #d2d2d2;
+    --YaIeMb: #f7f8f9;
+    --Pa8Wlb: #0b57d0;
+    --izGsqb: #0b57d0;
+    --todMNcl: #fff;
+    --p9J9c: #0b57d0;
+    font-size: 14px;
+    --nvzc1: var(--DEeStf);
+    --nvzc2: var(--TSWZIb);
+    --nvzc3: var(--BRLwE);
+    --nvzc4: var(--xhUGwc);
+    --nvzc5: var(--XKMDxc);
+    --nvzc6: var(--aYn2S);
+    --nvzc7: var(--Lm570b);
+    --nvzc8: var(--KIZPne);
+    --nvzc9: var(--jINu6c);
+    --nvzc10: var(--uLz37c);
+    --nvzc11: var(--YLNNHc);
+    --nvzc12: var(--IXoxUe);
+    --nvzc13: var(--bbQxAb);
+    --nvzc14: var(--TMYS9);
+    --nvzc15: var(--JKqx2);
+    --nvzc16: var(--mXZkqc);
+    --nvzc17: var(--gS5jXb);
+    --nvzc18: var(--amnPwe);
+    --nvzc19: var(--Nsm0ce);
+    --nvzc20: var(--rrJJUc);
+    --nvzc21: var(--ZXiaGf);
+    --nvzc22: var(--EoKObe);
+    --nvzc23: var(--cIehld);
+    --nvzc24: var(--ONhrGd);
+    --nvzc25: var(--gVUKcd);
+    --nvzc28: #f1f3f4;
+    --nvzc32: var(--Lm570b);
+    --nvzc34: rgba(0,0,0,0.03);
+    --nvzc27: #000;
+    --nvzc35: #caced9;
+    --nvzc36: #f7f8fa;
+    --nvzc37: #f0f2f5;
+    --nvzc29: #d3e3fd;
+    --nvzc30: #046e00;
+    --nvzc31: #c0151d;
+    --center-abs-margin: 180px;
+    --center-width: 652px;
+    --rhs-margin: 76px;
+    --rhs-width: 372px;
+    --lhs-refinements-width: 0px;
+    --sxs-input-plate-height: 112px;
+    --m3c1: #0b57d0;
+    --m3c2: rgba(245,248,255,0.5);
+    --m3c3: #fff;
+    --m3c5: #f5f8ff;
+    --m3c6: #e5edff;
+    --m3c7: #d3e3fd;
+    --m3c10: #545d7e;
+    --m3c12: #0b57d0;
+    --m3c13: #a3c9ff;
+    --m3c14: #001d35;
+    --m3c15: #0b57d0;
+    --m3c16: #545d7e;
+    --m3c17: #a3c9ff;
+    --m3c18: #446eff;
+    --m3c19: #b1c5ff;
+    --m3c20: #c8ecff;
+    --m3c21: #a6c8ff;
+    --m3c23: #3179ed;
+    --m3c22: #d3e3fd;
+    --aim-container-min-height: calc(100vh - 160px - 30px - var(
+        --sticky-header-height
+      ) + var(--title-header-gap));
+    --aim-zero-state-v2-desktop-height: calc(100vh - 30px - var(--sticky-header-height));
+    --desktop-lhs-width: 76px;
+    --aim-zero-state-v2-desktop-width: calc(100vw - var(--desktop-lhs-width));
+    --aim-zero-state-height: calc(100vh - 160px - 30px - var(
+          --sticky-header-height
+        ));
+    --title-header-gap: 15px;
+    --previous-query-indicator-top-margin: 16px;
+    --previous-query-indicator-bottom-margin: 30px;
+    --previous-query-indicator-height: 36px;
+    --sticky-header-height: 88px;
+    --aim-chrome-width: 100%;
+    --fade-in-animation: fade-in-new-response 150ms cubic-bezier(0.3,0,0.8,0.15);
+    font-family: Google Sans,Arial,sans-serif;
+    color: var(--m3c11,#001d35);
+    font-weight: 400;
+    --m3c9: #0a0a0a;
+    --m3c11: #0a0a0a;
+    direction: ltr;
+    unicode-bidi: isolate;
+    width: 100%;
+    max-width: 652px;
+    */
+</style>
+
+
+</body>
+</html>

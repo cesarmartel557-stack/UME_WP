@@ -1,0 +1,32 @@
+# Translation of Plugins - Doctor Appointment Booking - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Doctor Appointment Booking - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-10 19:11:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Doctor Appointment Booking - Stable (latest release)\n"
+
+#. Description of the plugin/theme
+msgid "This plugin manages doctor's chamber with patient appointment booking, prescription & billing. It supports multiple chambers for a single doctor."
+msgstr "Este plugin gestiona las consultas del médico con reserva de citas para pacientes y las recetas médicas y facturación. Es compatible con múltiples consultas para un solo médico."
+
+#. Author URI of the plugin/theme
+msgid "http://creativeitem.com"
+msgstr "https://creativeitem.com"
+
+#. Author of the plugin/theme
+msgid "Creativeitem"
+msgstr "Creativeitem"
+
+#. Plugin URI of the plugin/theme
+msgid "http://codecanyon.net/user/creativeitem"
+msgstr "https://codecanyon.net/user/creativeitem"
+
+#. Plugin Name of the plugin/theme
+msgid "Doctor Appointment Booking"
+msgstr "Doctor Appointment Booking"

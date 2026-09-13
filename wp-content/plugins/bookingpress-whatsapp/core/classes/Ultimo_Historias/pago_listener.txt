@@ -1,0 +1,1746 @@
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35274254924
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35274254924","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [data_id] => 1325277020
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"1325277020"},"date_created":"2025-11-03T21:38:30Z","id":125982613397,"live_mode":false,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35250038477
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35250038477","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 132370580732
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132370580732","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [data_id] => 132370580732
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"132370580732"},"date_created":"2025-11-03T21:52:40Z","id":125983054045,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35250038477
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35250038477","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35332154351
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35332154351","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 132173498493
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132173498493","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 132173498493
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"132173498493"},"date_created":"2025-11-06T20:25:51Z","id":126068402353,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35332154351
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35332154351","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35357234826
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35357234826","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [data_id] => 132776725190
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"132776725190"},"date_created":"2025-11-06T20:35:38Z","id":126164105594,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 132776725190
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132776725190","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35357234826
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35357234826","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35337882419
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35337882419","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 132198450547
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132198450547","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 132198450547
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"132198450547"},"date_created":"2025-11-06T23:06:59Z","id":126168752982,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35337882419
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35337882419","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35631203722
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35631203722","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134087953126
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134087953126","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134087953126
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"134087953126"},"date_created":"2025-11-16T16:14:26Z","id":126355083849,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35631203722
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35631203722","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35636376366
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35636376366","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134110120094
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134110120094","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134110120094
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"134110120094"},"date_created":"2025-11-16T20:25:24Z","id":126457961266,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35636376366
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35636376366","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35611762499
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35611762499","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134111476528
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134111476528","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134111476528
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"134111476528"},"date_created":"2025-11-16T20:38:45Z","id":126360925641,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35611762499
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35611762499","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35637654764
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35637654764","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134115798368
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"134115798368"},"date_created":"2025-11-16T21:25:15Z","id":126459387390,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134115798368
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134115798368","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35637654764
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35637654764","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35612969467
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35612969467","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134116664648
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134116664648","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134116664648
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"134116664648"},"date_created":"2025-11-16T21:34:31Z","id":126362225893,"live_mode":true,"type":"payment","user_id":"80679947"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35612969467
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35612969467","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134116664648
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"134116664648"},"date_created":"2025-11-16T21:34:31Z","id":126362366511,"live_mode":true,"type":"payment","user_id":"80679947"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134116664648
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134116664648","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35612969467
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35612969467","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35615732571
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35615732571","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 133519516309
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"133519516309","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 133519516309
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"133519516309"},"date_created":"2025-11-16T23:31:18Z","id":126365360877,"live_mode":true,"type":"payment","user_id":"2965070053"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35615732571
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35615732571","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35730657312
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35730657312","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35730657312
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35730657312","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 133970031619
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"133970031619"},"date_created":"2025-11-20T12:26:08Z","id":126559072314,"live_mode":true,"type":"payment","user_id":"2965070053"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 133970031619
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"133970031619","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 132370580732
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132370580732","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [data_id] => 132370580732
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"132370580732"},"date_created":"2025-11-03T21:52:40Z","id":126578629135,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35250038477
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35250038477","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35332154351
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35332154351","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 132173498493
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"132173498493"},"date_created":"2025-11-06T20:25:51Z","id":126662960739,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 132173498493
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132173498493","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [data_id] => 132776725190
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"132776725190"},"date_created":"2025-11-06T20:35:38Z","id":126762590070,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 132776725190
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132776725190","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_Array_url
+            [id] => 35357234826
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35357234826","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 132198450547
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"132198450547"},"date_created":"2025-11-06T23:06:59Z","id":126766311118,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35337882419
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35337882419","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 132198450547
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"132198450547","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 133519516309
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"133519516309","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 133519516309
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"133519516309"},"date_created":"2025-11-16T23:31:18Z","id":126884333515,"live_mode":true,"type":"payment","user_id":"2965070053"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35615732571
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35615732571","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134087953126
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134087953126","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35631203722
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35631203722","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134087953126
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"134087953126"},"date_created":"2025-11-16T16:14:26Z","id":127065442772,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35636376366
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35636376366","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134110120094
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"134110120094"},"date_created":"2025-11-16T20:25:24Z","id":126969949087,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134110120094
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134110120094","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134111476528
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"134111476528"},"date_created":"2025-11-16T20:38:45Z","id":126969949163,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134111476528
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134111476528","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35611762499
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35611762499","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 134115798368
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"134115798368"},"date_created":"2025-11-16T21:25:15Z","id":126969949617,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 134115798368
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"134115798368","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35637654764
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35637654764","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 133970031619
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"133970031619"},"date_created":"2025-11-20T12:26:08Z","id":126990660577,"live_mode":true,"type":"payment","user_id":"2965070053"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 35730657312
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/35730657312","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 133970031619
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"133970031619","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37282124700
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37282124700","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 141914441952
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"141914441952","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 141914441952
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"141914441952"},"date_created":"2026-01-13T22:41:30Z","id":128176048668,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37282124700
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37282124700","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37473071372
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37473071372","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 142151247247
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"142151247247","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 142151247247
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"142151247247"},"date_created":"2026-01-20T18:22:01Z","id":128372602898,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37473071372
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37473071372","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 141914441952
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"141914441952"},"date_created":"2026-01-13T22:41:30Z","id":128779438458,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37282124700
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37282124700","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 141914441952
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"141914441952","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 142151247247
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"142151247247","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 142151247247
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.updated","api_version":"v1","data":{"id":"142151247247"},"date_created":"2026-01-20T18:22:01Z","id":128991589738,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 37473071372
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/37473071372","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 39191862922
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/39191862922","topic":"merchant_order"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 150979431192
+            [topic] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"150979431192","topic":"payment"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [data_id] => 150979431192
+            [type] => payment
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"action":"payment.created","api_version":"v1","data":{"id":"150979431192"},"date_created":"2026-03-19T03:37:31Z","id":129951659153,"live_mode":true,"type":"payment","user_id":"1553147678"}
+)
++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++
+
+Array
+(
+    [0] => Array
+        (
+            [bookingpress-listener] => bpa_pro_mercadopago_url
+            [id] => 39191862922
+            [topic] => merchant_order
+        )
+
+    [1] => Array
+        (
+        )
+
+    [2] => {"resource":"https://api.mercadolibre.com/merchant_orders/39191862922","topic":"merchant_order"}
+)

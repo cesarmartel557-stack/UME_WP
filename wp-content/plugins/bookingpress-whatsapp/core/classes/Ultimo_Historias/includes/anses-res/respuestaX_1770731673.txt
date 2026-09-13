@@ -1,0 +1,346 @@
+Array
+(
+    [__EVENTTARGET] => 
+    [__EVENTARGUMENT] => 
+    [__VIEWSTATE] => /wEPDwUJODcwMjI0NTYwDxYCHghGZWNoYVNRTAUKMjcvMDEvMjAyNhYCZg9kFgICAQ9kFgICAw9kFggCAQ8PZBYCHgdvbktleVVwBR9yZXR1cm4gYXV0b1RhYih0aGlzLCAxMSwgZXZlbnQpZAIHDw8WAh4EVGV4dGVkZAIJDw8WAh4HVmlzaWJsZWhkFgICAQ88KwALAGQCCw8PFgIfAgUrTG9zIGRhdG9zIGVzdMOhbiBhY3R1YWxpemFkb3MgYWwgMjcvMDEvMjAyNmRkZFCodgjhB15UrodQXuTavX17Ry2CwccT+z8j53PVeNTp
+    [__VIEWSTATEGENERATOR] => 85A7BA68
+    [__EVENTVALIDATION] => /wEdAATBfFKIEq0tQhI6kCV+aoxnHpiEu0R7takrHOJWf39cdYraaQaFnXKaLuO1sKRm4e+MO7fmjkJSfq6Zbgk2kTWnbLaxyW2e2ODO127fvPrVXXxJFGkP73I8K8shRtZ4XwM=
+    [ctl00$ContentPlaceHolder1$txtDoc] => 06607781
+    [ctl00$ContentPlaceHolder1$Button1] => Continuar
+    [g-recaptcha-response] => 
+    [action] => login
+    [doc] => 06607781
+)
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Consulta OOSS
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="icon" type="image/x-icon" href="App_Themes/Imagenes/favicon.ico" /><meta http-equiv="X-UA-Compatible" content="IE=11" /><link href="App_Themes/estilos/AnsesNuevo.css" rel="stylesheet" type="text/css" />
+     
+    <script src='https://www.google.com/recaptcha/api.js?render=6LeAsrEUAAAAAIdKPXBbfU8EyQXX3KRy8isRbj7-' type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style type="text/css" media="screen">
+        .noPrint
+        {
+            display: block;
+        }
+        .siPrint
+        {
+            display: none;
+        }
+    </style>
+    <style type="text/css" media="print">
+        .noPrint
+        {
+            display: none;
+        }
+        .siPrint
+        {
+            display: block;
+        }
+    </style>
+    <style type="text/css">
+        .footer
+        {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #fbfbfb;
+            color: #005296;
+            text-align: center;
+        }
+        body
+        {
+            background-color: #F9F9F9;
+            }
+       
+                a img {
+                    border: none;
+                }
+
+                .centro {
+                    text-align: center;
+                }
+
+                .izquierda {
+                    text-align: left;
+                }
+
+                .derecha {
+                    text-align: right;
+                }
+           
+
+    </style>
+</head>
+<body >
+    <form method="post" action="ConsultaOOSS.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM4NTE5OTcwOQ8WBh4JQ29uZGljaW9uBQFQHgdDdWl0VGl0BQsyMDA2NjA3NzgxMR4IRmVjaGFTUUwFCjI3LzAxLzIwMjYWAmYPZBYCAgEPZBYCAgMPZBYEAgUPZBYIAgMPDxYCHgRUZXh0BREyMCAtIDA2NjA3NzgxIC0gMWRkAgUPDxYCHwMFGVJPU1NPIEpVQU4gQ0FSTE9TICAgICAgICBkZAIHDw8WAh8DBQxMRSAtIDY2MDc3ODFkZAIJDxYCHgdWaXNpYmxlaGQCBw9kFgICAw88KwALAQAPFgoeCERhdGFLZXlzFgAeC18hSXRlbUNvdW50AgEeCVBhZ2VDb3VudAIBHhVfIURhdGFTb3VyY2VJdGVtQ291bnQCAR8EZ2QWAmYPZBYCAgEPZBYMZg8PFgIfAwUGNTAwODA3ZGQCAQ8PFgIfAwUySS5OLlMuUy5KLlkgUC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZAICDw8WAh8DBQdUaXR1bGFyZGQCAw8PFgIfAwUGUEFTSVZPZGQCBQ8PFgIfAwUBUGRkAgYPDxYCHwMFCzIwMDY2MDc3ODExZGRkjQHku+NTh1KhjiqZ8+QZEMB3ETsr8qCmGfH8B27lYnc=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/OOSS2/WebResource.axd?d=7HswVttHnDDZXzyuJ1ig6BD2K2vPF9Nptx0IT3Xo_ljJUJJRdnGvGYXtDbj4A1v1gVq5v-C6TvIUrDWFH-51LavRAzg0ZGg5RTCS_lHZZGo1&amp;t=638901428248157332" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"es-AR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"$","NaNSymbol":"NaN","CurrencyNegativePattern":9,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"a. m.","Calendar":{"MinSupportedDateTime":"\/Date(-62135586000000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, d \u0027de\u0027 MMMM \u0027de\u0027 yyyy HH:mm:ss","LongDatePattern":"dddd, d \u0027de\u0027 MMMM \u0027de\u0027 yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d \u0027de\u0027 MMMM","PMDesignator":"p. m.","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"d/M/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM \u0027de\u0027 yyyy","AbbreviatedDayNames":["dom.","lun.","mar.","mié.","jue.","vie.","sáb."],"ShortestDayNames":["DO","LU","MA","MI","JU","VI","SA"],"DayNames":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"AbbreviatedMonthNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthGenitiveNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""]},"eras":[1,"d. C.",null,0]};//]]>
+</script>
+
+<script src="/OOSS2/ScriptResource.axd?d=Ljuwc1lFl_cEvv8SOo59K5Gfo4r4bJ6ionoH4r4FVm_1tea-Sz6hxUKvPCi0sQceQJ_8yvS853hc2IIjFU_OMIyh1NmAJ02YN_v5GM3oyyvoknkAUe0FuxrkZxdE6Tdll9N5BhuugpT59EB9l8FNqFJJ3RACawFp29lEzKzUIWe8kAi7gXD4gxLGAdbfwN6f0&amp;t=5c0e0825" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/OOSS2/ScriptResource.axd?d=xrt-YnLhupzDcFN01GgrUP6tEy51gBUjRw35sBR_0UobiThOrueu6LPuREhf6xKP2KGwvEjQUTrEnVdxr1EEKRcAP8qOsVXAnyOTyps2QBVbAQAJxCK589_jufvvoTo9Fs03K3EWmexhmeCCTXayzPJ9KW_cA83rSAx0iUSCUzsQ7uzYSlSH3F6oZQY3j3kG0&amp;t=5c0e0825" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7829D6C2" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIUQDacqaudeT1LFnkzW6qtcHQxihvcML1WT1Y1dO1ZeuYhBpCU6cbMQWAsbxwRylgdfI0yeQ9tj3+W7WIS38Vy" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div class="top-header">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 centro">
+                   
+                        
+                        <h1 class="title">ANSES | Consulta de Obra Social</h1>
+                    
+                </div>
+            </div>
+        </div>
+          
+    </div>
+    <div align="center">
+        <br />
+        
+    
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+    <!--	<!-- ESTILO PARA NO MUESTRE LA IMPRESION 
+		<STYLE media="screen">.noPrint { DISPLAY: block captcha
+
+	.siPrint { DISPLAY: block! important }
+		</STYLE>
+		<STYLE media="print">.noPrint { DISPLAY: none }
+	.siPrint { DISPLAY: block! important }
+		</STYLE>
+		<!-- ESTILO PARA NO MUESTRE LA IMPRESION -->
+    <style type="text/css">
+        img
+        {
+            margin: 0px;
+        }
+    </style>
+   
+            <center>
+            <span id="ContentPlaceHolder1_lblError" style="color:Red;"></span>
+                <div id="ContentPlaceHolder1_ValidationSummary1" style="display:none;">
+
+</div>
+                <table id="tblCabecera" cellspacing="0" cellpadding="10" align="center" border="0"
+                    width="75%">
+                    <tr>
+                        <td valign="top" align="center" colspan="2" bgcolor="#F9F9F9">
+                            <div id="ContentPlaceHolder1_PanDetalle" style="width:100%;">
+	
+                                <table cellspacing="1" cellpadding="10" width="100%" align="center"
+                                    border="1">
+                                    <tr>
+                                        <td bgcolor="#F9F9F9" style="width: 250px">
+                                            <span id="ContentPlaceHolder1_lblTitulo"><strong>CUIL N°:</strong> </span>
+                                        </td>
+                                        <td bgcolor="#F9F9F9">
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblCuil">20 - 06607781 - 1</span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr bgcolor="#F9F9F9">
+                                        <td>
+                                            <strong>Apellido y Nombre:</strong>
+                                        </td>
+                                        <td>
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblNombre">ROSSO JUAN CARLOS        </span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr bgcolor="#F9F9F9">
+                                        <td>
+                                            <strong>Tipo y Número de Documento:</strong>
+                                        </td>
+                                        <td>
+                                            <strong>
+                                                <span id="ContentPlaceHolder1_lblDoc">LE - 6607781</span>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                <!-- Tabla Ultimo pase -->
+                                <!-- FIN Tabla Ultimo pase -->
+                            
+</div>
+                            <div id="ContentPlaceHolder1_PanelOOSS" bgcolor="#F9F9F9" style="width:100%;">
+	
+                                <div class='fdo_constancia' style="width: 100%;">
+                                    <div class="TextoNegro">
+                                        <p>
+                                            <strong>Tu Obra Social es:</strong>
+                                            </p>
+                                    </div>
+                                    <div>
+                                        <table cellspacing="0" id="ContentPlaceHolder1_DGOOSS" style="background-color:#F9F9F9;width:90%;border-collapse:collapse;">
+		<tr class="title" style="background-color:#F9F9F9;font-weight:bold;">
+			<td class="TextoNegro">Código</td><td class="TextoNegro">Descripción</td><td class="TextoNegro">Condición</td><td class="TextoNegro">Situación</td><td class="TextoNegro">CODEM</td>
+		</tr><tr style="background-color:#F9F9F9;">
+			<td>500807</td><td>I.N.S.S.J.Y P.                                    </td><td>Titular</td><td>PASIVO</td><td align="center"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DGOOSS$ctl02$ctl00&#39;,&#39;&#39;)"><img src=App_Themes/Imagenes/imprimir2.gif border=0></a></td>
+		</tr>
+	</table>
+                                    </div>
+                                    <br />
+                                </div>
+                            
+</div>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td align="center">
+                            <div id="ContentPlaceHolder1_tdBotones">
+                                <input type="button" onclick="location.href='ConsultaDoc.aspx'" value="Volver" class="btn btn-default"
+                                    style="width: 120px" /><br />
+                                <br />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td class="col-sm-10">
+                            <p class="alert alert-info text-center" style="font-weight: bold">
+                                La presente no requiere autenticación con sello y firma de un agente de ANSES.”
+                                - Art. 1 - Res. DE 76/2009.
+                                <br />
+                                <br />
+                            </p>
+                            <!-- FIN FECHA DE ACTUALIZACION -->
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td style="height: 1px" align="center" colspan="2" height="1">
+                            <p>
+                                &nbsp;
+                                </p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                        <td valign="middle" align="center" width="100%">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
+            </center>
+       
+
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ContentPlaceHolder1_ValidationSummary1"));
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ContentPlaceHolder1_ValidationSummary1');
+//]]>
+</script>
+</form>
+   
+    <div class="page-footer" style="position:absolute;bottom:0px; height:100px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="footer-copyright align-middle">
+                    <img src="App_Themes/imagenes/logo-footer.png"   alt="Escudo República Argentina" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="" ></script>
+    
+
+    <script src="Scripts/Controles/Controles.js" type="text/javascript"></script>
+    <script src="Scripts/Controles/jquery-3.4.1.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="Scripts/Controles/bootstrap.min.js"></script>
+    <input name="ctl00$hdnSiteKey" type="hidden" id="hdnSiteKey" value="6LeAsrEUAAAAAIdKPXBbfU8EyQXX3KRy8isRbj7-" />
+</body>
+</html>
+<script type="text/javascript">
+
+    function solonumeros(e) {
+        var key;
+        if (window.event) // IE
+        { key = e.keyCode; }
+        else if (e.which) // Netscape/Firefox/Opera
+        { key = e.which; }
+        if (key < 48 || key > 57) {
+            return false;
+        }
+        return true;
+    }
+
+
+    $(document).ready(function () {
+
+        if (navigator.appName == 'Microsoft Internet Explorer')
+            window.location.href = "Incopatibilidad.aspx";
+
+    });
+
+
+     
+</script>

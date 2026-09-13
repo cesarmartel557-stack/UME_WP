@@ -1,0 +1,238 @@
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-261","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":230}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"TEST MP 03","surname":"TEST MP 03","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjYx&bp_tp_nonce=5514cf9312"},"metadata":{"entry_id":261,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-769632546500164-062114-7fe67fe4eed875737e1bb5400192d2ba-1567323850
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-262","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":230}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"test 000000001","surname":"test 000000001","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjYy&bp_tp_nonce=efef0c9cd9"},"metadata":{"entry_id":262,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer TEST-7335975045025760-022119-c20599ab628c84275c7f9350dac2100a-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-263","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":14000}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"test 000000001","surname":"test 000000001","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjYz&bp_tp_nonce=6548dc67b3"},"metadata":{"entry_id":263,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer TEST-7335975045025760-022119-c20599ab628c84275c7f9350dac2100a-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-264","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":230}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"testt0000000002","surname":"testt0000000002","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjY0&bp_tp_nonce=44c6554d42"},"metadata":{"entry_id":264,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer TEST-7335975045025760-022119-c20599ab628c84275c7f9350dac2100a-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-265","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":230}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"testt0000000003","surname":"testt0000000003","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjY1&bp_tp_nonce=bd8fa3b58b"},"metadata":{"entry_id":265,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer TEST-7335975045025760-022119-c20599ab628c84275c7f9350dac2100a-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-268","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":230}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"testtt00003","surname":"testtt00003","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=MjY4&bp_tp_nonce=d9d03c19e7"},"metadata":{"entry_id":268,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer TEST-7335975045025760-022119-c20599ab628c84275c7f9350dac2100a-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-277","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":500}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"adasd","surname":"adasd","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjc3&bp_tp_nonce=dd95bf5ce3"},"metadata":{"entry_id":277,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-278","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"http:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"http:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjc4&bp_tp_nonce=02d15a6d70"},"metadata":{"entry_id":278,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-279","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":14000}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"aaaaaaaaaaa","surname":"aaaaaaaaa","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjc5&bp_tp_nonce=00e8530884"},"metadata":{"entry_id":279,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-280","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":14000}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"aaaaaaaa","surname":"aaaaaaaa","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjgw&bp_tp_nonce=fe10d5afd5"},"metadata":{"entry_id":280,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-281","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":6}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"bbbbbbbbb","surname":"bbbbbbbbb","email":"cv.msuarez@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjgx&bp_tp_nonce=e839a36f5a"},"metadata":{"entry_id":281,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-282","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjgy&bp_tp_nonce=b28c22acea"},"metadata":{"entry_id":282,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-283","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjgz&bp_tp_nonce=94572fe6b2"},"metadata":{"entry_id":283,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-284","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjg0&bp_tp_nonce=47adb3c7e3"},"metadata":{"entry_id":284,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-285","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjg1&bp_tp_nonce=4686e51d94"},"metadata":{"entry_id":285,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-286","auto_return":"all","items":[{"title":"Nutrici\u00f3n","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Gerardo Daniel","surname":"Lopez","email":"info@foatconcept.com.ar"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjg2&bp_tp_nonce=ec62912ac6"},"metadata":{"entry_id":286,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+
+
+
+ bookingpress_create_preference_body_params: Array
+(
+    [method] => POST
+    [body] => {"external_reference":"ref-291","auto_return":"all","items":[{"title":"Cardiolog\u00eda","quantity":1,"currency_id":"ARS","unit_price":100}],"notification_url":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/?bookingpress-listener=bpa_pro_mercadopago_url","payer":{"name":"Cesar","surname":"Azar","email":"cesarmartel012@gmail.com"},"back_urls":{"success":"https:\/\/www.turnos.sanatoriolomalinda.com.ar\/gracias\/?is_success=1&appointment_id=Mjkx&bp_tp_nonce=ac01962560"},"metadata":{"entry_id":291,"bookingpress_is_cart":0}}
+    [headers] => Array
+        (
+            [Authorization] => Bearer APP_USR-7335975045025760-022119-a868d487fce4a53ce6f45a963178c4fe-80679947
+        )
+
+    [timeout] => 5000
+)
+

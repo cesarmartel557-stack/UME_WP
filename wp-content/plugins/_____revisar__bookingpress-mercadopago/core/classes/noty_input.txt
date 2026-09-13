@@ -1,0 +1,108 @@
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20022285989","topic":"merchant_order"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20022462517","topic":"merchant_order"}
+
+
+ noty: {"action":"payment.created","api_version":"v1","data":{"id":"1324227143"},"date_created":"2024-06-22T20:56:23Z","id":114219701144,"live_mode":false,"type":"payment","user_id":"80679947"}
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20032466418","topic":"merchant_order"}
+
+
+ noty: {"action":"payment.created","api_version":"v1","data":{"id":"1324227245"},"date_created":"2024-06-22T21:23:00Z","id":114182456831,"live_mode":false,"type":"payment","user_id":"80679947"}
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20037904034","topic":"merchant_order"}
+
+
+ noty: {"action":"payment.created","api_version":"v1","data":{"id":"1318662322"},"date_created":"2024-06-22T23:32:34Z","id":114223028874,"live_mode":false,"type":"payment","user_id":"80679947"}
+
+
+ noty: 
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20060415416","topic":"merchant_order"}
+
+
+ noty: 
+
+
+ noty: 
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20143252267","topic":"merchant_order"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20143267041","topic":"merchant_order"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20143292197","topic":"merchant_order"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20489474211","topic":"merchant_order"}
+
+
+ noty: {"action":"payment.created","api_version":"v1","data":{"id":"81881132477"},"date_created":"2024-07-05T23:41:50Z","id":114455211799,"live_mode":true,"type":"payment","user_id":"80679947"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/collections/notifications/81881132477","topic":"payment"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20489474211","topic":"merchant_order"}
+
+
+ noty: {"action":"payment.updated","api_version":"v1","data":{"id":"81881132477"},"date_created":"2024-07-05T23:41:50Z","id":114571416993,"live_mode":true,"type":"payment","user_id":"80679947"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/collections/notifications/81881132477","topic":"payment"}
+
+
+ noty: {"resource":"https://api.mercadolibre.com/merchant_orders/20489474211","topic":"merchant_order"}

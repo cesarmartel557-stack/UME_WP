@@ -1,0 +1,137 @@
+.bpa-front-tabs .bpa-front-default-card {
+   border:0 none !important;
+   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
+   padding-top: 1.2rem;
+}
+
+.cell:has(span.el-tooltip.material-icons-round.bpa-rescheduled-appointment-icon):after {
+    color: #1F63E7 !important;
+    word-break: normal;
+}
+
+.bpa-front-tabs--vertical-left .bpa-front-tab-menu {
+   border:0 none !important;
+   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
+   padding-top: 1rem;
+}
+
+.bpa-front-module--staff-item-row .bpa-front-sm--col {
+   box-shadow: none !important;
+   border-radius:4px;
+}
+
+.text_medico_desc {
+    font-style: italic;
+    font-size: 15px !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+    font-weight:normal !important;
+}
+
+.bpa-front-module--staff-item-row .bpa-front-sm--col {
+   margin-bottom:20px !important;
+}
+
+.bpa-front-module--staff .bpa-front-sm--col .bpa-front-sm-card {margin-bottom:0 !important;}
+
+.bpa-front--dt__calendar .vc-day .vc-day-content.is-disabled, .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item.__bpa-is-disabled {
+    background-color: rgba(204, 204, 204, .44) !important;
+}
+
+.bpa-front-tmc__summary-content .bpa-front-tmc__sc-item {
+    margin-bottom:0
+}
+
+.bpa-front-thankyou-module-container {
+    max-width: 646px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
+    padding-right:24px;
+padding-left:24px;
+}
+
+.bpa-front-sc-item__val {
+    font-weight: bold !important;
+}
+
+/*
+.el-form-item__error {display:none !important;}
+*/
+
+.bpa-front-module-container.bpa-front-module--date-and-time.__sm {
+   display: none !important;
+}
+
+/*
+.bpa-front--dt__time-slots {
+   background-color: lightyellow !important;
+}
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .bpa-front-module--date-and-time {
+      display: block !important;
+  }
+
+  .bpa-front-module-heading {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bpa-front-module--date-and-time {
+      display: block !important;
+  }
+
+  .bpa-front-module-heading {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  .bpa-front--dt__time-slots .bpa-front--dt__ts-body .bpa-front--dt__ts-body--row .bpa-front--dt__ts-body--items .bpa-front--dt__ts-body--item {
+    flex-basis: 130px !important;
+    flex-grow: 1 !important;
+    }
+}
+
+.bpa-frontend-main-container ul {
+   list-style-position: inside !important;
+   list-style-type: disclosure-closed !important;
+   padding: 0 0 0 1rem !important;
+   list-style:inherit !important;
+}
+
+.presentar_title2 {
+  text-align:left !important;
+  border:0 none !important;
+}
+
+.presentar_doc2 {
+  text-align:left !important;
+  justify-content:flex-start !important;
+}
+
+.presentar2 span {
+  margin: 5px;
+  display: flex;
+  padding: 2px;
+  min-width: 100px;
+  align-items: center;
+  height: fit-content;
+  outline: 0 none;
+  border-radius: 5px;
+}
+
+.bpa-frontend-main-container ul.bpa-frontend-main-container-ul {
+  list-style-position: inside !important;
+  list-style-type: disclosure-closed !important;
+  padding-left: 1rem !important;
+  font-weight:400 !important;
+}
+
+ul.bpa-frontend-main-container-ul {
+  list-style-position: inside !important;
+  list-style-type: disclosure-closed !important;
+  padding-left: 1rem !important;
+  font-weight:400 !important;
+}
